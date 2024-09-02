@@ -13,7 +13,7 @@ O projeto é o desenvolvimento de uma aplicação web para um escritório de adv
 
 * Daniel Cardoso de Freitas
 * Erick Mota de Albuquerque
-* Nome completo do aluno 3
+* Gabreiel Oliveira Lemos
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 
