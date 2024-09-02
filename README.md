@@ -16,7 +16,8 @@ O projeto é o desenvolvimento de uma aplicação web para um escritório de adv
 * Gabreiel Oliveira Lemos
 * Nome completo do aluno 4
 * Nome completo do aluno 5
-
+* Nome completo do aluno 6
+  
 
 ## Orientador
 
