@@ -43,12 +43,16 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+ -Advogado que procura facilitar a comunicação e transparência com o cliente para prestar um melhor serviço.
+ 
+ -Empresário em início de atividades: Precisa de assessoria jurídica para constituir sua empresa e precisa agilizar o processo de registro e compliance legal.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+ -Pessoa envolvida em um processo judicial: Quer otimizar o tempo para fornecer documentos e informações ao advogado e acompanhar o andamento do caso.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+ -Indivíduo com questões de direito de família: Está enfrentando um divórcio ou uma disputa de custódia e precisa iniciar o processo legal rapidamente.
+
+ -Pessoa que sofreu um acidente e precisa de assistência jurídica: Quer iniciar uma reclamação de indenização rapidamente e precisa fornecer informações iniciais de forma ágil.
+
+ -Pessoa buscando aconselhamento sobre planejamento sucessório: Está pensando em redigir um testamento ou lidar com questões de herança e quer iniciar o processo de forma eficiente.
+ 
+ -Pessoa enfrentando questões de imigração: Precisa de assistência jurídica para obter vistos ou resolver questões relacionadas à permanência no país e deseja agilizar o processo inicial.
