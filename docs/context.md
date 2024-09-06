@@ -1,12 +1,10 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Nos últimos anos, as empresas têm experenciado uma alta demanda na adoção de tecnologias digitais para otimizar seus processos, melhorar a eficiência e proporcionar um melhor atendimento aos seus clientes, porém  a maioria dessas inovações tecnológicas focam-se quase sempre apenas na automação de tarefas administrativas internas, deixando uma lacuna significativa na comunicação e transparência com os clientes, que no final de contas é o ativo mais importante de qualquer empresa. 
+Tal como empresas de correios desenvolveram um sistema que permite aos destinatários acompanharem o estado e localização das suas encomendas a todo o momento oferecendo conforto e confiança ao cliente no que toca à sua encomenda, porque não oferecer esse mesmo tipo de serviço de acompanhamento de um processo judicial/administrativo aos clientes dos advogados onde essas informações e atualizações são dadas em tempo real? 
+A falta de ferramentas adequadas para o acompanhamento de processos representa um desafio substancial para muitos escritórios de advocacia que desejam manter essa relação de confiança ,eficiência e transparência com seus clientes.
+Pensando nestes fatores, surgiu a ideia de desenvolver uma aplicação web que permita o acompanhamento dos processos em tempo real, onde o cliente fica a par da sua participação em todo o seu processo, seja no contato inicial, onde ele tem que fornecer os seus dados para elaboração do contrato, passando pelos documentos necessários que necessita de fornecer para que o advogado possa atuar por ele e manter-se informado sobre o andamento dos seus processos a qualquer momento e de qualquer lugar.
+Esta aplicação web não só atende a uma necessidade urgente do mercado, mas também posiciona o escritório como um provedor de serviços jurídicos moderno, que valoriza a inovação e a satisfação do cliente.
 
 ## Problema
 
