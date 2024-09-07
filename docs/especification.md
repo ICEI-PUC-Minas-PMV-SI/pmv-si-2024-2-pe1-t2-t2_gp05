@@ -34,10 +34,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ana (Cliente)       | Rapidez e flexíbilidade            | Acompanhar meus processos              |
+|Ana (Cliente)       | Rapidez e flexíbilidade            | Acompanhar seus processos              |
 |Advogado(Empregado) | Facilidade nos serviços            | Economizar tempo                       |
 | Empresa(Escritorio)| Agilizar os trabalhos da empresa   | Conseguir ter mais clientes            |
-| Roberto(Cliente)   | Acompanhamento de forma remota     | Nao precisar sair de casa              |
+| Roberto(Cliente)   | Acompanhar de forma remota     | Nao precisar sair de casa              |
 |Advogado(Empregado) | Se comunicar com o cliente         | Ter um controle melhor das informações |
 
 
