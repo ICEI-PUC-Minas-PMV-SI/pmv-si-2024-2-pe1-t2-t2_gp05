@@ -24,12 +24,11 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Com uma interface intuitiva e fácil de usar, o objetivo é proporcionar uma experiência de navegação simples, mantendo os clientes informados de maneira prática e acessível. Além de disponibilizar o status dos processos, o projeto terá um centro de informações, onde os clientes poderão acessar documentos importantes, pareceres, petições e outros arquivos relacionados aos seus casos. Essa forma de comunicação de dados permitirá uma consulta rápida e fácil, evitando a perda de tempo e agilizando a tomada de decisões por parte do cliente e do advogado.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Outro objetivo fundamental é melhorar a comunicação entre advogados e clientes, oferecendo um canal direto para o envio de mensagens, esclarecimento de dúvidas e o compartilhamento de atualizações importantes. Isso vai agilizar o atendimento e garantir que todas as partes estejam sempre cientes dos próximos passos.
+
+E para segurança dos clientes o projeto vai garantir a segurança dos dados utilizando as melhores práticas de segurança. Dessa forma, o projeto oferecerar aos seus clientes uma plataforma segura, preservando a confidencialidade e integridade das informações, e fortalecendo a relação de confiança entre as partes.
 
 ## Justificativa
 
