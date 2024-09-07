@@ -10,7 +10,7 @@ Advogado
 
 Idade: 27 anos
 
-Felipe é um advogado júnior em início de carreira em um grande escritório de advocacia, onde lida com muitos processos. Ele precisa de uma plataforma que o ajude a organizar prazos, gerenciar demandas e manter contato eficiente com seus clientes. Com afinidade por tecnologia, Felipe busca ferramentas que simplifiquem sua rotina e aumentem sua produtividade, proporcionando controle sobre os casos. Ele valoriza soluções que otimizem seu tempo e facilitem a gestão interna dos processos, permitindo que ele mantenha os clientes atualizados e cumpra suas responsabilidades de maneira eficiente.
+Felipe é um advogado júnior em início de carreira em um escritório de advocacia, onde lida com muitos processos. Ele precisa de uma plataforma que o ajude a organizar prazos, gerenciar demandas e manter contato eficiente com seus clientes. Com afinidade por tecnologia, Felipe busca ferramentas que simplifiquem sua rotina e aumentem sua produtividade, proporcionando controle sobre os casos. Ele valoriza soluções que otimizem seu tempo e facilitem a gestão interna dos processos, permitindo que ele mantenha os clientes atualizados e cumpra suas responsabilidades de maneira eficiente.
 
 Roberto Gonçalves
 
