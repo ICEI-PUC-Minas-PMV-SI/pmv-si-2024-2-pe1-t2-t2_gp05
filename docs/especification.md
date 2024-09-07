@@ -4,19 +4,17 @@ Esta aplicação web serve para fornecer acessibilidade e transparência a pesso
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Felipe Henrique
+Idade: 27 anos
+Felipe é um advogado júnior em início de carreira em um grande escritório de advocacia, onde lida com muitos processos. Ele precisa de uma plataforma que o ajude a organizar prazos, gerenciar demandas e manter contato eficiente com seus clientes. Com afinidade por tecnologia, Felipe busca ferramentas que simplifiquem sua rotina e aumentem sua produtividade, proporcionando controle sobre os casos. Ele valoriza soluções que otimizem seu tempo e facilitem a gestão interna dos processos, permitindo que ele mantenha os clientes atualizados e cumpra suas responsabilidades de maneira eficiente.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Roberto Gonçalves
+Idade: 65 anos
+Roberto é um aposentado do interior que trabalhou a vida toda na cidade grande, envolvido em uma disputa sobre a revisão de sua aposentadoria. Com pouca familiaridade com tecnologia, ele necessita de uma plataforma simples e intuitiva para acompanhar o processo e receber notificações por e-mail ou SMS. Seu principal objetivo é entender o andamento do caso de forma clara e objetiva, sem complicações. Roberto aprecia uma interface fácil de usar que lhe permita acessar as informações necessárias com rapidez, proporcionando segurança e compreensão durante o processo.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Ana Clara Almeida
+Idade: 38 anos
+Ana Clara foi contratada por uma grande empresa como assistente administrativa, mas está com medo do processo de admissão por estar envolvida em um processo judicial relacionado à pensão alimentícia de seu filho. Ela procura uma plataforma que lhe permita acompanhar todas as etapas de forma detalhada e transparente. Ana Clara é uma pessoa organizada e deseja estar constantemente informada sobre o andamento do caso, apreciando uma comunicação clara e direta com seu advogado. Embora não seja especialista em tecnologia, ela utiliza aplicativos frequentemente e valoriza plataformas que sejam fáceis de usar, com uma interface clara para garantir sua confiança e tranquilidade durante o processo.
 
 ## Histórias de Usuários
 
