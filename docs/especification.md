@@ -39,7 +39,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Empresa(Escritorio)| Agilizar os trabalhos da empresa   | Conseguir ter mais clientes            |
 | Roberto(Cliente)   | Acompanhamento de forma remota     | Nao precisar sair de casa              |
 |Advogado(Empregado) | Se comunicar com o cliente         | Ter um controle melhor das informações |
-                                                            passadas ao cliente
 
 
 ## Requisitos
