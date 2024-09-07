@@ -4,7 +4,9 @@ Esta aplicação web serve para fornecer acessibilidade e transparência a pesso
 
 ## Personas
 
-Felipe Henrique
+Felipe Henrique 
+
+Advogado 
 
 Idade: 27 anos
 
@@ -12,11 +14,15 @@ Felipe é um advogado júnior em início de carreira em um grande escritório de
 
 Roberto Gonçalves
 
+Aposentado em Litígio Previdenciário 
+
 Idade: 65 anos
 
 Roberto é um aposentado do interior que trabalhou a vida toda na cidade grande, envolvido em uma disputa sobre a revisão de sua aposentadoria. Com pouca familiaridade com tecnologia, ele necessita de uma plataforma simples e intuitiva para acompanhar o processo e receber notificações por e-mail ou SMS. Seu principal objetivo é entender o andamento do caso de forma clara e objetiva, sem complicações. Roberto aprecia uma interface fácil de usar que lhe permita acessar as informações necessárias com rapidez, proporcionando segurança e compreensão durante o processo.
 
 Ana Clara Almeida
+
+Ação de Pensão Alimentícia
 
 Idade: 38 anos
 
