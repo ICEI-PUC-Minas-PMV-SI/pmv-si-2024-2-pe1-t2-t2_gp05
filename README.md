@@ -15,7 +15,7 @@ O projeto é o desenvolvimento de uma aplicação web para um escritório de adv
 * Erick Mota de Albuquerque
 * Gabriel Oliveira Lemos
 * Lucas Abreu Santos
-* Lucas Vinícius França Tele
+* Lucas Vinícius França Teles
 * Ialbas Júnior
   
 
