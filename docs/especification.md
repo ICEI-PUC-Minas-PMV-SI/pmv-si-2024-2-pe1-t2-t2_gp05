@@ -34,17 +34,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ana (Cliente)       | Rapidez e flexibilidade            | Acompanhar meus processos              |
-|Advogado(Empregado) | Facilidade /documentos de clentes  | Economizar tempo                       |
-|--------------------|------------------------------------|----------------------------------------|
+|Ana (Cliente)       | Rapidez e flexíbilidade            | Acompanhar meus processos              |
+|Advogado(Empregado) | Facilidade nos serviços            | Economizar tempo                       |
 | Empresa(Escritorio)| Agilizar os trabalhos da empresa   | Conseguir ter mais clientes            |
+| Roberto(Cliente)   | Acompanhamento de forma remota     | Nao precisar sair de casa              |
+|Advogado(Empregado) | Se comunicar com o cliente         | Ter um controle melhor das informações |
+                                                            passadas ao cliente
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
