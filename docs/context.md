@@ -11,7 +11,7 @@ Esta aplicação web não só atende a uma necessidade urgente do mercado, mas t
 
 ## Problema
 
-Quem contrata um advogado sente quase sempre a ansiedade no que toca ao seu entendimento sobre as leis e controlo do que acontece com os seus processos. 
+Quem contrata um advogado sente quase sempre a ansiedade no que toca ao seu entendimento sobre as leis e controle do que acontece com os seus processos. 
 
 São vários os problemas que são sentidos na relação "contratante vs contratado", vão desde a falta de transparência no acompanhamento de processos, o atendimento limitado ao horário de expediente, falta de retorno de informação sobre o processo, falta de pagamentos de honorários por parte do contratante, ou fuga de responsabilidade após pagamento ao contratado caso não execute o trabalho.
 
@@ -29,14 +29,15 @@ Para garantir a segurança dos clientes, o projeto adotará as melhores prática
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A necessidade de uma maior transparência, agilidade e eficiência nos processos jurídicos é crescente, especialmente em um cenário onde os advogados enfrentam altos níveis de estresse e ansiedade devido à sobrecarga de trabalho e às exigências dos clientes. Segundo algumas pequisas, advogados afirmam que o excesso de tarefas e a comunicação falha com seus clientes impactam negativamente suas rotinas e qualidade de trabalho. Além disso a complexidade administrativa nos escritórios de advocacia aliada à falta de ferramentas eficazes de acompanhamento, afeta diretamente a qualidade do serviço prestado pelo advogado.
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+Este cenário acaba por refletir na relação entre advogado e cliente, que muitas vezes é marcada pela insegurança e falta de informação clara sobre o andamento dos processos, gerando frustração tanto para o cliente quanto para o advogado. Dessa forma, a criação de uma aplicação que permita o acompanhamento dos processos em tempo real não apenas reduz esse conflito de comunicação, mas também contribui para a diminuição do estresse associado ao gerenciamento de múltiplas demandas por parte dos advogados e ansiedade por parte dos clientes.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O uso de tecnologias para otimização de processos está alinhado às expectativas de um mercado cada vez mais digitalizado. As empresas, inclusive escritórios de advocacia, têm enfrentado dificuldades em adotar ferramentas que melhorem a comunicação interna e externa, sendo que muitas soluções focam exclusivamente em processos administrativos e não oferecem uma plataforma para interação eficiente com o cliente. Portanto, uma aplicação voltada para o acompanhamento de processos jurídicos representa uma solução inovadora para atender à crescente demanda por transparência e eficiência no setor. Podendo até mesmo crescer no futuro de forma que um bot ou uma IA comunique em tempo real com o cliente, resuma documentos, etc. O futuro é tecnologia e facilidade, e queremos oferecer isso.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+### Referências:
+* [A prevalência do estresse e da angústia na advocacia](https://www.migalhas.com.br/depeso/373706/a-prevalencia-do-estresse-e-da-angustia-na-advocacia)
+* [Desafios e soluções: como superar problemas no escritório de advocacia](https://advbox.com.br/blog/problemas-em-escritorios-de-advocacia-e-crescimento/)
 
 ## Público-Alvo
 
