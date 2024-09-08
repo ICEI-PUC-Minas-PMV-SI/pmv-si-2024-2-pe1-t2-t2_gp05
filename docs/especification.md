@@ -50,12 +50,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
 |RF-001| O sistema deve permitir que os usuários se registrem e façam login, fornecendo nome, e-mail e dados de contato.  | ALTA |  
-|RF-002| Enviar notificações automáticas aos usuários quando houver atualizações no processo, como novas datas ou documentos.   | MÉDIA | 
-|RF-003| Deve permitir que os usuários vejam o status de seus processos, como o que está acontecendo e os prazos.  | ALTA |
-|RF-004| Deve permitir que os clientes conversem com seus advogados por mensagens e que essas mensagens fiquem registradas.   | MÉDIA |
-|RF-005| Ter uma área onde o advogado consiga gerar relatórios simples sobre o andamento dos processos.   | MÉDIA |
-|RF-006| Mostrar uma linha do tempo simples com as etapas do processo.  | ALTA |
-|RF-007| Permitir que os advogados enviem documentos para os clientes, e os clientes possam baixá-los.  | MÉDIA |
+|RF-002| Enviar notificações automáticas aos usuários quando houver atualizações no processo, como novas datas ou documentos.   | ALTA | 
+|RF-003| Deve permitir que os clientes conversem com seus advogados por mensagens e que essas mensagens fiquem registradas.   | MÉDIA |
+|RF-004| Ter uma área onde o advogado consiga gerar relatórios simples sobre o andamento dos processos.   | MÉDIA |
+|RF-005| Mostrar uma linha do tempo simples com as etapas do processo.  | ALTA |
+|RF-006| Permitir que os advogados enviem documentos para os clientes, e os clientes possam baixá-los.  | MÉDIA |
 
 ### Requisitos não Funcionais
 
