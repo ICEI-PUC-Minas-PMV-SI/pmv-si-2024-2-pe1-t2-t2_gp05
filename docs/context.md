@@ -15,9 +15,24 @@ Quem contrata um advogado sente quase sempre a ansiedade no que toca ao seu ente
 
 São vários os problemas que são sentidos na relação "contratante vs contratado", vão desde a falta de transparência no acompanhamento de processos, o atendimento limitado ao horário de expediente, falta de retorno de informação sobre o processo, falta de pagamentos de honorários por parte do contratante, ou fuga de responsabilidade após pagamento ao contratado caso não execute o trabalho.
 
+Além disso, diversos fatores podem dificultar a comunicação entre o cliente e o advogado, gerando insatisfação e discordâncias. Entre os principais problemas, podemos destacar:
+
+* Uso excessivo de linguagem técnica e jargão jurídico: O Direito é repleto de termos específicos que, muitas vezes, são complexos e difíceis de entender para quem não é da área. A dificuldade do advogado em traduzir esses termos e conceitos de forma clara e acessível ao cliente pode gerar confusão e insegurança.
+
+* Falta de clareza na explicação de situações legais: Advogados, por vezes, têm dificuldade em apresentar trâmites, procedimentos e aspectos jurídicos de forma simples e objetiva, o que deixa o cliente sem uma compreensão adequada do andamento do processo.
+
+* Demora no retorno de dúvidas e atualizações: A falta de agilidade na resposta às dúvidas e na atualização sobre o andamento do processo provoca ansiedade e insegurança no cliente, que sente falta de controle sobre sua própria situação jurídica.
+
+Além desses fatores, o uso ineficiente de tecnologias também contribui para os problemas de comunicação. A ausência ou má utilização de canais diretos e eficientes para a comunicação entre cliente e advogado impede que o relacionamento seja fluido e transparente. Outro ponto relevante é a baixa disponibilidade do advogado em fornecer retornos assertivos e realistas, o que compromete a confiança e segurança do cliente. Do lado do cliente, a demora em fornecer informações ou documentos necessários ao andamento do processo também pode comprometer o desenvolvimento do trabalho jurídico.
+
+Esses fatores, quando combinados, podem gerar problemas nas relações contratuais entre clientes e advogados, afetando negativamente a confiança e a eficiência do serviço prestado.
+
 Estes são apenas alguns exemplos de uma vasta rede de problemas que surge nas interações e nos trabalhos administrativos dos escritórios.
 
-A AdvProTech vai fazer com que a comunicação entre o contratante e o contratado seja mais eficaz e transparente.
+Nosso software jurídico pode mitigar os problemas mencionados de diversas maneiras, trazendo soluções tecnológicas que aumentam a eficiência e a transparência na relação entre advogados e clientes.
+
+A AdvProTech tem o potencial de transformar a comunicação entre contratantes e contratados, tornando-a mais eficaz e transparente. Com nossa solução, pode promover uma interação mais clara entre advogados e clientes, aumentando a transparência, fortalecendo a confiança e elevando a eficiência e excelência no atendimento.
+
 
 ## Objetivos
 
