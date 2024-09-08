@@ -62,7 +62,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| Deve ter suporte técnico com resposta em até 24 horas úteis. | MÉDIA | 
 |RNF-002| Deve funcionar bem tanto em computadores quanto em celulares e tablets.  | ALTA |
-|RNF-003| Mostrar uma linha do tempo simples com as etapas do processo.  | MÉDIA |
+|RNF-003| O site deve estar disponível a maior parte do tempo, com interrupções apenas para manutenção programada.  | ALTA |
 |RNF-004| As tecnologias fundamentais para o sistema são HTML, CSS e Javascript. |  ALTA |
 |RNF-005| O site deve funcionar bem em conexões lentas e dispositivos móveis.  | ALTA |
 |RNF-006| O site deve garantir a segurança dos dados dos usuários e cumprir as regras da LGPD.  | ALTA |
