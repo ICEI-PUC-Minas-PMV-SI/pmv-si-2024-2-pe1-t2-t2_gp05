@@ -11,16 +11,13 @@ Esta aplicação web não só atende a uma necessidade urgente do mercado, mas t
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+Quem contrata um advogado sente quase sempre a ansiedade no que toca ao seu entendimento sobre as leis e controlo do que acontece com os seus processos. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+São vários os problemas que são sentidos na relação "contratante vs contratado", vão desde a falta de transparência no acompanhamento de processos, o atendimento limitado ao horário de expediente, falta de retorno de informação sobre o processo, falta de pagamentos de honorários por parte do contratante, ou fuga de responsabilidade após pagamento ao contratado caso não execute o trabalho.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Estes são apenas alguns exemplos de uma vasta rede de problemas que surge nas interações e nos trabalhos administrativos dos escritórios.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A AdvProTech vai fazer com que a comunicação entre o contratante e o contratado seja mais eficaz e transparente.
 
 ## Objetivos
 
