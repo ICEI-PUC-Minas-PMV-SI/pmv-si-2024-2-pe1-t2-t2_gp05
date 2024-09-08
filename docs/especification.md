@@ -49,31 +49,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
-
+|RF-001| O sistema deve permitir que os usuários se registrem e façam login, fornecendo nome, e-mail e dados de contato.  | ALTA |  
+|RF-002| Enviar notificações automáticas aos usuários quando houver atualizações no processo, como novas datas ou documentos.   | MÉDIA | 
+|RF-003| Deve permitir que os usuários vejam o status de seus processos, como o que está acontecendo e os prazos.  | ALTA |
+|RF-004| Deve permitir que os clientes conversem com seus advogados por mensagens e que essas mensagens fiquem registradas.   | MÉDIA |
+|RF-005| Ter uma área onde o advogado consiga gerar relatórios simples sobre o andamento dos processos.   | MÉDIA |
+|RF-006| Mostrar uma linha do tempo simples com as etapas do processo.  | ALTA |
+|RF-007| Permitir que os advogados enviem documentos para os clientes, e os clientes possam baixá-los.  | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Deve ter suporte técnico com resposta em até 24 horas úteis. | MÉDIA | 
+|RNF-002| Deve funcionar bem tanto em computadores quanto em celulares e tablets.  | ALTA |
+|RNF-003| Mostrar uma linha do tempo simples com as etapas do processo.  | MÉDIA |
+|RNF-004| As tecnologias fundamentais para o sistema são HTML, CSS e Javascript. |  ALTA |
+|RNF-005| O site deve funcionar bem em conexões lentas e dispositivos móveis.  | ALTA |
+|RNF-006| O site deve garantir a segurança dos dados dos usuários e cumprir as regras da LGPD.  | ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
