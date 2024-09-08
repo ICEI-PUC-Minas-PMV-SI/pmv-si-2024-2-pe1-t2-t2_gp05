@@ -28,7 +28,7 @@ Com uma interface intuitiva e fácil de usar, o objetivo é proporcionar uma exp
 
 Outro objetivo fundamental é melhorar a comunicação entre advogados e clientes, oferecendo um canal direto para o envio de mensagens, esclarecimento de dúvidas e o compartilhamento de atualizações importantes. Isso vai agilizar o atendimento e garantir que todas as partes estejam sempre cientes dos próximos passos.
 
-E para segurança dos clientes o projeto vai garantir a segurança dos dados utilizando as melhores práticas de segurança. Dessa forma, o projeto oferecerar aos seus clientes uma plataforma segura, preservando a confidencialidade e integridade das informações, e fortalecendo a relação de confiança entre as partes.
+Para garantir a segurança dos clientes, o projeto adotará as melhores práticas, assegurando a confidencialidade e integridade dos dados, fortalecendo a confiança entre as partes.
 
 ## Justificativa
 
