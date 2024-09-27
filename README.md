@@ -17,6 +17,7 @@ O projeto é o desenvolvimento de uma aplicação web para um escritório de adv
 * Lucas Abreu Santos
 * Lucas Vinícius França Teles
 * Ialbas Júnior
+* Carolina Araujo
   
 
 ## Orientador
