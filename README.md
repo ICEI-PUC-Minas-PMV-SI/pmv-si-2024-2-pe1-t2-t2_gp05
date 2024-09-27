@@ -24,6 +24,7 @@ O projeto é o desenvolvimento de uma aplicação web para um escritório de adv
 
 * Nesley Jesus Daher de Oliveira
 
+
 # Planejamento
 
 | Etapa         | Atividades |
