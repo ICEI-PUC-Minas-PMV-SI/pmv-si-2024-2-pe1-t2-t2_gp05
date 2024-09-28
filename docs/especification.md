@@ -119,10 +119,10 @@ O projeto se encontra limitado pelas restrições apresentados na tabela a segui
 
 | ID | Restrição                                             |
 |----|-------------------------------------------------------|
-| 01 | Limitação na precisão dos dados inseridos pelo usuário, que pode impactar a confiabilidade das recomendações realizadas pelo aplicativo | 
-| 02 | Limitação de acessibilidade para usuários com deficiência, devido a dificuldade de aplicar exigências de padrões como WCAG  
-| 03 | Limitação de localização geográfica e idioma, que podem impactar a relevância e eficácia das recomendações |
-| 04 | Limitação de localização geográfica, que pode impactar nos documentos e informações a serem preenchidas |
-| 06 | Funcionalidades restritas a utilização framework bootstrap e ao armazenamento em local storage |
+| 01 | Limitação na precisão dos dados inseridos pelo usuário, que pode gerar problemas no andamento do processo | 
+| 02 | Limitação de acessibilidade para usuários com deficiência, devido a dificuldade de aplicar exigências de padrões como WCAG, o que pode resultar em dificuldades desses usuários ao utilizar a aplicação. | 
+| 03 | Limitação de idioma, que pode afetar a compreensão e usabilidade do sistema para usuários que não falam o idioma principal da aplicação. |
+| 04 | Limitação de localização geográfica, que pode influenciar a adequação dos documentos e informações a serem preenchidos, dependendo da jurisdição específica. |
+| 06 | Funcionalidades restritas a utilização framework bootstrap e ao armazenamento em local storage, o que limita o desenvolvimento de funcionalidades mais complexas e personalizadas ao sistema. |
 
 
