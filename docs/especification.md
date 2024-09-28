@@ -1,85 +1,128 @@
-# Especificações do Projeto
+# Especificações Projeto
 
-Esta aplicação web serve para fornecer acessibilidade e transparência a pessoas que procurem servícios advocatícios, oferecendo um meio da pessoa poder acompanhar o trabalho do advogado e saber a qualquer momento como se encontra o estado do seu processo, sem precisar de entrar em contato com o advogado responsável.
 
 ## Personas
 
-Felipe Henrique 
 
-Advogado 
+**Dr. Marcelo Oliveira - Advogado**
 
-Idade: 27 anos
+- **Idade:** 42 anos 
 
-Felipe é um advogado júnior em início de carreira em um escritório de advocacia, onde lida com muitos processos. Ele precisa de uma plataforma que o ajude a organizar prazos, gerenciar demandas e manter contato eficiente com seus clientes. Com afinidade por tecnologia, Felipe busca ferramentas que simplifiquem sua rotina e aumentem sua produtividade, proporcionando controle sobre os casos. Ele valoriza soluções que otimizem seu tempo e facilitem a gestão interna dos processos, permitindo que ele mantenha os clientes atualizados e cumpra suas responsabilidades de maneira eficiente.
+- **Profissão:** Advogado especializado em nacionalidade e cidadania internacional
 
-Roberto Gonçalves
+- **Perfil:** Dr. Marcelo trabalha há 15 anos no ramo de imigração, ajudando clientes a obter cidadania e nacionalidade estrangeira. Ele é organizado, proativo e valoriza a agilidade nos processos. Utiliza a tecnologia para facilitar a comunicação com clientes e melhorar a eficiência do escritório.
 
-Aposentado em Litígio Previdenciário 
+- **Objetivos:** Manter seus processos organizados, comunicar-se de forma eficaz com os clientes e garantir que os casos sejam resolvidos de forma precisa e dentro dos prazos estabelecidos.
+<br><br>
 
-Idade: 65 anos
+**Ana Souza - Cliente**
 
-Roberto é um aposentado do interior que trabalhou a vida toda na cidade grande, envolvido em uma disputa sobre a revisão de sua aposentadoria. Com pouca familiaridade com tecnologia, ele necessita de uma plataforma simples e intuitiva para acompanhar o processo e receber notificações por e-mail ou SMS. Seu principal objetivo é entender o andamento do caso de forma clara e objetiva, sem complicações. Roberto aprecia uma interface fácil de usar que lhe permita acessar as informações necessárias com rapidez, proporcionando segurança e compreensão durante o processo.
+- **Idade:** 28 anos
 
-Ana Clara Almeida
+- **Profissão:** Designer Gráfica
 
-Ação de Pensão Alimentícia
+- **Perfil:** Ana está buscando a cidadania de um país europeu para poder viver e trabalhar na área criativa sem restrições. Ela é digitalmente habilidosa, valoriza a praticidade e prefere resolver tudo de forma remota, sem precisar visitar o escritório do advogado.
 
-Idade: 38 anos
+- **Objetivos:** Acompanhar o processo de cidadania e fornecer todos os documentos necessários sem complicações, preferindo interações online e rápidas.
+<br><br>
 
-Ana Clara foi contratada por uma grande empresa como assistente administrativa, mas está com medo do processo de admissão por estar envolvida em um processo judicial relacionado à pensão alimentícia de seu filho. Ela procura uma plataforma que lhe permita acompanhar todas as etapas de forma detalhada e transparente. Ana Clara é uma pessoa organizada e deseja estar constantemente informada sobre o andamento do caso, apreciando uma comunicação clara e direta com seu advogado. Embora não seja especialista em tecnologia, ela utiliza aplicativos frequentemente e valoriza plataformas que sejam fáceis de usar, com uma interface clara para garantir sua confiança e tranquilidade durante o processo.
+**João Pereira - Cliente**
+
+- **Idade:** 55 anos
+
+- **Profissão:** Empresário
+
+- **Perfil:** João é empresário no ramo de importação e exportação e busca obter a cidadania de um país europeu para facilitar seus negócios e suas viagens de trabalho. Ele possui uma rotina muito agitada e, por isso, tem pouco tempo para entrar em contato direto com o advogado, preferindo recorrer ao sistema para se manter atualizado sobre seu processo, o que permite economizar tempo e ter mais agilidade no acompanhamento.
+
+- **Objetivos:** Acompanhar detalhadamente o processo de forma eficiente, garantindo que todas as etapas sejam cumpridas corretamente e rapidamente, sem a necessidade de contato constante com o advogado, permitindo-lhe focar em seus negócios.
+<br><br>
+
+**Maria Oliveira - Cliente**
+
+- **Idade:** 63 anos
+
+- **Profissão:** Aposentada
+
+- **Perfil:** Maria é uma aposentada que deseja obter a cidadania de um país europeu para poder viver mais perto dos seus filhos e netos, que já moram no exterior. Ela tem menos facilidade com tecnologia, preferindo interações pessoais ou assistência direta para lidar com plataformas digitais. Embora ela esteja disposta a aprender, possui menos facilidade com tecnologia.
+
+- **Objetivos:** Obter a cidadania de forma tranquila e sem se sentir perdida durante o processo, garantindo que tudo esteja sendo bem conduzido pelo advogado.
+<br><br><br>
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+| EU COMO            | QUERO/PRECISO                      |PARA                                    |
 |--------------------|------------------------------------|----------------------------------------|
-|Ana (Cliente)       | Rapidez e flexíbilidade            | Acompanhar seus processos              |
-|Advogado(Empregado) | Facilidade nos serviços            | Economizar tempo                       |
-| Empresa(Escritorio)| Agilizar os trabalhos da empresa   | Conseguir ter mais clientes            |
-| Roberto(Cliente)   | Acompanhar de forma remota     | Nao precisar sair de casa              |
-|Advogado(Empregado) | Se comunicar com o cliente         | Ter um controle melhor das informações |
+| Advogado e Cliente | Realizar login e logout no sistema com credenciais válidas  | Ter acesso seguro à aplicação, garantindo a proteção dos dados pessoais e jurídicos |
+| Advogado           | Criar processos de clientes        | Registrar todos os casos dos clientes, mantendo a organização e eficiência do escritório |
+| Advogado           | Editar informações de um processo   | Atualizar informações importantes para garantir a precisão do caso e permitir que o cliente tenha acesso ao dados atualizados  |
+| Advogado           | Excluir um processo                 | Remover processos que foram encerrados ou cancelados    |
+| Advogado           | Visualizar lista e detalhes do processo     | Consultar todos os processos criados e visualizar campos preenchidos pelo cliente necessários para o andamento do processo |  
+| Advogado           | Realizar upload de documentos de contrato e processo atualizado | Anexar documentos essenciais, garantindo que todas as informações relevantes estejam disponíveis para o cliente |
+| Advogado           | Excluir documentos carregados por mim | Corrigir erros e excluir documentos desatualizados  |
+| Advogado           | Realizar download dos documentos incluídos pelo cliente | Garantir acesso aos documentos pessoais do cliente para dar continuidade ao processo de forma eficiente   |
+| Cliente            | Visualizar lista e detalhes do processo     | Acompanhar o status do seu caso e mantendo-se atualizado sobre as ações do advogado e etapas futuras do processo |  
+| Cliente            | Editar informações de um processo | Atualizar documentos pessoais e garantir a precisão do caso |
+| Cliente            | Realizar upload de documentos pessoais | Fornecer documentos para o advogado necessários ao andamento do processo de forma remota e organizada  |
+| Cliente           | Excluir documentos pessoais carregados por mim | Remover documentos incorretos ou desatualizados |
+| Cliente            | Realizar download dos documentos incluídos pelo advogado | Ter acesso a documentos importantes que o advogado disponibilizou para consulta |
 
+
+<br>
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais do projeto.
+
+<br>
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | 
+|ID    | Descrição do Requisito | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| O sistema deve permitir que os usuários se registrem e façam login, fornecendo nome, e-mail e dados de contato.  | ALTA |  
-|RF-002| Enviar notificações automáticas aos usuários quando houver atualizações no processo, como novas datas ou documentos.   | ALTA | 
-|RF-003| Deve permitir que os clientes conversem com seus advogados por mensagens e que essas mensagens fiquem registradas.   | MÉDIA |
-|RF-004| Ter uma área onde o advogado consiga gerar relatórios simples sobre o andamento dos processos.   | MÉDIA |
-|RF-005| Mostrar uma linha do tempo simples com as etapas do processo.  | ALTA |
-|RF-006| Permitir que os advogados enviem documentos para os clientes, e os clientes possam baixá-los.  | MÉDIA |
+| RF01 | Permitir que o advogado faça login utilizando credenciais válidas  | ALTA |  
+| RF02 | Permitir que o advogado crie um novo processo jurídico  | ALTA | 
+| RF03 | Permitir que o advogado visualize a lista de todos os processos   | MÉDIA |
+| RF03 | Permitir que o advogado visualize os detalhes de um processo específico | MÉDIA |
+| RF04 | Permitir que o advogado edite informações de um processo existente  | ALTA |
+| RF05 | Permitir que o advogado faça upload de documentos para um processo  | ALTA |
+| RF06 | Permitir que o advogado faça download de documentos do cliente | ALTA |
+| RF07 | Permitir que o advogado realize logout  | BAIXA |
+| RF08 | Permitir que o cliente faça login utilizando credenciais válidas  | ALTA |
+| RF09 | Permitir que o cliente visualize a lista dos seus processos  | MÉDIA |
+| RF10 | Permitir que o cliente visualize os detalhes do seu processo | MÉDIA |
+| RF11 | Permitir que o cliente faça upload de documentos pessoais  | ALTA |
+| RF12 | Permitir que o cliente faça download dos documentos do processo | ALTA |
+| RF13 | Permitir que o cliente realize logout | BAIXA |
 
-### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| Deve ter suporte técnico com resposta em até 24 horas úteis. | MÉDIA | 
-|RNF-002| Deve funcionar bem tanto em computadores quanto em celulares e tablets.  | ALTA |
-|RNF-003| O site deve estar disponível a maior parte do tempo, com interrupções apenas para manutenção programada.  | ALTA |
-|RNF-004| As tecnologias fundamentais para o sistema são HTML, CSS e Javascript. |  ALTA |
-|RNF-005| O site deve funcionar bem em conexões lentas e dispositivos móveis.  | ALTA |
-|RNF-006| O site deve garantir a segurança dos dados dos usuários e cumprir as regras da LGPD.  | ALTA |
+<br>
+
+### Requisitos Não-Funcionais
+
+| ID    | Descrição do Requisito  |  Prioridade  |
+|-------|-------------------------|--------------|
+| RNF01 | Usabilidade - A interface do usuário deve ser intuitiva, sendo fácil de operar mesmo para pessoas sem familiaridade com tecnologia  | ALTA  |
+| RNF02 | Usabilidade - O sistema deve ser responsivo, garantindo que a interface do usuário se adapte de forma fluida e sem distorções a qualquer tamanho de tela   | BAIXA |
+| RNF03 | Usabilidade - O sistema deve ter um design visual atraente, utilizando uma paleta de cores harmoniosa, tipografia legível e uma interface que promova uma experiência positiva   | MÉDIA |
+| RNF04 | Compatibilidade - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge) e suas versões mais recentes  | MÈDIA |
+| RNF05 | Performance - O sistema deve ser capaz de processar e responder a todas as solicitações dos usuários em até 3 segundos | ALTA |
+
+
+<br>
 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+O projeto se encontra limitado pelas restrições apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| ID | Restrição                                             |
+|----|-------------------------------------------------------|
+| 01 | Limitação na precisão dos dados inseridos pelo usuário, que pode impactar a confiabilidade das recomendações realizadas pelo aplicativo | 
+| 02 | Limitação de acessibilidade para usuários com deficiência, devido a dificuldade de aplicar exigências de padrões como WCAG  
+| 03 | Limitação de localização geográfica e idioma, que podem impactar a relevância e eficácia das recomendações |
+| 04 | Limitação de localização geográfica, que pode impactar nos documentos e informações a serem preenchidas |
+| 06 | Funcionalidades restritas a utilização framework bootstrap e ao armazenamento em local storage |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
