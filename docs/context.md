@@ -39,11 +39,22 @@ A AdvProTech tem o potencial de transformar a comunicação entre contratantes e
 
 ## Objetivos
 
-Com uma interface intuitiva e fácil de usar, o objetivo é proporcionar uma experiência de navegação simples, mantendo os clientes informados de maneira prática e acessível. Além de disponibilizar o status dos processos, o projeto terá um centro de informações, onde os clientes poderão acessar documentos importantes, pareceres, petições e outros arquivos relacionados aos seus casos. Essa forma de comunicação de dados permitirá uma consulta rápida e fácil, evitando a perda de tempo e agilizando a tomada de decisões por parte do cliente e do advogado.
+### Objetivo Geral
 
-Outro objetivo fundamental é melhorar a comunicação entre advogados e clientes, oferecendo um canal direto para o envio de mensagens, esclarecimento de dúvidas e o compartilhamento de atualizações importantes. Isso vai agilizar o atendimento e garantir que todas as partes estejam sempre cientes dos próximos passos.
+Desenvolver uma aplicação destinada a escritórios de advocacia especializados em aquisição de nacionalidade, com o intuito de otimizar a gestão de processos jurídicos, aprimorar a comunicação entre advogados e clientes, e aumentar a eficiência operacional, garantindo que os clientes estejam sempre informados sobre o status atual de seus processos.
 
-Para garantir a segurança dos clientes, o projeto adotará as melhores práticas, assegurando a confidencialidade e integridade dos dados, fortalecendo a confiança entre as partes.
+### Objetivos Específicos
+<br>
+
+- **Facilitar a Gestão de Processos:** Implementar funcionalidades que permitam a criação, edição e exclusão de processos, assegurando uma organização eficaz dos casos.
+
+- **Melhorar a Comunicação:** Proporcionar canais de interação entre advogados e clientes, possibilitando o envio de notificações e atualizações em tempo real sobre o andamento dos processos.
+
+- **Aprimorar o Acompanhamento de Casos:** Desenvolver uma interface que permita aos clientes visualizar detalhes do processo, status e documentos relacionados de forma clara e acessível.
+
+- **Gerenciar Documentos:** Implementar funcionalidades que permitam tanto aos advogados fazer upload de documentos relativos a contratos e processos quanto aos clientes fazer upload de documentos pessoais. Isso possibilita a comunicação eficiente entre ambas as partes, garantindo que todas as informações relevantes estejam disponíveis de maneira segura e organizada.
+
+- **Promover a Eficiência Operacional:** Otimizar a utilização de recursos do escritório por meio de automação de processos, reduzindo o tempo gasto em tarefas administrativas e permitindo que os advogados se concentrem em atividades estratégicas.
 
 <br>
 

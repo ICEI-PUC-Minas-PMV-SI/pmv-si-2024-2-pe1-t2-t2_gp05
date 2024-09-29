@@ -81,9 +81,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais d
 
 |ID    | Descrição do Requisito | Prioridade | 
 |------|-----------------------------------------|----| 
-| RF01 | Permitir que o advogado faça login utilizando credenciais válidas  | ALTA |  
-| RF02 | Permitir que o advogado crie um novo processo jurídico  | ALTA | 
-| RF03 | Permitir que o advogado visualize a lista de todos os processos   | MÉDIA |
+| RF01 | Permitir que o advogado faça login utilizando credenciais válidas | ALTA |  
+| RF02 | Permitir que o advogado crie um novo processo jurídico | ALTA | 
+| RF03 | Permitir que o advogado visualize a lista de todos os processos  | MÉDIA |
 | RF03 | Permitir que o advogado visualize os detalhes de um processo específico | MÉDIA |
 | RF04 | Permitir que o advogado edite informações de um processo existente  | ALTA |
 | RF05 | Permitir que o advogado faça upload de documentos para um processo  | ALTA |
@@ -104,9 +104,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais d
 | ID    | Descrição do Requisito  |  Prioridade  |
 |-------|-------------------------|--------------|
 | RNF01 | Usabilidade - A interface do usuário deve ser intuitiva, sendo fácil de operar mesmo para pessoas sem familiaridade com tecnologia  | ALTA  |
-| RNF02 | Usabilidade - O sistema deve ser responsivo, garantindo que a interface do usuário se adapte de forma fluida e sem distorções a qualquer tamanho de tela   | BAIXA |
+| RNF02 | Usabilidade - O sistema deve ser responsivo, garantindo que a interface do usuário se adapte de forma fluida e sem distorções a qualquer tamanho de tela | BAIXA |
 | RNF03 | Usabilidade - O sistema deve ter um design visual atraente, utilizando uma paleta de cores harmoniosa, tipografia legível e uma interface que promova uma experiência positiva   | MÉDIA |
-| RNF04 | Compatibilidade - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge) e suas versões mais recentes  | MÈDIA |
+| RNF04 | Compatibilidade - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge) e suas versões mais recentes | MÉDIA |
 | RNF05 | Performance - O sistema deve ser capaz de processar e responder a todas as solicitações dos usuários em até 3 segundos | ALTA |
 
 
