@@ -33,7 +33,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 > - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 
-## Wireframes
+## Protótipos
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
 

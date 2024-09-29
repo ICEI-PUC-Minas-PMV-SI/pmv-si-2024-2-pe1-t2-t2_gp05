@@ -9,6 +9,8 @@ Pensando nestes fatores, surgiu a ideia de desenvolver uma aplicação web que p
 
 Esta aplicação web não só atende a uma necessidade urgente do mercado, mas também posiciona o escritório como um provedor de serviços jurídicos moderno, que valoriza a inovação e a satisfação do cliente.
 
+<br>
+
 ## Problema
 
 Quem contrata um advogado sente quase sempre a ansiedade no que toca ao seu entendimento sobre as leis e controle do que acontece com os seus processos. 
@@ -33,6 +35,7 @@ Nosso software jurídico pode mitigar os problemas mencionados de diversas manei
 
 A AdvProTech tem o potencial de transformar a comunicação entre contratantes e contratados, tornando-a mais eficaz e transparente. Com nossa solução, pode promover uma interação mais clara entre advogados e clientes, aumentando a transparência, fortalecendo a confiança e elevando a eficiência e excelência no atendimento.
 
+<br>
 
 ## Objetivos
 
@@ -42,6 +45,8 @@ Outro objetivo fundamental é melhorar a comunicação entre advogados e cliente
 
 Para garantir a segurança dos clientes, o projeto adotará as melhores práticas, assegurando a confidencialidade e integridade dos dados, fortalecendo a confiança entre as partes.
 
+<br>
+
 ## Justificativa
 
 A necessidade de uma maior transparência, agilidade e eficiência nos processos jurídicos é crescente, especialmente em um cenário onde os advogados enfrentam altos níveis de estresse e ansiedade devido à sobrecarga de trabalho e às exigências dos clientes. Segundo algumas pequisas, advogados afirmam que o excesso de tarefas e a comunicação falha com seus clientes impactam negativamente suas rotinas e qualidade de trabalho. Além disso a complexidade administrativa nos escritórios de advocacia aliada à falta de ferramentas eficazes de acompanhamento, afeta diretamente a qualidade do serviço prestado pelo advogado.
@@ -50,22 +55,10 @@ Este cenário acaba por refletir na relação entre advogado e cliente, que muit
 
 O uso de tecnologias para otimização de processos está alinhado às expectativas de um mercado cada vez mais digitalizado. As empresas, inclusive escritórios de advocacia, têm enfrentado dificuldades em adotar ferramentas que melhorem a comunicação interna e externa, sendo que muitas soluções focam exclusivamente em processos administrativos e não oferecem uma plataforma para interação eficiente com o cliente. Portanto, uma aplicação voltada para o acompanhamento de processos jurídicos representa uma solução inovadora para atender à crescente demanda por transparência e eficiência no setor. Podendo até mesmo crescer no futuro de forma que um bot ou uma IA comunique em tempo real com o cliente, resuma documentos, etc. O futuro é tecnologia e facilidade, e queremos oferecer isso.
 
-### Referências:
-* [A prevalência do estresse e da angústia na advocacia](https://www.migalhas.com.br/depeso/373706/a-prevalencia-do-estresse-e-da-angustia-na-advocacia)
-* [Desafios e soluções: como superar problemas no escritório de advocacia](https://advbox.com.br/blog/problemas-em-escritorios-de-advocacia-e-crescimento/)
+<br>
 
 ## Público-Alvo
 
- -Advogado que procura facilitar a comunicação e transparência com o cliente para prestar um melhor serviço.
- 
- -Empresário em início de atividades: Precisa de assessoria jurídica para constituir sua empresa e precisa agilizar o processo de registro e compliance legal.
+O público-alvo da aplicação abrange escritórios de advocacia especializados em imigração e nacionalidade, que buscam uma ferramenta destinada a otimizar a gestão de processos, aprimorar a comunicação com os clientes e aumentar a eficiência operacional. Ademais, advogados especialistas em direito de nacionalidade requerem um sistema que facilite o acompanhamento detalhado dos casos, a organização de documentos e a interação com os clientes.
 
- -Pessoa envolvida em um processo judicial: Quer otimizar o tempo para fornecer documentos e informações ao advogado e acompanhar o andamento do caso.
-
- -Indivíduo com questões de direito de família: Está enfrentando um divórcio ou uma disputa de custódia e precisa iniciar o processo legal rapidamente.
-
- -Pessoa que sofreu um acidente e precisa de assistência jurídica: Quer iniciar uma reclamação de indenização rapidamente e precisa fornecer informações iniciais de forma ágil.
-
- -Pessoa buscando aconselhamento sobre planejamento sucessório: Está pensando em redigir um testamento ou lidar com questões de herança e quer iniciar o processo de forma eficiente.
- 
- -Pessoa enfrentando questões de imigração: Precisa de assistência jurídica para obter vistos ou resolver questões relacionadas à permanência no país e deseja agilizar o processo inicial.
+Os clientes dos escritórios de advocacia são considerados parte do público-alvo em um contexto mais amplo, uma vez que são os beneficiários diretos das funcionalidades da aplicação. Esses clientes procuram uma forma prática, eficaz e conveniente de monitorar o status de seus processos e se manter informados sobre o andamento de seus casos, aproveitando as vantagens que a aplicação oferece em termos de segurança e praticidade.

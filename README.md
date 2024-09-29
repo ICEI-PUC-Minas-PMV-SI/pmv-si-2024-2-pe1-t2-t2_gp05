@@ -7,7 +7,10 @@
 
 `SEMESTRE: 1º`
 
-O projeto é o desenvolvimento de uma aplicação web para um escritório de advocacia que permite aos clientes acompanhar em tempo real o andamento de seus processos. A plataforma será segura e acessível, proporcionando uma visão clara do status atual do processo, incluindo marcos importantes, prazos, documentos anexados e próximos passos, assim como facilitar o contato entre advogado e cliente desde o primeiro contato até conclusão do seu processo. Cada cliente terá um login personalizado, garantindo a privacidade das informações. Além disso, a aplicação permitirá o envio de notificações automáticas sobre atualizações relevantes, facilitando a comunicação e mantendo o cliente informado sobre todas as etapas do seu contrato com o escritório.
+<br>
+
+A aplicação destina-se a escritórios de advocacia que atuam na área de aquisição de nacionalidade, com o objetivo de otimizar a gestão e a comunicação entre advogados e clientes. Com foco na eficiência e na experiência do usuário, a plataforma oferece acompanhamento ágil dos casos, garantindo a segurança no acesso e aprimorando a organização e a eficácia do escritório. Além disso, a aplicação dinamiza o trabalho do advogado e mantém o cliente devidamente informado sobre o status atual de seu processo.
+<br>
 
 ## Integrantes
 
@@ -16,16 +19,17 @@ O projeto é o desenvolvimento de uma aplicação web para um escritório de adv
 * Gabriel Oliveira Lemos
 * Lucas Abreu Santos
 * Lucas Vinícius França Teles
+* Carolina Ferreira Araujo
 * Ialbas Júnior
-* Carolina Araujo
-  
+
 
 ## Orientador
 
 * Nesley Jesus Daher de Oliveira
 
+<br>
 
-# Planejamento
+## Planejamento
 
 | Etapa         | Atividades |
 |  :----:   | ----------- |
@@ -35,10 +39,14 @@ O projeto é o desenvolvimento de uma aplicação web para um escritório de adv
 | ETAPA 4        |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
 | ETAPA 5         | [Apresentação](presentation/README.md) |
 
-# Código
+<br>
+
+## Código
 
 <li><a href="src/README.md"> Código Fonte</a></li>
 
-# Apresentação
+<br>
+
+## Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
