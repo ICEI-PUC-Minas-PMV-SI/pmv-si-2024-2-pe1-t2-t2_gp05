@@ -79,9 +79,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais d
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | 
-|------|-----------------------------------------|----| 
-| RF01 | Permitir que o advogado faça login utilizando credenciais válidas                                                                                                     | ALTA |  
+|ID    | Descrição do Requisito                  | Prioridade | 
+|------|-----------------------------------------|------------| 
+| RF01 | Permitir que o advogado faça login utilizando credenciais válidas | ALTA |  
 | RF02 | Permitir que o advogado crie um novo processo jurídico  | ALTA | 
 | RF03 | Permitir que o advogado visualize a lista de todos os processos   | MÉDIA |
 | RF03 | Permitir que o advogado visualize os detalhes de um processo específico | MÉDIA |
