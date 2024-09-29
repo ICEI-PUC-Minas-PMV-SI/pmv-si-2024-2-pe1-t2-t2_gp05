@@ -17,7 +17,7 @@
 
   Outros componentes visuais:
 
-![Menu, Barra Superior e BreadCrumbs](img/menu_topbar_breadcrumbs.jpg)
+![Menu, Barra Superior e BreadCrumbs](img/menu_topbar_breadcrumbs.png)
 
 <br>
 
@@ -44,6 +44,6 @@ O aplicativo utiliza a seguinte tipografia:
 
 O aplicativo utiliza a seguinte iconografia:
 
-![Iconografia](img/iconography.png)
+![Iconografia](img/iconography.jpg)
 
 
