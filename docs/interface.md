@@ -43,10 +43,12 @@ O user flow da aplicação se desdobra em duas possibilidades dependendo do perf
 
 ![User Flow Cliente](img/userflow_cliente.png)
 
+<br>
 
 ## Protótipos
 
-
+A seguir, são apresentados os protótipos de alta fidelidade da aplicação
+<br>
 
 ![Protótipos](img/prototype.png)
 

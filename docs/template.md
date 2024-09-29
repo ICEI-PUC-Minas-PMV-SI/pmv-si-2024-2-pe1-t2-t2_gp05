@@ -17,6 +17,10 @@
 
   Outros componentes visuais:
 
+![Logo](img/logo.png)
+
+<br>
+
 ![Menu, Barra Superior e BreadCrumbs](img/menu_topbar_breadcrumbs.png)
 
 <br>
