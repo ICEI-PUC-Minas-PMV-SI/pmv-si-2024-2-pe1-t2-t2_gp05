@@ -52,7 +52,7 @@ Desenvolver uma aplicação destinada a escritórios de advocacia especializados
 
 - **Aprimorar o Acompanhamento de Casos:** Desenvolver uma interface que permita aos clientes visualizar detalhes do processo, status e documentos relacionados de forma clara e acessível.
 
-- **Gerenciar Documentos:** Implementar funcionalidades que permitam tanto aos advogados fazer upload de documentos relativos a contratos e processos quanto aos clientes fazer upload de documentos pessoais. Isso possibilita a comunicação eficiente entre ambas as partes, garantindo que todas as informações relevantes estejam disponíveis de maneira segura e organizada.
+- **Gerenciar Documentos:** Implementar funcionalidades que permitam tanto aos advogados fazer upload de documentos relativos a contratos e processos quanto aos clientes fazer upload de documentos pessoais. Isso possibilita a comunicação eficiente entre ambas as partes, garantindo que todas as informações relevantes estejam disponíveis de maneira segura, rápida e organizada.
 
 - **Promover a Eficiência Operacional:** Otimizar a utilização de recursos do escritório por meio de automação de processos, reduzindo o tempo gasto em tarefas administrativas e permitindo que os advogados se concentrem em atividades estratégicas.
 
