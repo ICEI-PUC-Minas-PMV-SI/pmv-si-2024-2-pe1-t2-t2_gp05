@@ -26,7 +26,7 @@
 
 O aplicativo utiliza a seguinte paleta de cores:
 
-<img src="img/colors.png" alt="Paleta Cores" width="400">
+<img src="img/colors.png" alt="Paleta Cores" width="500">
 
 
 
@@ -36,7 +36,8 @@ O aplicativo utiliza a seguinte paleta de cores:
 ## Tipografia
 
 O aplicativo utiliza a seguinte tipografia:
-<img src="img/typography.png" alt="Tipografia" width="400">
+
+<img src="img/typography.png" alt="Tipografia" width="500">
 
 <br>
 
@@ -45,6 +46,6 @@ O aplicativo utiliza a seguinte tipografia:
 
 O aplicativo utiliza a seguinte iconografia:
 
-<img src="img/iconography.png" alt="Iconografia" width="400">
+<img src="img/iconography.png" alt="Iconografia" width="500">
 
 
