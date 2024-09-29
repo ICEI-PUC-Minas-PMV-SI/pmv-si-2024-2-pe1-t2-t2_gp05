@@ -6,7 +6,19 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+1. Estrutura Geral do Layout
+O layouts segue um design padrão de aplicações web, com:
+
+Barra Lateral Esquerda (Sidebar):  uma barra lateral na esquerda que contém um menu fixo com as opções de navegação principais que inclui as principais funcionalidades do sistema, como navegação entre seções de advogados, clientes, autenticação, entre outras áreas.
+
+Área Central de Conteúdo: As telas contém uma área central onde o conteúdo principal é exibido. Cada seção exibe diferentes funcionalidades ou visualizações, como listagens de processos e formulários.
+
+Cabeçalho Superior (Header): O cabeçaçalho logo e ícones para funcionalidades que mostram ícones onde são mencionadas as notificações e o perfil do usuário.
+
+2. Logo
+O Logo está inserido na barra lateral esquerda no topo, em todos os layouts, demonstrando o visual da página identificando o website.
+
+![image](https://github.com/user-attachments/assets/bf5f3ed8-87f9-4fa7-8459-b93c397ec7e2)
 
 
 ## Cores
