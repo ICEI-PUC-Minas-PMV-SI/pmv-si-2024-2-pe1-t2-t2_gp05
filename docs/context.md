@@ -44,7 +44,6 @@ A AdvProTech tem o potencial de transformar a comunicação entre contratantes e
 Desenvolver uma aplicação destinada a escritórios de advocacia especializados em aquisição de nacionalidade, com o intuito de otimizar a gestão de processos jurídicos, aprimorar a comunicação entre advogados e clientes, e aumentar a eficiência operacional, garantindo que os clientes estejam sempre informados sobre o status atual de seus processos.
 
 ### Objetivos Específicos
-<br>
 
 - **Facilitar a Gestão de Processos:** Implementar funcionalidades que permitam a criação, edição e exclusão de processos, assegurando uma organização eficaz dos casos.
 
