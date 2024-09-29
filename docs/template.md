@@ -17,7 +17,7 @@
 
   Outros componentes visuais:
 
-![Menu, Barra Superior e BreadCrumbs](img/menu_topbar_breadcrumbs.png)
+![Menu, Barra Superior e BreadCrumbs](img/menu_topbar_breadcrumbs.jpg)
 
 <br>
 
@@ -26,7 +26,7 @@
 
 O aplicativo utiliza a seguinte paleta de cores:
 
-![Paleta Cores](img/colors.png)
+![Paleta Cores](img/colors.jpg)
 
 <br>
 
@@ -35,7 +35,7 @@ O aplicativo utiliza a seguinte paleta de cores:
 
 O aplicativo utiliza a seguinte tipografia:
 
-![Tipografia](img/typography.png)
+![Tipografia](img/typography.jpg)
 
 <br>
 
