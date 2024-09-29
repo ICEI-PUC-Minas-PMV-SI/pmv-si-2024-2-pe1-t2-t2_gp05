@@ -1,7 +1,5 @@
 # Introdução
 
-<p style="text-align: justify;">
-
 Nos últimos anos, as empresas têm experenciado uma alta demanda na adoção de tecnologias digitais para otimizar seus processos, melhorar a eficiência e proporcionar um melhor atendimento aos seus clientes, porém  a maioria dessas inovações tecnológicas focam-se quase sempre apenas na automação de tarefas administrativas internas, deixando uma lacuna significativa na comunicação e transparência com os clientes, que no final de contas é o ativo mais importante de qualquer empresa. 
 
 Tal como empresas de correios desenvolveram um sistema que permite aos destinatários acompanharem o estado e localização das suas encomendas a todo o momento oferecendo conforto e confiança ao cliente no que toca à sua encomenda, porque não oferecer esse mesmo tipo de serviço de acompanhamento de um processo judicial/administrativo aos clientes dos advogados onde essas informações e atualizações são dadas em tempo real? 
@@ -10,7 +8,7 @@ A falta de ferramentas adequadas para o acompanhamento de processos representa u
 Pensando nestes fatores, surgiu a ideia de desenvolver uma aplicação web que permita o acompanhamento dos processos em tempo real, onde o cliente fica a par da sua participação em todo o seu processo, seja no contato inicial, onde ele tem que fornecer os seus dados para elaboração do contrato, passando pelos documentos necessários que necessita de fornecer para que o advogado possa atuar por ele e manter-se informado sobre o andamento dos seus processos a qualquer momento e de qualquer lugar até à sua conclusão.
 
 Esta aplicação web não só atende a uma necessidade urgente do mercado, mas também posiciona o escritório como um provedor de serviços jurídicos moderno, que valoriza a inovação e a satisfação do cliente.
-</p>
+
 <br>
 
 ## Problema
