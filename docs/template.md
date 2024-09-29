@@ -17,10 +17,41 @@ Explique as guias de estilo utilizadas no seu projeto.
   Cabeçalho Superior (Header): O cabeçaçalho logo e ícones para funcionalidades que mostram ícones onde são mencionadas as notificações e o perfil do usuário.
 
 2. Logo
-3. 
 O Logo está inserido na barra lateral esquerda no topo, em todos os layouts, demonstrando o visual da página identificando o website.
 
 ![image](https://github.com/user-attachments/assets/bf5f3ed8-87f9-4fa7-8459-b93c397ec7e2)
+
+3. Menus Padrões
+   
+A barra later exibe os seguintes menus:
+
+Autenticação: Um módulo dedicado à autenticação de usuários, permitindo o login, recuperação de senha e outros aspectos relacionados à segurança.
+
+Processos - Advogado e Processos - Cliente;
+Estas são seções específicas do sistema que terão funcionalidades diferentes para advogados e clientes, refletindo as necessidades de cada grupo. Cada um desses menus tem múltiplas telas que exibem detalhes dos processos jurídicos, como tabelas e listagens.
+
+Outros Elementos: Há uma variedade de elementos de interface, como formulários, tabelas, mensagens e uma possível tela de faturas, que completam funcionalidades de gestão de clientes e processos.
+
+4. Componentes Visuais
+
+Formulários: Serão usados para entrada de dados. Estes podem incluir campos para informações de clientes, tipos de processo, documentos,etc.
+
+Tabelas: Servem para exibir de forma clara listas de processos, clientes ou atividades. A tabela deve permite visualizações rápidas e organizadas de grandes volumes de dados.
+
+Mensagens (Inbox): Um sistema de mensagens ou notificações internas, permitindo comunicação entre usuários(advogado e clientge) ou atualizações do sistema.
+
+Invoice: Usada para gerenciamento de faturas ou cobranças, para manter o cliente a par da sua situação financeira com o advogado, demonstrando pagamento de honorários ou pagamento de parcelas em atraso.
+
+5. Autenticação
+A parte de autenticação serve para os usuários interagirem com a plataforma com os seus perfis privados com telas de login e recuperação de senha. é essencial para ter um sistema seguro com foco em acesso controlado.
+
+6. Processos
+Mostra os documentos aplicados ao processo e contém também a informação do andamento e decorrer do processo.
+O UI do Advogado apresenta opções para Criar, visualizar e editar processo e também a criação de documento.
+
+O UI do Cliente apresenta opções para Visualizar os processos e Criar documentos.
+
+A parte do advogado deve ser mais robusta para poder criar e demonstrar informações mais concretas enquando que a do cliente serve mais para visualização de acontecimentos.
 
 
 ## Cores
