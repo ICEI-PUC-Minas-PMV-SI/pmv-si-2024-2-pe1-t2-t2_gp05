@@ -10,9 +10,12 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 
 ## Cores
-
 O website utiliza a seguinte paleta de cores 
-![image](https://github.com/user-attachments/assets/bc46af6f-a431-4f7a-8546-131779ff81be)
+
+![AdobeColor-ADVPROTECH PALETA DE CORES](https://github.com/user-attachments/assets/d790eecd-113e-4ec6-baa7-9e571456c48e)
+
+
+
 
 
 
