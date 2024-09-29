@@ -16,6 +16,7 @@ Barra Lateral Esquerda (Sidebar):  uma barra lateral na esquerda que contém um 
 Cabeçalho Superior (Header): O cabeçaçalho logo e ícones para funcionalidades que mostram ícones onde são mencionadas as notificações e o perfil do usuário.
 
 2. Logo
+3. 
 O Logo está inserido na barra lateral esquerda no topo, em todos os layouts, demonstrando o visual da página identificando o website.
 
 ![image](https://github.com/user-attachments/assets/bf5f3ed8-87f9-4fa7-8459-b93c397ec7e2)
