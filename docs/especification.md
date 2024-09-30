@@ -59,6 +59,7 @@
 | Advogado           | Editar informações de um processo   | Atualizar informações importantes para garantir a precisão do caso e permitir que o cliente tenha acesso ao dados atualizados  |
 | Advogado           | Excluir um processo                 | Remover processos que foram encerrados ou cancelados    |
 | Advogado           | Visualizar lista e detalhes do processo     | Consultar todos os processos criados e visualizar campos preenchidos pelo cliente necessários para o andamento do processo |  
+| Advogado           | Realizar pesquisa na lista de processos através da aplicação de free filter  | Consultar os processos de clientes específicos de forma mais eficiente |  
 | Advogado           | Realizar upload de documentos de contrato e processo atualizado | Anexar documentos essenciais, garantindo que todas as informações relevantes estejam disponíveis para o cliente |
 | Advogado           | Excluir documentos carregados por mim | Corrigir erros e excluir documentos desatualizados  |
 | Advogado           | Realizar download dos documentos incluídos pelo cliente | Garantir acesso aos documentos pessoais do cliente para dar continuidade ao processo de forma eficiente   |
@@ -79,27 +80,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais d
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito                  | Prioridade | 
-|------|-----------------------------------------|------------| 
-| RF01 | Permitir que o advogado faça login utilizando credenciais válidas | ALTA |  
-| RF02 | Permitir que o advogado crie um novo processo jurídico  | ALTA | 
-| RF03 | Permitir que o advogado visualize a lista de todos os processos   | MÉDIA |
+
 |ID    | Descrição do Requisito | Prioridade | 
 |------|-----------------------------------------|----| 
 | RF01 | Permitir que o advogado faça login utilizando credenciais válidas | ALTA |  
 | RF02 | Permitir que o advogado crie um novo processo jurídico | ALTA | 
 | RF03 | Permitir que o advogado visualize a lista de todos os processos  | MÉDIA |
-| RF03 | Permitir que o advogado visualize os detalhes de um processo específico | MÉDIA |
-| RF04 | Permitir que o advogado edite informações de um processo existente  | ALTA |
-| RF05 | Permitir que o advogado faça upload de documentos para um processo  | ALTA |
-| RF06 | Permitir que o advogado faça download de documentos do cliente | ALTA |
-| RF07 | Permitir que o advogado realize logout  | BAIXA |
-| RF08 | Permitir que o cliente faça login utilizando credenciais válidas  | ALTA |
-| RF09 | Permitir que o cliente visualize a lista dos seus processos  | MÉDIA |
-| RF10 | Permitir que o cliente visualize os detalhes do seu processo | MÉDIA |
-| RF11 | Permitir que o cliente faça upload de documentos pessoais  | ALTA |
-| RF12 | Permitir que o cliente faça download dos documentos do processo | ALTA |
-| RF13 | Permitir que o cliente realize logout | BAIXA |
+| RF04 | Permitir que o advogado aplique free filter na lista de processos | MÉDIA |
+| RF05 | Permitir que o advogado visualize os detalhes de um processo específico | MÉDIA |
+| RF06 | Permitir que o advogado edite informações de um processo existente  | ALTA |
+| RF07 | Permitir que o advogado faça upload de documentos para um processo  | ALTA |
+| RF08 | Permitir que o advogado faça download de documentos do cliente | ALTA |
+| RF09 | Permitir que o advogado realize logout  | BAIXA |
+| RF10 | Permitir que o cliente faça login utilizando credenciais válidas  | ALTA |
+| RF11 | Permitir que o cliente visualize a lista dos seus processos  | MÉDIA |
+| RF12 | Permitir que o cliente visualize os detalhes do seu processo | MÉDIA |
+| RF13 | Permitir que o cliente faça upload de documentos pessoais  | ALTA |
+| RF14 | Permitir que o cliente faça download dos documentos do processo | ALTA |
+| RF15 | Permitir que o cliente realize logout | BAIXA |
 
 
 <br>
