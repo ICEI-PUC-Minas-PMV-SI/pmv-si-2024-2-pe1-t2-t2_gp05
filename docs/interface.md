@@ -2,6 +2,7 @@
 # Projeto de Interface
 
 A aplicação é composta por diversas páginas que formam as principais interfaces do sistema, cada uma delas para proporcionar uma experiência de usuário intuitiva e eficiente, atendendo às necessidades tanto de advogados quanto de clientes. A seguir, são descritas as principais páginas da aplicação:
+<br>
 
 **1. Página de Cadastro**
 - Nesta página, novos usuários podem realizar seu cadastro preenchendo campos como nome, email e senha. Após o registro, as credenciais geradas permitem o acesso ao sistema.
@@ -23,10 +24,11 @@ A aplicação é composta por diversas páginas que formam as principais interfa
 
 **7. Página de Upload de Documentos**
 - Advogados e clientes têm acesso a uma seção específica para o upload e download de documentos. Nesta página, advogados podem anexar documentos relacionados aos processos, enquanto clientes podem incluir documentos pessoais relevantes.
+- <br>
 
-
+**Requisitos Não-Funcinais"
 O protótipo atende de forma abrangente também os requisitos não-funcionais, a interface da plataforma foi desenhada para ser altamente intuitiva e de fácil navegação, mesmo para usuários sem experiência em tecnologia. Além disto a interface é amigável e facilita a inserção dos dados, garantindo uma experiência positiva tanto para advogados como para clientes.
-
+<br><br>
 
 ## User Flow
 
