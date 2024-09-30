@@ -1,13 +1,12 @@
 # Template Padrão Aplicação
 
 A identidade visual da plataforma foi cuidadosamente desenvolvida para refletir seriedade, transparência e profissionalismo, visto de tratar de um aplicativo voltado a escritórios de advocacia especializados em aquisição de nacionalidade. A combinação de cores, tipografia e iconografia resulta em uma interface intuitiva que permite a visualização clara de um maior volume de informações, sem criar poluição visual, e proporciona uma experincia agradável e harmoniosa.
-<br>
+<br><br>
 
 ## Design
 
   O logotipo do aplicativo foi cuidadosamente elaborado para refletir a identidade visual da plataforma, incorporando um design moderno e simplificado. Sua simplicidade e clareza asseguram um reconhecimento imediato, facilitando a memorização e estabelecendo uma conexão direta com os usuários. 
   <br>
-
 
 ![Logo](img/logo.png)
 
