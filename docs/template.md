@@ -5,7 +5,9 @@ A identidade visual da plataforma foi cuidadosamente desenvolvida para refletir 
 
 ## Design
 
-  O logotipo do aplicativo foi cuidadosamente elaborado para refletir a identidade visual da plataforma, incorporando um design moderno e simplificado. Sua simplicidade e clareza asseguram um reconhecimento imediato, facilitando a memorização e estabelecendo uma conexão direta com os usuários. 
+**Logotipo**
+
+O logotipo do aplicativo foi cuidadosamente elaborado para refletir a identidade visual da plataforma, incorporando um design moderno e simplificado. Sua simplicidade e clareza asseguram um reconhecimento imediato, facilitando a memorização e estabelecendo uma conexão direta com os usuários. 
   
   <br>
 
@@ -13,6 +15,7 @@ A identidade visual da plataforma foi cuidadosamente desenvolvida para refletir 
 
 <br>
 
+**Estrtura Geral Layout**
 
 A estrutura geral do layout da aplicação adota um design padrão para aplicações web, composta por uma sidebar, uma topbar e um conteúdo central. Essa configuração facilita o acesso às principais funcionalidades do aplicativo.
 
