@@ -8,12 +8,11 @@ A identidade visual da plataforma foi cuidadosamente desenvolvida para refletir 
 **Logotipo**
 
 O logotipo do aplicativo foi cuidadosamente elaborado para refletir a identidade visual da plataforma, incorporando um design moderno e simplificado. Sua simplicidade e clareza asseguram um reconhecimento imediato, facilitando a memorização e estabelecendo uma conexão direta com os usuários. 
-
 ![Logo](img/logo.png)
 
 <br>
 
-**Estrtura Geral Layout**
+**Estrutura Geral Layout**
 
 A estrutura geral do layout da aplicação adota um design padrão para aplicações web, composta por uma sidebar, uma topbar e um conteúdo central. Essa configuração facilita o acesso às principais funcionalidades do aplicativo.
 
@@ -21,13 +20,11 @@ A inclusão de breadcrumbs, posicionados na parte superior do conteúdo, proporc
 
 Esse design assegura uma interação eficiente com a plataforma, maximizando a produtividade e a satisfação do usuário.
 
-<br><br>
-
+<br>
 
 ![Menu, Barra Superior e BreadCrumbs](img/menu_topbar_breadcrumbs.png)
 
 <br><br>
-
 
 ## Cores
 
