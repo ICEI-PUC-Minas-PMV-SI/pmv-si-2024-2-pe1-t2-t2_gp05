@@ -1,24 +1,24 @@
 # Template Padrão Aplicação
 
-A identidade visual da plataforma foi cuidadosamente desenvolvida para refletir seriedade, transparência e profissionalismo, visto de tratar de um aplicativo voltado a escritórios de advocacia especializados em aquisição de nacionalidade. A combinação de cores, tipografia e iconografia resulta em uma interface intuitiva que permite a visualização clara de um maior volume de informações, sem criar poluição visual, e proporciona uma experincia agradável e harmoniosa.
+A identidade visual do sistema foi cuidadosamente desenvolvida para refletir seriedade, transparência e profissionalismo, por se tratar de um aplicativo voltado a escritórios de advocacia especializados em aquisição de nacionalidade. A combinação de cores, tipografia e iconografia resulta em uma interface intuitiva que permite a visualização clara de um maior volume de informações sem criar poluição visual e proporciona uma experiência agradável e harmoniosa.
 <br><br>
 
 ## Design
 
 **Logotipo**
 
-O logotipo do aplicativo foi cuidadosamente elaborado para refletir a identidade visual da plataforma, incorporando um design moderno e simplificado. Sua simplicidade e clareza asseguram um reconhecimento imediato, facilitando a memorização e estabelecendo uma conexão direta com os usuários. 
+O logotipo da aplicação reflete a identidade visual da plataforma, incorporando um design moderno. Sua simplicidade e clareza asseguram um reconhecimento imediato, facilitando a memorização e estabelecendo uma conexão direta com os usuários. 
 ![Logo](img/logo.png)
 
 <br>
 
 **Estrutura Geral Layout**
 
-A estrutura geral do layout da aplicação adota um design padrão para aplicações web, composta por uma sidebar, uma topbar e um conteúdo central. Essa configuração facilita o acesso às principais funcionalidades do aplicativo.
+A estrutura geral do layout da aplicação adota um design padrão para aplicações web, composta por uma sidebar com o menu, uma topbar e um conteúdo central. Essa configuração facilita o acesso às principais funcionalidades do aplicativo.
 
-A inclusão de breadcrumbs, posicionados na parte superior do conteúdo, proporciona um contexto de navegação claro e fluido, permitindo que os usuários localizem rapidamente sua posição dentro da plataforma e retornem a seções anteriores com facilidade.
+A inclusão de breadcrumbs, posicionados na parte superior do conteúdo, proporciona um contexto de navegação claro e fluído, permitindo que os usuários localizem rapidamente sua posição dentro da plataforma e retornem a seções anteriores com facilidade.
 
-Esse design assegura uma interação eficiente com a plataforma, maximizando a produtividade e a satisfação do usuário.
+Esse design assegura uma interação eficiente com o sistema, maximizando a produtividade e a satisfação do usuário.
 
 <br>
 
@@ -45,7 +45,8 @@ A paleta de cores apresenta uma seleção equilibrada de tons neutros e suaves, 
 
 ## Tipografia
 
-A tipografia usada é a Ubuntu, com variações de peso Regular, Medium, e Bold que permitem uma hierarquia clara e organizada das informações. Esse tipo de letra é conhecido pela sua legibilidade, mesmo em tamanhos menores, e adiciona um toque moderno sem perder a formalidade necessária ao contexto jurídico. As variações de tamanho (de 12px a 28px) são bem distribuídas para facilitar a leitura e o entendimento das informações, permitindo que o usuário consiga navegar por muitas informações sem se sentir sobrecarregado.
+A tipografia utilizada é a Ubuntu, com variações de peso Regular, Medium e Bold que permitem uma hierarquia clara e organizada das informações. Esse tipo de fonte é conhecido pela sua legibilidade, mesmo em tamanhos menores, e adiciona um toque moderno sem perder a formalidade necessária ao contexto jurídico. 
+As variações de tamanho (de 12px a 28px) são bem distribuídas para facilitar a leitura e o entendimento das informações, permitindo que o usuário consiga navegar por muitas informações sem se sentir sobrecarregado.
 
 <br>
 
@@ -56,7 +57,7 @@ A tipografia usada é a Ubuntu, com variações de peso Regular, Medium, e Bold 
 
 ## Iconografia
 
-Os ícones utilizados na aplicação são apresentados de maneira clara, tornando as ações da plataforma autoexplicativas, contribuindo para a navegação intuitiva da plataforma. Essa iconografia reforça a transparência e facilita o entendimento das funcionalidades, mesmo para aqueles que não possuem um alto nível de familiaridade com tecnologia.
+Os ícones utilizados na aplicação são apresentados de maneira clara e tornam as ações autoexplicativas, contribuindo para a navegação intuitiva do sistema. Essa iconografia reforça a transparência e facilita o entendimento das funcionalidades, mesmo para aqueles que não possuem um alto nível de familiaridade com tecnologia.
 
 <br>
 
