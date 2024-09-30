@@ -2,6 +2,7 @@
 # Projeto de Interface
 
 A aplicação é composta por diversas páginas que compôem a interface do sistema, para proporcionar uma experiência de usuário intuitiva e eficiente, atendendo às necessidades tanto de advogados quanto de clientes. A seguir, são descritas as principais páginas da aplicação:
+
 <br>
 
 **1. Página de Cadastro**
