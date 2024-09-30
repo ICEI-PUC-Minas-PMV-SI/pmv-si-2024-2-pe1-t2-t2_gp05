@@ -8,8 +8,7 @@ A identidade visual da plataforma foi cuidadosamente desenvolvida para refletir 
 **Logotipo**
 
 O logotipo do aplicativo foi cuidadosamente elaborado para refletir a identidade visual da plataforma, incorporando um design moderno e simplificado. Sua simplicidade e clareza asseguram um reconhecimento imediato, facilitando a memorização e estabelecendo uma conexão direta com os usuários. 
-  
-  <br>
+<br>
 
 ![Logo](img/logo.png)
 
