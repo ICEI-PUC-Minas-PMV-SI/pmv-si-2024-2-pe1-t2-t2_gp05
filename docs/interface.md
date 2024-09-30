@@ -38,13 +38,13 @@ O user flow da aplicação se desdobra em duas possibilidades dependendo do perf
 
 **User Flow Perfil Advogado**
 
-![User Flow Advogado](img/userflow_advogado.png)
+![User Flow Advogado](img/userflow_lawyer.png)
 
 <br><br>
 
 **User Flow Perfil Cliente**
 
-![User Flow Cliente](img/userflow_cliente.png)
+![User Flow Cliente](img/userflow_customer.png)
 
 <br><br>
 
