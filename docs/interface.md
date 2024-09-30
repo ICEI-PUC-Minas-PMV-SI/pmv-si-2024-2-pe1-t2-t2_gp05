@@ -24,9 +24,9 @@ A aplicação é composta por diversas páginas que formam as principais interfa
 
 **7. Página de Upload de Documentos**
 - Advogados e clientes têm acesso a uma seção específica para o upload e download de documentos. Nesta página, advogados podem anexar documentos relacionados aos processos, enquanto clientes podem incluir documentos pessoais relevantes.
-- <br>
+<br><br>
 
-**Requisitos Não-Funcinais"
+**Requisitos Não-Funcinais**
 O protótipo atende de forma abrangente também os requisitos não-funcionais, a interface da plataforma foi desenhada para ser altamente intuitiva e de fácil navegação, mesmo para usuários sem experiência em tecnologia. Além disto a interface é amigável e facilita a inserção dos dados, garantindo uma experiência positiva tanto para advogados como para clientes.
 <br><br>
 
