@@ -27,25 +27,26 @@ A aplicação é composta por diversas páginas que formam as principais interfa
 <br><br>
 
 **Requisitos Não-Funcinais**
+
 O protótipo atende de forma abrangente também os requisitos não-funcionais, a interface da plataforma foi desenhada para ser altamente intuitiva e de fácil navegação, mesmo para usuários sem experiência em tecnologia. Além disto a interface é amigável e facilita a inserção dos dados, garantindo uma experiência positiva tanto para advogados como para clientes.
 <br><br>
 
 ## User Flow
 
 O user flow da aplicação se desdobra em duas possibilidades dependendo do perfil do usuário, advogado ou cliente:
-<br>
+<br><br>
 
 **User Flow Perfil Advogado**
 
 ![User Flow Advogado](img/userflow_advogado.png)
 
-<br>
+<br><br>
 
 **User Flow Perfil Cliente**
 
 ![User Flow Cliente](img/userflow_cliente.png)
 
-<br>
+<br><br>
 
 ## Protótipos
 
