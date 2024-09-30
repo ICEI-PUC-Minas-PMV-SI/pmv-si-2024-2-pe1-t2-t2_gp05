@@ -18,12 +18,12 @@ A estrutura geral do layout da aplicação adota um design padrão para aplicaç
 A inclusão de breadcrumbs, posicionados na parte superior do conteúdo, proporciona um contexto de navegação claro e fluido, permitindo que os usuários localizem rapidamente sua posição dentro da plataforma e retornem a seções anteriores com facilidade.
 
 Esse design assegura uma interação eficiente com a plataforma, maximizando a produtividade e a satisfação do usuário.
-<br>
+<br><br>
 
 
 ![Menu, Barra Superior e BreadCrumbs](img/menu_topbar_breadcrumbs.png)
 
-<br>
+<br><br>
 
 
 ## Cores
