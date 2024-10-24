@@ -47,7 +47,7 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 
 ### Formulário Criação
 |  **Nome**                | **Tipo**          | **Descrição**                                | **Exemplo**                                                                     |
-|:------------------------:|-------------------|----------------------------------------------|---------------------------------------------------------------------------------|
+|--------------------------|-------------------|----------------------------------------------|---------------------------------------------------------------------------------|
 | Nº Processo              | Número (Inteiro)  | Identificador único do processo              | 1321                                                                            |
 | Advogado Responsável     | Texto             | Advogado responsável por conduzir o caso     | Bruno Rodrigues da Silva                                                        |
 | Data Entrada             | Data              | Data de entrada do processo                  | 20/10/2024                                                                      |
