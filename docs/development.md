@@ -21,7 +21,7 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 
 ## Requisitos Atendidos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
+As tabelas que se seguem apresentam os requisitos que relacionam o escopo do projeto com os artefatos criados:
 
 ### Requisitos Funcionais
 
