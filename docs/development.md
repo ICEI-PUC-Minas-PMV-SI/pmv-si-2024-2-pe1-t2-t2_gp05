@@ -30,7 +30,7 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 | RF01 | Permitir que o advogado faça login utilizando credenciais válidas | Lucas Santos | register.html |
 | RF02 | Permitir que o advogado crie um novo processo jurídico | Erick Albuquerque | create.html |
 | RF03 | Permitir que o advogado visualize a lista de todos os processos | Daniel Freitas e Carolina Araujo | list.html |
-| RF04 | Permitir que o advogado aplique free filter na lista de processos | Daniel Freitas e Carolina Araujo | list.html |
+| RF04 | Permitir que o advogado aplique free filter na lista de processos | Carolina Araujo | list.html |
 | RF05 | Permitir que o advogado visualize os detalhes de um processo específico | Gabriel Lemos | view.html |
 | RF06 | Permitir que o advogado edite informações de um processo existente | Carolina Araujo | update.html |
 | RF07 | Permitir que o advogado faça upload de documentos para um processo | Carolinha Araujo | upload.html|
