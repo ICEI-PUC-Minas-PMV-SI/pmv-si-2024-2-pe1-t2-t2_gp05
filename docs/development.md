@@ -45,7 +45,14 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 
 ## Descrição das estruturas de dados:
 
-### Formulário Criação
+### Usuário
+|  **Nome**                | **Tipo**          | **Descrição**                                | **Exemplo**                                                                     |
+|--------------------------|-------------------|----------------------------------------------|---------------------------------------------------------------------------------|
+| Nome                     | Texto             | Identificador único do processo              | Maria Alice dos Santos                                                          |
+| Email                    | Texto             | Endereço de email do usuário                 | maria.alice@gmail.com                                                           |
+| Senha                    | Texto             | Senha para autenticação                      | senh@Segura7049#                                                                |
+
+### Processo
 |  **Nome**                | **Tipo**          | **Descrição**                                | **Exemplo**                                                                     |
 |--------------------------|-------------------|----------------------------------------------|---------------------------------------------------------------------------------|
 | Nº Processo              | Número (Inteiro)  | Identificador único do processo              | 1321                                                                            |
@@ -57,21 +64,9 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 | Endereço Cliente         | Texto             | Endereço completo do(a) cliente              | Av. da Saudade, 1934 - Ap 12, Vila Diamanete, São Paulo - SP                    |
 | Assunto                  | Texto             | Assunto relacionado ao processo              | Nacionalidade Cônjuge                                                           |
 | Descrição                | Texto             | Detalhes adicionais sobre o processo         | O processo refere-se à aquisição de nacionalidade portuguesa através de cônjuge |
+| Estado                   | Texto             | Estado atual do processo (em andamento/concluído/suspenso) | Em Andamento                                                      |
 
-### Formulário Edição
-|  **Nome**                | **Tipo**          | **Descrição**                                | **Exemplo**                                                                     |
-|--------------------------|-------------------|----------------------------------------------|---------------------------------------------------------------------------------|
-| Nº Processo              | Número (Inteiro)  | Identificador único do processo              | 1321                                                                            |
-| Advogado Responsável     | Texto             | Advogado responsável por conduzir o caso     | Bruno Rodrigues da Silva                                                        |
-| Data Entrada             | Data              | Data de entrada do processo                  | 20/10/2024                                                                      |
-| Nome Cliente             | Texto             | Nome completo do(a) cliente                  | Maria Alice dos Santos                                                          |
-| Nacionalidade Pretendida | Texto             | Nacionalidade que o(a) cliente deseja obter  | Portuguesa                                                                      |
-| Documento Cliente        | Texto             | Documeno de identificação do(a) cliente      | 343.343.343-93                                                                  |
-| Endereço Cliente         | Texto             | Endereço completo do(a) cliente              | Av. da Saudade, 1934 - Ap 12, Vila Diamanete, São Paulo - SP                    |
-| Assunto                  | Texto             | Assunto relacionado ao processo              | Nacionalidade Cônjuge                                                           |
-| Descrição                | Texto             | Detalhes adicionais sobre o processo         | O processo refere-se à aquisição de nacionalidade portuguesa através de cônjuge |
-
-### Formulário Upload Documentos
+### Documento
 |  **Nome**                | **Tipo**          | **Descrição**                                | **Exemplo**                                                                     |
 |--------------------------|-------------------|----------------------------------------------|---------------------------------------------------------------------------------|
 | Nº Processo              | Número (Inteiro)  | Identificador único do processo              | 1321                                                                            |
