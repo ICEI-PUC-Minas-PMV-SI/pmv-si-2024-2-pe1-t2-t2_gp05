@@ -54,11 +54,31 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 | Nome Cliente             | Texto             | Nome completo do(a) cliente                  | Maria Alice dos Santos                                                          |
 | Nacionalidade Pretendida | Texto             | Nacionalidade que o(a) cliente deseja obter  | Portuguesa                                                                      |
 | Documento Cliente        | Texto             | Documeno de identificação do(a) cliente      | 343.343.343-93                                                                  |
-| Endereço Cliente         | Texto             | Endereço completo do(a) cliente              | Av. da Saudade, 1934 - Ap 12, Vila Diamanete, São Paulo - SP                    |                  
+| Endereço Cliente         | Texto             | Endereço completo do(a) cliente              | Av. da Saudade, 1934 - Ap 12, Vila Diamanete, São Paulo - SP                    |
 | Assunto                  | Texto             | Assunto relacionado ao processo              | Nacionalidade Cônjuge                                                           |
 | Descrição                | Texto             | Detalhes adicionais sobre o processo         | O processo refere-se à aquisição de nacionalidade portuguesa através de cônjuge |
 
+### Formulário Edição
+|  **Nome**                | **Tipo**          | **Descrição**                                | **Exemplo**                                                                     |
+|--------------------------|-------------------|----------------------------------------------|---------------------------------------------------------------------------------|
+| Nº Processo              | Número (Inteiro)  | Identificador único do processo              | 1321                                                                            |
+| Advogado Responsável     | Texto             | Advogado responsável por conduzir o caso     | Bruno Rodrigues da Silva                                                        |
+| Data Entrada             | Data              | Data de entrada do processo                  | 20/10/2024                                                                      |
+| Nome Cliente             | Texto             | Nome completo do(a) cliente                  | Maria Alice dos Santos                                                          |
+| Nacionalidade Pretendida | Texto             | Nacionalidade que o(a) cliente deseja obter  | Portuguesa                                                                      |
+| Documento Cliente        | Texto             | Documeno de identificação do(a) cliente      | 343.343.343-93                                                                  |
+| Endereço Cliente         | Texto             | Endereço completo do(a) cliente              | Av. da Saudade, 1934 - Ap 12, Vila Diamanete, São Paulo - SP                    |
+| Assunto                  | Texto             | Assunto relacionado ao processo              | Nacionalidade Cônjuge                                                           |
+| Descrição                | Texto             | Detalhes adicionais sobre o processo         | O processo refere-se à aquisição de nacionalidade portuguesa através de cônjuge |
 
+### Formulário Upload Documentos
+|  **Nome**                | **Tipo**          | **Descrição**                                | **Exemplo**                                                                     |
+|--------------------------|-------------------|----------------------------------------------|---------------------------------------------------------------------------------|
+| Nº Processo              | Número (Inteiro)  | Identificador único do processo              | 1321                                                                            |
+| Advogado Responsável     | Texto             | Advogado responsável por conduzir o caso     | Bruno Rodrigues da Silva                                                        |
+| Nome Cliente             | Texto             | Nome completo do(a) cliente                  | Maria Alice dos Santos                                                          |
+| Tipo Documento           | Texto             | Categoria do documento a ser carregado       | Contrato                                                                        |
+| Documento                | Arquivo           | Documento a ser carregado no formato PDF     | contrato.pdf                                                                    |
 
 
 
