@@ -48,7 +48,7 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 ### Usuário
 |  **Nome**                | **Tipo**          | **Descrição**                                | **Exemplo**                                                                     |
 |--------------------------|-------------------|----------------------------------------------|---------------------------------------------------------------------------------|
-| Nome                     | Texto             | Identificador único do processo              | Maria Alice dos Santos                                                          |
+| Nome                     | Texto             | Nome completo do usuário (cliente/advogado)  | Maria Alice dos Santos                                                          |
 | Email                    | Texto             | Endereço de email do usuário                 | maria.alice@gmail.com                                                           |
 | Senha                    | Texto             | Senha para autenticação                      | senh@Segura7049#                                                                |
 
