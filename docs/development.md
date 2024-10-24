@@ -27,21 +27,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-| RF01 | Permitir que o advogado faça login utilizando credenciais válidas | Lucas Santos | advogado/login.html |
-| RF02 | Permitir que o advogado crie um novo processo jurídico | Erick Albuquerque | advogado/novoprocesso.html |
-| RF03 | Permitir que o advogado visualize a lista de todos os processos | Ialbas Júnior | advogado/visualizarprocesso.html |
-| RF04 | Permitir que o advogado aplique free filter na lista de processos | Ialbas Júnior | advogado/filter.html |
-| RF05 | Permitir que o advogado visualize os detalhes de um processo específico | Gabriel Lemos | advogado/detalhes.html |
-| RF06 | Permitir que o advogado edite informações de um processo existente | Carolina Araújo | advogado/editar.html |
-| RF07 | Permitir que o advogado faça upload de documentos para um processo | Lucas Teles | advogado/upload.html |
-| RF08 | Permitir que o advogado faça download de documentos do cliente | Lucas Teles | advogado/download.html |
-| RF09 | Permitir que o advogado realize logout | Daniel Freitas | advogado/logout.html |
-| RF10 | Permitir que o cliente faça login utilizando credenciais válidas | Lucas Santos | cliente/login.html |
-| RF11 | Permitir que o cliente visualize a lista dos seus processos | Ialbas Júnior | cliente/visualizarprocesso.html |
-| RF12 | Permitir que o cliente visualize os detalhes do seu processo | Gabriel Lemos | cliente/detalhes.html |
-| RF13 | Permitir que o cliente faça upload de documentos pessoais | Erick Albuquerque | cliente/upload.html |
-| RF14 | Permitir que o cliente faça download dos documentos do processo | Carolina Araújo | cliente/download.html
-| RF15 | Permitir que o cliente realize logout | Daniel Freitas | cliente/logout.html |
+| RF01 | Permitir que o advogado faça login utilizando credenciais válidas | Lucas Santos | register.html |
+| RF02 | Permitir que o advogado crie um novo processo jurídico | Erick Albuquerque | create.html |
+| RF03 | Permitir que o advogado visualize a lista de todos os processos | Daniel Freitas e Carolina Araujo | list.html |
+| RF04 | Permitir que o advogado aplique free filter na lista de processos | Daniel Freitas e Carolina Araujo | list.html |
+| RF05 | Permitir que o advogado visualize os detalhes de um processo específico | Gabriel Lemos | view.html |
+| RF06 | Permitir que o advogado edite informações de um processo existente | Carolina Araujo | update.html |
+| RF07 | Permitir que o advogado faça upload de documentos para um processo | Carolinha Araujo | upload.html|
+| RF08 | Permitir que o advogado faça download de documentos do cliente | Carolina Araujo | documents.html |
+| RF09 | Permitir que o advogado realize logout | Daniel Freitas | list.html |
+| RF10 | Permitir que o cliente faça login utilizando credenciais válidas | Lucas Santos | register.html |
+| RF11 | Permitir que o cliente visualize a lista dos seus processos | Daniel Freitas e Carolina Araujo| list.html |
+| RF12 | Permitir que o cliente visualize os detalhes do seu processo | Gabriel Lemos | view.html |
+| RF13 | Permitir que o cliente faça upload de documentos pessoais | Carolina Araujo | upload.html |
+| RF14 | Permitir que o cliente faça download dos documentos do processo | Carolina Araujo | documents.html |
+| RF15 | Permitir que o cliente realize logout | Daniel Freitas | list.html |
 
 ## Descrição das estruturas:
 
