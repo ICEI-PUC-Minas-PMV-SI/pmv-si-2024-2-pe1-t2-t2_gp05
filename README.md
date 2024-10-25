@@ -14,13 +14,12 @@ A aplicação destina-se a escritórios de advocacia que atuam na área de aquis
 
 ## Integrantes
 
+* Carolina Ferreira Araujo
 * Daniel Cardoso de Freitas
 * Erick Mota de Albuquerque
 * Gabriel Oliveira Lemos
 * Lucas Abreu Santos
 * Lucas Vinícius França Teles
-* Carolina Ferreira Araujo
-* Ialbas Júnior
 
 
 ## Orientador
