@@ -58,6 +58,9 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 | Tipo Documento           | Texto             | Categoria do documento a ser carregado       | Contrato                                                                        |
 | Documento                | Arquivo           | Documento a ser carregado no formato PDF     | contrato.pdf                                                                    |
 
+## Diagrama Entidade-Relacionamento
+
+![Diagrama Entidade-Relacionamento](img/diagram.png)
 
 
 
