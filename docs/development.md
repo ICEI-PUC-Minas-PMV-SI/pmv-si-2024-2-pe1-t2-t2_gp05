@@ -24,6 +24,8 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 | RF14 | Permitir que o cliente faça download dos documentos do processo | Carolina Araujo | documents.html |
 | RF15 | Permitir que o cliente realize logout | Daniel Freitas | list.html |
 
+<br>
+
 ## Descrição das estruturas de dados:
 
 ### Usuário
@@ -57,6 +59,8 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 | Criado Em                | Data e Hora       | Data e hora em que o documento foi criado    | 2024-10-24 14:30                                                                |
 | Tipo Documento           | Texto             | Categoria do documento a ser carregado       | Contrato                                                                        |
 | Documento                | Arquivo           | Documento a ser carregado no formato PDF     | contrato.pdf                                                                    |
+
+<br>
 
 ## Diagrama Entidade-Relacionamento
 
