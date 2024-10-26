@@ -41,7 +41,7 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 | Data Entrada             | Data              | Data de entrada do processo                  | 2024-10-20                                                                      |
 | Nome Cliente             | Texto             | Nome completo do(a) cliente                  | Maria Alice dos Santos                                                          |
 | Nacionalidade Pretendida | Texto             | Nacionalidade que o(a) cliente deseja obter  | Portuguesa                                                                      |
-| Documento Cliente        | Texto             | Documento de identificação do(a) cliente      | 343.343.343-93                                                                  |
+| Documento Cliente        | Texto             | Documento de identificação do(a) cliente     | 343.343.343-93                                                                  |
 | Endereço Cliente         | Texto             | Endereço completo do(a) cliente              | Av. da Saudade, 1934 - Ap 12, Vila Diamanete, São Paulo - SP                    |
 | Assunto                  | Texto             | Assunto relacionado ao processo              | Nacionalidade Cônjuge                                                           |
 | Descrição                | Texto             | Detalhes adicionais sobre o processo         | O processo refere-se à aquisição de nacionalidade portuguesa através de cônjuge |
@@ -57,6 +57,9 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 | Criado Em                | Data e Hora       | Data e hora em que o documento foi criado    | 2024-10-24 14:30                                                                |
 | Tipo Documento           | Texto             | Categoria do documento a ser carregado       | Contrato                                                                        |
 | Documento                | Arquivo           | Documento a ser carregado no formato PDF     | contrato.pdf                                                                    |
+
+
+
 
 
 
