@@ -26,7 +26,7 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 
 <br>
 
-## Descrição das estruturas de dados:
+## Descrição Estruturas de Dados:
 
 ### Usuário
 |  **Nome**                | **Tipo**          | **Descrição**                                | **Exemplo**                                                                     |
