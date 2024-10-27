@@ -1,0 +1,275 @@
+.back-button {
+  background-color: #373737;
+  color: #eff4fb;
+  padding: 10px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form-container {
+  border: 1px solid #e2e8f0;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 8px 13px -3px rgba(0, 0, 0, 0.07);
+  padding: 32px 52px;
+  margin-top: 41px;
+  max-width: 1209px;
+  width: 100%; /* Para garantir que o formulário utilize a largura disponível */
+  margin: 20px auto 20px auto; /* Margem superior, esquerda, inferior e direita */
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: center
+}
+
+.form-group {
+  flex: 1;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #1c2434;
+}
+
+.form-input {
+  width: calc(100% - 30px);
+  padding: 13px 15px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #67696f;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+.form-input:read-only {
+  background-color: #f6f6f6;
+}
+
+.documents-holder {
+  width: 100%;
+  height: 43px;
+  border-radius: 4px; /* Bordas arredondadas */
+  border: 1.5px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icon-file {
+  color: #67696f;
+  width: 20x; /* Tamanho do ícone (menor) */
+  height: 20px;
+  stroke-width: 1.0px; /* Espessura do traço (mais fina) */
+  margin-left: 12px; /* Aumenta o espaço à esquerda do ícone */
+  margin-right: 0px; /* Espaçamento entre o ícone e o select */
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.1)); /* Sombra no ícone */
+}
+
+.option-select {
+  display: flex; /* Alinha ícone e select/file lado a lado */
+  align-items: center; /* Alinha verticalmente no centro */
+  width: calc(100% - 40px);
+  height: 100%;
+  border: none;
+  padding: 12x 15px; /* Adiciona o mesmo padding do input */
+  font-size: 14px; /* Mesma fonte usada no input */
+  font-family: "Ubuntu", sans-serif;
+  color: #67696f;
+}
+
+.flag-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.dropdown-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.form-textarea {
+  width: calc(100% - 30px);
+  height: 10px;
+  padding: 13px 15px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #67696f;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  min-height: 100px;
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #373737;
+  color: #eff4fb;
+  padding: 10px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 35px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .edit-process {
+    flex-direction: column;
+  }
+
+  .material-icons {
+    font-size: 24px; /* Tamanho menor de ícones em telas pequenas */
+}
+
+  .sidebar,
+  .main-content {
+    width: 100%;
+    margin-top: 0;
+    /* Remove a margem superior */
+    margin-right: 0;
+    /* Remove a margem direita */
+  }
+
+  .header {
+    padding: 10px 10px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .submit-button {
+    margin-top: 40px;
+  }
+}
+
+
+
+
+
+
+.file-upload-container {
+  display: flex;
+  margin-top: 12px;
+  width: 100%;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.file-type-select {
+  border-radius: 4px;
+  border: 1.5px solid #e2e8f0;
+  background-color: #fff;
+  display: flex;
+
+  font-size: 16px;
+  color: #67696f;
+  font-weight: 400;
+  line-height: 2;
+  padding: 13px 13px 7px;
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+.select-icon {
+  aspect-ratio: 0.94;
+  object-fit: contain;
+  object-position: center;
+  width: 17px;
+  margin: auto 0;
+}
+
+.file-input-wrapper {
+  border-radius: 4px;
+  border: 1.5px solid #e2e8f0;
+  background-color: #fff;
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2;
+  flex-wrap: wrap;
+  flex: 1;
+  flex-grow: 1;
+  flex-basis: auto;
+  padding: 3px 10px 3px; /* Padding superior, lateral esquerdo e inferior */
+}
+
+
+
+.file-input-button {
+  align-self: center;
+  border-radius: 3px;
+  border: 0.5px solid #e2e8f0;
+  background-color: #e2e8f0;
+  gap: 5px;
+  color: #67696f;
+  padding: 1px 10px;
+}
+
+.file-input-text {
+  color: #b0b0b0;
+  align-self: start;
+  margin: 0 auto;
+  flex-basis: auto;
+  flex-grow: 1;
+  padding: 5px 5px;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+
+@media (max-width: 991px) {
+  .file-upload-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .file-input-wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .file-type-select {
+    max-width: 100%;
+    padding-left: 20px;
+  }
+}

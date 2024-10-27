@@ -1,0 +1,159 @@
+  .back-button {
+    background-color: #373737;
+    color: #eff4fb;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra da borda */
+    transition: box-shadow 0.3s; /* Efeito de transição ao passar o mouse */
+    margin-top: 20px;
+  }
+  
+  .form-container {
+    border: 1px solid #e2e8f0;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 8px 13px -3px rgba(0, 0, 0, 0.07);
+    padding: 32px 52px;
+    max-width: 1209px;
+    width: 100%; /* Para garantir que o formulário utilize a largura disponível */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; /* Centraliza o formulário horizontalmente */
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .last.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .form-group {
+    flex: 1;
+  }
+  
+  .form-label {
+    display: block;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #1c2434;
+  }
+  
+  .form-input {
+    width: calc(100% - 30px);
+    padding: 13px 15px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #67696f;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+  }
+  
+  .form-input:read-only {
+    background-color: #f6f6f6;
+  }
+  
+  .nationality-holder {
+    width: 100%;
+    height: 42px;
+    border-radius: 4px; /* Bordas arredondadas */
+    border: 1.5px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .nationality-holder:read-only {
+    background-color: #f6f6f6;
+  }
+  
+  .icon-globe {
+    color: #67696f;
+    width: 20x; /* Tamanho do ícone (menor) */
+    height: 20px;
+    stroke-width: 1.0px; /* Espessura do traço (mais fina) */
+    margin-left: 12px; /* Aumenta o espaço à esquerda do ícone */
+    margin-right: 0px; /* Espaçamento entre o ícone e o select */
+    filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.1)); /* Sombra no ícone */
+  }
+  
+  .nationality-select {
+    width: calc(100% - 40px);
+    height: 100%;
+    border: none;
+    padding: 12x 15px; /* Adiciona o mesmo padding do input */
+    font-size: 14px; /* Mesma fonte usada no input */
+    font-family: "Ubuntu", sans-serif;
+    color: #67696f;
+  }
+
+  .nationality-select:read-only {
+    background-color: #f6f6f6;
+  }
+  
+  .flag-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .dropdown-icon {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .form-textarea {
+    width: calc(100% - 30px);
+    height: 10px;
+    padding: 13px 15px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #67696f;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    min-height: 100px;
+    resize: vertical;
+  }
+
+  .form-textarea:read-only {
+    background-color: #f6f6f6;
+  }
+
+  
+  @media (max-width: 991px) {
+    .main-container {
+      flex-direction: column;
+    }
+  
+    .sidebar,
+    .content-wrapper {
+      width: 100%;
+    }
+  
+    .header {
+      padding: 17px 20px;
+    }
+  
+    .process-details {
+      padding: 20px;
+    }
+  }

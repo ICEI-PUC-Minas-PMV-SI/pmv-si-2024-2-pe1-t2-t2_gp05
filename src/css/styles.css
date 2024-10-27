@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    box-sizing:border-box;
+  }
+  
+  .page-container {
+    background-color: #f6f6f6;
+    width: 100%;
+    min-height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: row; /* Para garantir que o conteúdo esteja ao lado do sidebar */
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 0;
+  }
+  
+  .sidebar {
+    width: 15%; /* Fixa o sidebar a 15% da largura da tela */
+    height: auto;
+    min-height: 100vh;
+    background-color: #373737;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .sidebar-icon-holder {
+    margin: 30px auto 25px auto;
+    width: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebar-logo {
+    aspect-ratio: 0.23;
+    object-fit: contain;
+    width: 280px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+  }
+  
+  .menu-holder {
+    width: calc(100% - 40px);
+  }
+  
+  .menu-holder > * {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  
+  .menu-title {
+    padding: 0; /* Remove padding, se houver */
+    height: 25px; /* Altura fixa */
+    color: #aaaaaa;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 10px;
+    font-weight: 600;
+  }
+  
+  .menu-painel {
+    width: 100%;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    cursor: pointer;
+    height: 25px;
+  }
+  
+  .menu-icon-container {
+    display: flex; /* Usar flexbox para os ícones e texto */
+    align-items: center; /* Alinha verticalmente */
+  }
+  
+  .menu-icon {
+    color: #ffffff; /* Cor do ícone */
+    width: 20px; /* Tamanho do ícone */
+    height: 20px;
+    margin: 0 10px; /* Margem horizontal para espaçamento entre ícones e texto */
+    stroke-width: 1.8px; /* Espessura do traço */
+  }
+  
+  .menu-icon-expand {
+    margin-right: 18px;
+    stroke-width: 1.5px; /* Espessura do traço */
+    background: transparent; /* Fundo transparente */
+    border: none; /* Sem borda */
+    color: #ffffff; /* Cor do ícone */
+    margin-top: 1px;
+  }
+  
+  .menu-process {
+    width: calc(100% - 20px);
+    height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    display: none; /* O menu-process ficará oculto como padrão */
+  }
+
+  .menu-process.show {
+    display: block; /* Exibe o menu quando a classe 'show' é adicionada */
+  }
+ 
+  .header-content {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .main-content {
+    width: 100%;
+    margin-top: 0;   /* Remove a margem superior */
+    margin-right: 0;   /* Remove a margem direita */
+  }
+  
+  .header {
+    background-color: #ffffff;
+    box-shadow: 0 1px 0 0 #e2e8f0;
+    display: flex;
+    justify-content: flex-end;
+    /* Ajusta a posição do conteúdo à direita */
+    align-items: center;
+    padding: 8px 31px;
+    font-size: 8px;
+    font-family: "Ubuntu", sans-serif;
+    color: #1c2434;
+    font-weight: 300;
+    position: relative; /* Isso garante que o sub-menu será posicionado em relação ao header */
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Ajusta o espaçamento entre os itens */
+    position: relative; /* /* Isso garante que o sub-enu fique logo abaixo do user-info */
+  }
+  
+  .topbar-icons {
+    width: 70px;
+    margin-right: 20px;/* Espaço entre a logo e o nome do usuário */
+  }
+  
+  .user-info span {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    color: #1c2434;
+    margin-right: 8px;
+  }
+
+  .user-avatar {
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .logout-button {
+    width: 20px;
+    height: 20px; 
+    color: #1c2434;
+    background: none; /* Remove qualquer cor de fundo adicional */
+    border: none; /* Remove bordas extras */
+    padding: 0; /* Remove o padding interno */
+    display: flex; /* Flexbox para centralizar o ícone */
+    align-items: center; /* Centraliza o ícone verticalmente */
+    justify-content: center; /* Centraliza o ícone horizontalmente */
+    cursor: pointer;
+    outline: none;
+    transition: box-shadow 0.3s ease; /* Adiciona uma transição suave para o efeito de sombra */
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+
+  .logout-icon {
+    width: 20x;
+    cursor: pointer;
+    color: #1c2434;
+    stroke-width: 2.5px; /* Espessura do traço */
+  }
+  
+  .logout-button:hover {
+    box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5); /* Sombra cinza clara ao passar o mouse */
+  }
+
+  .breadcrumb-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    padding-top: 10px;
+    max-width: 1313px;
+    width: 100%;
+    /* Para garantir que o formulário utilize a largura disponível */
+    margin: 0 auto;
+    /* Centraliza o formulário horizontalmente */
+  }
+  
+  .page-title {
+    color: #1c2434;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .breadcrumb {
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: none;
+    padding: 0;
+    color: #67696e;
+  }
+  
+  .breadcrumb-item {
+    color: #67696f;
+    font-size: 14px;
+  }
+  
+  .breadcrumb-item.active {
+    color: #373737;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: -10px; /* Ajuste esse valor para mover o submenu mais para a direita */
+    width: 320px;
+    max-height: 0px; /* Para ocultar inicialmente */
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    z-index: 999; /* Aumentar o z-index para garantir que apareça sobre outros elementos */
+  }
+
+  .sub-menu-wrap.open-menu {
+    max-height: 400px;
+  }
+
+  .sub-menu {
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px; /* Aumentar o tamanho da fonte do nome do user no submenu */
+    line-height: 0.7; /* Reduzir o espaçamento das linhas no submenu */
+    box-sizing: border-box; /* Para garantir que padding e border sejam incluídos no cálculo total da largura e altura */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 4px;
+  }
+
+
+  .sub-menu-user-info {
+    display: flex;
+    align-items: center;
+    gap: 0px; /* Ajusta o espaçamento entre os itens */
+    padding: 0;
+    margin: 0px 10px 0px;
+  }  
+
+  .sub-menu-user-avatar {
+    width: 40px;
+    margin-right: 10px; /* Aumentar o espaçamento do user-avatar do submenu com o texto ao lado */
+  }
+
+  .sub-menu hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 10px 0 0px;
+  }
+
+  .sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .sub-menu-link p {
+    width: 100%;
+  }
+
+  .sub-menu-link img {
+    width: 18px; /* Tamanho das imagens do sub-menu */
+    background: #e5e5e5;
+    border-radius: 50%; /* Mantém as bordas arredondadas */
+    margin-top: 5px;
+    padding: 8px;
+    margin-right: 15px; /* Ajuste do espaçamento entre a imagem e o texto */
+  }
+
+  .sub-menu-link span {
+    font-size: 22px;
+    font-weight: 300; /* Ajusta o peso da fonte do ">" */
+  }
+
+  .sub-menu-link:hover span {
+    transform: translateX(5px);
+  }
+
+  .sub-menu-link:hover p {
+    font-weight: 600;
+  }
+
+
+  
+
+  
+
+  

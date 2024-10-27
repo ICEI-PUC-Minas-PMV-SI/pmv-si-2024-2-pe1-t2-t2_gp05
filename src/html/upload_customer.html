@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos Requerente</title>
+    
+    <!-- Links para arquivos CSS, fontes e scripts -->
+
+    <!-- Estilo global -->
+    <link rel="stylesheet" href="../css/styles.css"> 
+
+    <!-- Estilo específico para a página de update -->
+    <link rel="stylesheet" href="../css/upload.css"> 
+
+     <!-- Biblioteca de ícones -->
+    <link href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css" rel="stylesheet">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- Script -->
+    <script src="../js/scripts.js"></script>
+
+</head>
+
+<body>
+
+    <section class="page-container">
+        <aside class="sidebar">
+            <div class="sidebar-icon-holder">
+                <img src="../assets/menuLogo.png" />
+            </div>
+            <nav class="menu-holder">
+                <div class="menu-title">MENU</div>
+                <div class="menu-painel" id="menu-painel" >
+                    <span class="menu-icon-container"> <!-- Usar um contêiner para os ícones e texto -->
+                        <i data-feather="grid" class="menu-icon"></i> <!-- Ícone de grade -->
+                        <span>Painel</span> <!-- Texto "Painel" -->
+                    </span>
+                    <button id="menu-chevron-icon" class="menu-icon-expand" aria-label="Expandir menu">
+                        <i data-feather="chevron-up"></i> <!-- Ícone de chevron -->
+                    </button>
+                </div>
+                <div class="menu-process" id="menu-process">
+                Processos
+                </div>
+            </nav>
+            </aside>
+            
+
+            <main class="main-content">
+            <header class="header">
+                <div class="user-info">
+                    <img src="../assets/topbarIcons.png"
+                        alt="Icons" class="topbar-icons">
+                    <span>Bruno Silva</span>
+                    <img src="../assets/user.png" alt="User avatar" class="user-avatar">
+                    <button id="logout-button" class="logout-button">
+                        <i data-feather="chevron-up" id= "topbar-chevron-icon" class="logout-icon"></i> <!-- Ícone de expandir para logout -->
+                    </button>
+                    
+                    <div id="sub-menu" class="sub-menu-wrap" >
+                        <div class="sub-menu">
+                          <div class="sub-menu-user-info">
+                              <img src="../assets/user.png" alt="User avatar" class="sub-menu-user-avatar">
+                              <h3>Bruno Silva</h3>   
+                          </div>
+                          <hr> <!-- Linha embaixo do sub-menu-user-info -->
+  
+                          <a href="#" class="sub-menu-link" id="edit-register-link">
+                              <img src="../assets/profile.png">
+                              <p>Editar Cadastro</p>
+                              <span>></span>
+                          </a>
+                          <a href="#" class="sub-menu-link" id="logout-link">
+                              <img src="../assets/logout.png">
+                              <p>Sair Sessão</p>
+                              <span>></span>
+                          </a>
+  
+                      </div>
+                  </div>
+                </div>
+            </header>     
+
+            <section class="breadcrumb-section">
+                <div>
+                    <h1 class="page-title">Documentos Requerente</h1>
+                    <nav aria-label="Breadcrumb">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item">Painel /</li>
+                            <li class="breadcrumb-item">Processos /</li>
+                            <li class="breadcrumb-item">Visualizar /</li>
+                            <li class="breadcrumb-item active" aria-current="page">Documentos Requerente</li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="breadcrumb-actions">
+                    <button id="back-button-upload" class="back-button">Voltar</button>
+                </div>
+
+            </section>
+
+            <form class="form-container">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="processNumber" class="form-label">N° Processo</label>
+                        <input type="text" id="processNumber" class="form-input" value="1321" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="lawyer" class="form-label">Advogado Responsável</label>
+                        <input type="text" id="lawyer" class="form-input" value="Bruno Rodrigues da Silva" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="entryDate" class="form-label">Nome Cliente</label>
+                        <input type="text" id="entryDate" class="form-input" value="Maria Alice dos Santos" disabled>
+                    </div>
+                </div>
+
+                <div class="file-upload-container">
+                    <div class="form-group">
+                        <label for="documentType" class="form-label">Tipo Documento</label>
+                        <div class="documents-holder">
+                            <i data-feather="file" class="icon-file"></i>  <!-- Ícone de documento -->
+                            <select name="lawyer-documents" id="lawyer-documents-select" class="option-select">
+                                <option> Certidão Nascimento Requerente </option>
+                                <option> Certidão Nascimento Ascendente </option>
+                                <option> Certidão Casamento </option>
+                                <option> Documento Identificação </option>
+                                <option> Certidão Registro Criminal </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="documentUpload" class="form-label">Documento</label>
+                        <div class="file-input-wrapper">
+                            <label for="file-upload" class="file-input-button">Escolher Arquivo</label>
+                            <span class="file-input-text">Nenhum arquivo escolhido</span>
+                            <input type="file" id="file-upload" class="visually-hidden" />
+                    </div>
+                  </div>
+                </div>
+
+                <button type="submit" class="submit-button">Salvar</button>
+            </form>
+            
+        </main>
+    </section>
+
+  </body>
+
+</html>

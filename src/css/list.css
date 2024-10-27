@@ -1,0 +1,277 @@
+.new-process-button {
+  background-color: #373737;
+  color: #eff4fb;
+  border-radius: 4px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: sans-serif;
+  margin-top: 40px;  /* Espaçamento acima do botão */
+}
+
+.search-bar {
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 2px;
+  box-shadow: 0 8px 13px -3px rgba(0, 0, 0, 0.07);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  max-width: 1310px;
+  width: 100%; /* Para garantir que o formulário utilize a largura disponível */
+  height: 50px;
+  margin-left: auto; /* Centraliza o formulário horizontalmente */
+  margin-right: auto;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  /*gap: 5px; /* Distância entre o input e o ícone de pesquisa */
+  color: #67696f;
+  width: 100%; /* Ocupar todo o espaço disponível na largura */
+  height: 100%;
+  padding: 0; /* Remover o padding interno para que o input fique totalmente alinhado */
+}
+
+.filter-select {
+  font-size: 16px;
+  font-weight: 500;
+  width: 1090px;
+  padding: 13px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #67696f;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  margin-left: 0px;
+  margin-right: 20px;
+  outline: none; /* Retira o desenho da linha ao redor do input ao clicar nele */
+}
+
+.filter-icon {
+  color: #67696f;
+  width: 20px;
+  stroke-width: 1.8px; /* Espessura do traço*/
+  transition: box-shadow 0.3s ease; /* Adiciona uma transição suave para o efeito de sombra */
+  margin-top: 1.3px;
+  margin-left: 60px;
+}
+
+.search-button {
+  color: #373737;
+  background: none; /* Remove qualquer cor de fundo adicional */
+  border: none; /* Remove bordas extras */
+  margin-right: 30px;
+  margin-top: 11px;;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+
+.search-icon {
+  color: #67696f;
+  width: 20px;
+  stroke-width: 1.8px; /* Espessura do traço*/
+  transition: box-shadow 0.3s ease; /* Adiciona uma transição suave para o efeito de sombra */
+  margin-top: 1.3px;
+}
+
+.search-button:hover {
+  box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5); /* Sombra cinza clara ao passar o mouse */
+}
+
+.process-table {
+  display: grid;
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 2px;
+  box-shadow: 0 8px 13px -3px rgba(0, 0, 0, 0.07);
+  padding: 32px 52px;
+  max-width: 1209px;
+  width: 100%; /* Para garantir que o formulário utilize a largura disponível */
+  margin: 15px auto; /* Centraliza o formulário horizontalmente */
+}
+
+.table-header {
+  background-color: #f6f6f6;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 0.6fr 1.0fr 0.7fr 1.0fr 1.0fr 0.9fr 0.7fr;
+  align-items: center;
+  padding: 15px 13px;
+  font-weight: 300;
+  color: #1c2434;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.table-row {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 0.6fr 1.0fr 0.7fr 1.0fr 1.0fr 0.9fr 0.7fr;
+  align-items: center;
+  padding: 15px 13px; /* Margem que afeta a altura da linha*/
+  border-bottom: 1px solid #eee; /* Linha separadora para cada linha */
+}
+
+.header-cell {
+  text-align: left; /* Alinha o texto à esquerda */
+  font-weight: 600; /* Torna o texto um pouco mais forte que o conteúdo */
+  color: #333; /* Define a cor do texto para algo mais visível */
+  font-size: 14px; /* Ajusta o tamanho da fonte */
+}
+
+.table-cell {
+  flex-grow: 1; /* Permite que as três primeiras colunas se expandam igualmente para ocupar espaço disponível */
+  flex-shrink: 1; /* Impede que elas cresçam demais em telas menores */
+  flex-basis: 0; /* Garante base igual para as primeiras 3 colunas */
+  text-align: left; /* Alinha o texto à esquerda */
+  font-weight: 400; /* Define o peso da fonte para negrito */
+  color: #67696f;  /* Define a cor da fonte */
+  font-size: 14px;  /* Garante que o tamanho da fonte seja consistente */
+}
+
+
+.header-state-cell {
+  flex-grow: 0; /* A coluna de ações não cresce */
+  flex-shrink: 0; /* A coluna de ações não encolhe */
+  flex-basis: 100px; /* Define um tamanho fixo menor para a coluna de Ações */
+  text-align: left; /* Centraliza os ícones */
+  margin-left: 10px;
+  font-weight: 600; /* Define o peso da fonte para negrito */
+  color: #1c2434;   /* Define a cor da fonte */
+  font-size: 14px;  /* Garante que o tamanho da fonte seja consistente */
+}
+
+
+.header-action-cell {
+  flex-grow: 0; /* A coluna de ações não cresce */
+  flex-shrink: 0; /* A coluna de ações não encolhe */
+  flex-basis: 100px; /* Define um tamanho fixo menor para a coluna de Ações */
+  text-align: left; /* Centraliza os ícones */
+  margin-left: 10px;
+  font-weight: 600; /* Define o peso da fonte para negrito */
+  color: #1c2434;   /* Define a cor da fonte */
+  font-size: 14px;  /* Garante que o tamanho da fonte seja consistente */
+}
+
+.table-action-cell {
+  flex-grow: 0; /* A coluna de ações não cresce */
+  flex-shrink: 0; /* A coluna de ações não encolhe */
+  flex-basis: 100px; /* Define um tamanho fixo menor para a coluna de Ações */
+  text-align: left; /* Centraliza os ícones */
+  display: flex; /* Torna os botões flexíveis */
+  align-items: center; /* Alinha os botões verticalmente */
+  justify-content: flex-start; /* Alinha os botões à esquerda */
+  gap: 5px;
+}
+
+.edit-button, .view-button, .file-button, .trash-button {
+  width: 24px; /* Reduzindo o tamanho do botão */
+  height: 24px; /* Definindo altura consistente */
+  color: #67696f;
+  background: none; /* Remove qualquer cor de fundo adicional */
+  border: none; /* Remove bordas extras */
+  padding: 0; /* Remove o padding interno */
+  display: flex; /* Flexbox para centralizar o ícone */
+  align-items: center; /* Centraliza o ícone verticalmente */
+  justify-content: center; /* Centraliza o ícone horizontalmente */
+  cursor: pointer;
+  outline: none;
+  transition: box-shadow 0.3s ease; /* Adiciona uma transição suave para o efeito de sombra */
+}
+
+.edit-icon, .view-icon, .file-icon, .trash-icon {
+  width: 18px;
+}
+
+.edit-icon {
+  color: #67696f;
+}
+
+.view-icon {
+  color: #67696f;
+}
+
+.file-icon {
+  color: #67696f;
+}
+
+.trash-icon {
+  color: #d34053;
+}
+
+.edit-button:hover {
+  box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5); /* Sombra cinza clara ao passar o mouse */
+}
+
+.view-button:hover {
+  box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5); /* Sombra cinza clara ao passar o mouse */
+}
+
+.file-button:hover {
+  box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5); /* Sombra cinza clara ao passar o mouse */
+}
+
+.trash-button:hover {
+  box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5); /* Sombra cinza clara ao passar o mouse */
+}
+
+
+.status-badge {
+  display: inline-block;
+  white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+  text-align: center; /* Centraliza o texto dentro do badge */
+  border-radius: 30px;
+  padding: 4px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.status-in-progress {
+  background-color: rgba(255, 167, 11, 0.08);
+  color: #ffa70b;
+}
+
+.status-suspended {
+  background-color: rgba(211, 64, 83, 0.08);
+  color: #d34053;
+}
+
+.status-finished {
+  background-color: rgba(33, 150, 83, 0.08);
+  color: #219653;
+}
+
+
+@media (max-width: 991px) {
+  .layout-container {
+    flex-direction: column;
+  }
+
+  .sidebar, .main-content {
+    width: 100%;
+  }
+
+  .top-bar {
+    padding: 17px 20px;
+  }
+
+  .page-header {
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+
+  .search-bar, .process-table {
+    margin-top: 40px;
+  }
+
+  .table-header, .table-row {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

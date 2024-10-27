@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <!-- Links para arquivos CSS, fontes e scripts -->
+
+    <!-- Sem estilo global -->
+
+    <!-- Estilo específico para a página de update -->
+    <link rel="stylesheet" href="../css/login.css"> 
+
+     <!-- Biblioteca de ícones -->
+    <link href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css" rel="stylesheet">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- Script -->
+    <script src="../js/scripts.js"></script>
+
+  </head>
+
+<body>
+   
+  <main>
+    <section class="login-container">
+      <div class="login-wrapper">
+        <div class="login-card">
+          <div class="login-content">
+            <form class="login-form">
+              <div class="logo-container">
+                <img src="../assets/loginLogo.png" class="logo-image" alt="Login Logo" />
+              </div>
+              <h2 class="login-title">Iniciar Sessão</h2>
+              <label for="email" class="input-label">Email</label>
+              <div class="input-container">
+                <input type="email" id="email" class="input-placeholder" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail" />
+                <img loading="lazy" src="../assets/emailIcon.png" class="email-icon" alt="Enail Icon" />
+              </div>
+              <label for="password" class="input-label">Senha</label>
+              <div class="password-container">
+                <input type="password" id="password" class="input-placeholder" placeholder="Digite sua senha" aria-label="Digite sua senha" />
+                <img loading="lazy" src="../assets/passwordIcon.png" class="password-icon" alt="Password Icon" />
+              </div>
+              <button type="button" id="submit" class="login-button">Submeter</button>
+              <p class="registration-link">
+                Ainda não possui uma conta? <a id="registration-link" href="#" style="color: #3056d3;">Cadastrar</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  </body>
+  
+  </html>

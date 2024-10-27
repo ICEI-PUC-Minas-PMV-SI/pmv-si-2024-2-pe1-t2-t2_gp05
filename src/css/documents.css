@@ -1,0 +1,190 @@
+  .back-button {
+    background-color: #373737;
+    color: #eff4fb;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra da borda */
+    transition: box-shadow 0.3s; /* Efeito de transição ao passar o mouse */
+  }
+  
+  .documents-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1313px;
+    width: 100%;
+    margin: 5px auto 0 auto; /* Centraliza horizontalmente */
+    padding-right: 80px; /* Adiciona padding à direita para evitar corte */
+  }
+  
+  .documents-title {
+    color: #1c2434;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 20px;
+    padding-left: 45px;
+  }
+  
+  .table-action-cell {
+    flex-grow: 0; /* A coluna de ações não cresce */
+    flex-shrink: 0; /* A coluna de ações não encolhe */
+    flex-basis: 100px; /* Define um tamanho fixo menor para a coluna de Ações */
+    text-align: left; /* Centraliza os ícones */
+    display: flex; /* Torna os botões flexíveis */
+    align-items: center; /* Alinha os botões verticalmente */
+    justify-content: flex-start; /* Alinha os botões à esquerda */
+    gap: 7px;
+  }
+
+  .download-button, .document-trash-button {
+    width: 24px; /* Reduzindo o tamanho do botão */
+    height: 24px; /* Definindo altura consistente */
+    color: #67696f;
+    background: none; /* Remove qualquer cor de fundo adicional */
+    border: none; /* Remove bordas extras */
+    padding: 0; /* Remove o padding interno */
+    display: flex; /* Flexbox para centralizar o ícone */
+    align-items: center; /* Centraliza o ícone verticalmente */
+    justify-content: center; /* Centraliza o ícone horizontalmente */
+    cursor: pointer;
+    outline: none;
+    transition: box-shadow 0.3s ease; /* Adiciona uma transição suave para o efeito de sombra */
+  }
+
+  .new-document-button {
+    width: 24px; /* Reduzindo o tamanho do botão */
+    height: 24px; /* Definindo altura consistente */
+    color: #67696f;
+    background: none; /* Remove qualquer cor de fundo adicional */
+    border: none; /* Remove bordas extras */
+    padding: 0; /* Remove o padding interno */
+    display: flex; /* Flexbox para centralizar o ícone */
+    align-items: center; /* Centraliza o ícone verticalmente */
+    justify-content: center; /* Centraliza o ícone horizontalmente */
+    cursor: pointer;
+    outline: none;
+    transition: box-shadow 0.3s ease; /* Adiciona uma transição suave para o efeito de sombra */
+    margin-top: 15px;
+  }
+
+
+  .attach-icon {
+    width: 30px;
+    color: #67696f;
+  }
+
+  .attach-icon:hover {
+    box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5); /* Sombra cinza clara ao passar o mouse */
+  }
+
+  .document-icon-download {
+    width: 18px;
+    color: #67696f;
+  }
+
+  .document-icon-trash {
+    width: 18px;
+    color: #d34053;
+  }
+
+  .document-icon-download:hover {
+    box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5); /* Sombra cinza clara ao passar o mouse */
+  }
+
+  .document-icon-trash:hover {
+    box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5); /* Sombra cinza clara ao passar o mouse */
+  }
+
+  .documents-table {
+    display: grid;
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 2px;
+    box-shadow: 0 8px 13px -3px rgba(0, 0, 0, 0.07);
+    padding: 32px 52px;
+    max-width: 1209px;
+    width: 100%;
+    /* Para garantir que o formulário utilize a largura disponível */
+    margin: 10px auto 20px auto;
+    /* Centraliza o formulário horizontalmente */
+  }
+  
+  .table-header {
+    background-color: #f6f6f6;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 2.6fr 2.0fr 2.4fr 1.1fr;
+    align-items: center;
+    padding: 15px 13px;
+    font-weight: 300;
+    color: #1c2434;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .table-row {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 2.6fr 2.0fr 2.4fr 1.1fr;
+    align-items: center;
+    padding: 15px 13px; /* Margem que afeta a altura da linha*/
+    border-bottom: 1px solid #eee; /* Linha separadora para cada linha */
+  }
+
+  .header-cell {
+    text-align: left; /* Alinha o texto à esquerda */
+    font-weight: 600; /* Torna o texto um pouco mais forte que o conteúdo */
+    color: #333; /* Define a cor do texto para algo mais visível */
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+  }
+
+  .table-cell {
+    color: #67696f;
+    flex-grow: 1; /* Permite que as três primeiras colunas se expandam igualmente para ocupar espaço disponível */
+    flex-shrink: 1; /* Impede que elas cresçam demais em telas menores */
+    flex-basis: 0; /* Garante base igual para as primeiras 3 colunas */
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+
+  .header-action-cell {
+    flex-grow: 0; /* A coluna de ações não cresce */
+    flex-shrink: 0; /* A coluna de ações não encolhe */
+    flex-basis: 100px; /* Define um tamanho fixo menor para a coluna de Ações */
+    text-align: left; /* Centraliza os ícones */
+    margin-left: 10px;
+    font-weight: 600; /* Define o peso da fonte para negrito */
+    color: #1c2434;   /* Define a cor da fonte */
+    font-size: 14px;  /* Garante que o tamanho da fonte seja consistente */
+  }
+
+
+  .spacer {
+    height: 70px; /* Ajuste a altura conforme necessário */
+  }
+
+  
+  @media (max-width: 991px) {
+    .main-container {
+      flex-direction: column;
+    }
+  
+    .sidebar,
+    .content-wrapper {
+      width: 100%;
+    }
+  
+    .header {
+      padding: 17px 20px;
+    }
+  
+    .documents-table {
+      padding: 20px;
+    }
+  }
