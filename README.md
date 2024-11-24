@@ -24,7 +24,7 @@ A aplicação destina-se a escritórios de advocacia que atuam na área de aquis
 
 ## Orientador
 
-* Nesley Jesus Daher de Oliveira
+* NHayala Nepomuceno Curto
 
 <br>
 
