@@ -24,7 +24,7 @@ A aplicação destina-se a escritórios de advocacia que atuam na área de aquis
 
 ## Orientador
 
-* NHayala Nepomuceno Curto
+* Hayala Nepomuceno Curto
 
 <br>
 
