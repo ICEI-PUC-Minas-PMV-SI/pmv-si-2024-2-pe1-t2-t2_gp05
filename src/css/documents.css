@@ -164,6 +164,12 @@
     font-size: 14px;  /* Garante que o tamanho da fonte seja consistente */
   }
 
+  .disabled-button {
+    opacity: 0.5; /* Torna o botão visualmente desabilitado */
+    cursor: not-allowed; /* Exibe um cursor indicando que o botão não é interativo */
+    /* background-color: #ddd; Altera a cor de fundo para cinza claro */
+    color: #999; /* Altera a cor do texto ou ícone */
+  }
 
   .spacer {
     height: 70px; /* Ajuste a altura conforme necessário */

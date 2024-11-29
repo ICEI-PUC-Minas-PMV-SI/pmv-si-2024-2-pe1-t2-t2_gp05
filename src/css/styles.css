@@ -159,8 +159,11 @@ body {
 
   .user-avatar {
     width: 40px;
+    height: 40px;
     margin-right: 10px;
     cursor: pointer;
+    border-radius: 50%; /* Torna o avatar circular */
+    object-fit: cover;  /* Faz com que a imagem ocupe todo o espaço sem distorção */
   }
   
   .logout-button {
@@ -270,6 +273,12 @@ body {
   .sub-menu-user-avatar {
     width: 40px;
     margin-right: 10px; /* Aumentar o espaçamento do user-avatar do submenu com o texto ao lado */
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 50%; /* Torna o avatar circular */
+    object-fit: cover;  /* Faz com que a imagem ocupe todo o espaço sem distorção */
   }
 
   .sub-menu hr {

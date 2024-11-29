@@ -13,6 +13,9 @@
     <!-- Estilo específico para a página de update -->
     <link rel="stylesheet" href="../css/registration.css"> 
 
+   <!-- Estilo específico para a página de update -->
+   <link rel="stylesheet" href="../css/upload.css"> 
+
      <!-- Biblioteca de ícones -->
     <link href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css" rel="stylesheet">
 
@@ -22,8 +25,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-    <!-- Script -->
-    <script src="../js/scripts.js"></script>
+    <!-- Scripts -->
+    <!-- <script src="../js/auth.js"></script> Ajuste o caminho conforme a estrutura de pastas      -->
+    <script src="../js/registrationUser.js"></script>
 
   </head>
 
@@ -39,25 +43,42 @@
                 <img src="../assets/loginLogo.png" class="logo-image" alt="Login Logo" />
               </div>
               <h2 class="login-title">Cadastrar Conta</h2>
-              <label for="name" class="input-label">Nome</label>
+              <label for="name" class="input-label">Nome *</label>
               <div class="input-container">
                 <input type="text" id="name" class="input-placeholder" placeholder="Digite seu nome completo" aria-label="Digite seu nome completo" />
                 <img loading="lazy" src="../assets/usernameIcon.png" class="email-icon" alt="User Icon" />
               </div>
-              <label for="email" class="input-label">Email</label>
+              <label for="email" class="input-label">Email *</label>
               <div class="input-container">
                 <input type="email" id="email" class="input-placeholder" placeholder="Digite seu e-mail" aria-label="Digite seu e-mail" />
                 <img loading="lazy" src="../assets/emailIcon.png" class="email-icon" alt="Email Icon" />
               </div>
-              <label for="password" class="input-label">Senha</label>
+              <label for="password" class="input-label">Senha *</label>
               <div class="password-container">
                 <input type="password" id="password" class="input-placeholder" placeholder="Digite sua senha" aria-label="Digite sua senha" />
                 <img loading="lazy" src="../assets/passwordIcon.png" class="password-icon" alt="Password Icon" />
               </div>
-              <label for="password" class="input-label">Confirmação Senha</label>
+              <label for="password" class="input-label">Confirmação Senha *</label>
               <div class="password-container">
-                <input type="password" id="repeat-password" class="input-placeholder" placeholder="Digite novamente sua senha" aria-label="Digite sua senha" />
+                <input type="password" id="confirm-password" class="input-placeholder" placeholder="Digite novamente sua senha" aria-label="Digite sua senha" />
                 <img loading="lazy" src="../assets/passwordIcon.png" class="password-icon" alt="Password Icon" />
+              </div>
+              <label for="profile-picture" class="input-label">Foto Perfil</label>
+              <div class="file-input-wrapper">
+                    <label for="file-upload" class="file-input-button">Escolher Arquivo</label>
+                    <span class="file-input-text">Nenhum arquivo escolhido</span>
+                    <input type="file" id="file-upload" accept="image/jpeg, image/jpg" class="visually-hidden" />
+              </div>
+              <label class="input-label">Tipo Perfil *</label>
+              <div class="radio-container">
+                <label for="cliente" class="radio-label">
+                  <input type="radio" id="cliente" name="account-type" value="cliente" class="radio-input" />
+                  Cliente
+                </label>
+                <label for="advogado" class="radio-label">
+                  <input type="radio" id="advogado" name="account-type" value="advogado" class="radio-input" />
+                  Advogado
+                </label>
               </div>
               <button type="button" id="account-creation" class="registration-button">Criar Conta</button>
               <p class="login-link">

@@ -22,14 +22,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-        
-    <!-- Script -->
-    <script src="../js/scripts.js"></script>
+
+    <!-- Scripts -->
+    <!-- <script src="../js/auth.js"></script> Ajuste o caminho conforme a estrutura de pastas -->
+    <script src="../js/scriptGlobal.js"></script>
+    <script src="../js/listProcess.js"></script>   
 
 </head>
 
 <body>
-    
     <section class="page-container">
         <aside class="sidebar">
             <div class="sidebar-icon-holder">
@@ -42,8 +43,9 @@
                         <i data-feather="grid" class="menu-icon"></i> <!-- Ícone de grade -->
                         <span>Painel</span> <!-- Texto "Painel" -->
                     </span>
-                    <button id="menu-chevron-icon" class="menu-icon-expand" aria-label="Expandir menu">
+                    <button id="menu-chevron-icon" class="menu-icon-expand">
                         <i data-feather="chevron-up"></i> <!-- Ícone de chevron -->
+                        <span class="tooltip">Opções Menu</span>
                     </button>
                 </div>
                 <div class="menu-process" id="menu-process">
@@ -51,15 +53,13 @@
                 </div>
             </nav>
             </aside>
-            
-
             <main class="main-content">
             <header class="header">
                 <div class="user-info">
                     <img src="../assets/topbarIcons.png"
                         alt="Icons" class="topbar-icons">
-                    <span>Bruno Silva</span>
-                    <img src="../assets/user.png" alt="User avatar" class="user-avatar">
+                    <span></span>
+                    <img id="avatar-image" src="../assets/user.jpg" alt="User avatar" class="user-avatar">
                     <button id="logout-button" class="logout-button">
                         <i data-feather="chevron-up" id= "topbar-chevron-icon" class="logout-icon"></i> <!-- Ícone de expandir para logout -->
                     </button>
@@ -67,8 +67,8 @@
                     <div id="sub-menu" class="sub-menu-wrap" >
                         <div class="sub-menu">
                           <div class="sub-menu-user-info">
-                              <img src="../assets/user.png" alt="User avatar" class="sub-menu-user-avatar">
-                              <h3>Bruno Silva</h3>   
+                              <img src="../assets/user.jpg" class="sub-menu-user-avatar" >
+                              <h3></h3>   
                           </div>
                           <hr> <!-- Linha embaixo do sub-menu-user-info -->
   
@@ -102,119 +102,85 @@
                 <div class="breadcrumb-actions">
                     <button type="button" id="new-process" class="new-process-button">Novo Processo</button>
                 </div>
-
             </section>
-
-           
               <form class="search-bar">
                 <div class="input-container">
-                    <i data-feather="filter" class="filter-icon"></i> <!-- Ícone de pesquisa -->
-                    <select type="search" id="filter-select" class="filter-select">
-                        <option value="" disabled selected>Estado Processo</option>
-                        <option value="em andamento">Em Andamento</option>
-                        <option value="concluído">Concluído</option>
-                        <option value="suspenso">Suspenso</option>
-                    </select> 
-            
+                    <input type="search" id="filter-select" class="filter-select" placeholder="Filtrar Processos">
                    <button id="search-button" class="search-button">
                      <i data-feather="search" class="search-icon"></i> <!-- Ícone de pesquisa -->
+                     <span class="tooltip">Pesquisar</span>
                    </button>
                 </div>
             </form>
-
-              
                <div class="process-table">
                 <table>
                 <thead>
                  <tr class="table-header">
-                   <th class="header-cell">Nº Processo</th>
-                   <th class="header-cell">Assunto</th>
-                   <th class="header-cell">Data Entrada</th>
-                   <th class="header-cell">Advogado Responsável</th>
-                   <th class="header-cell">Nome Cliente</th>
-                   <th class="header-state-cell">Estado</th>
+                   <th class="header-cell">Nº Processo
+                    <!-- <input type="text" id="process-filter" class="filter-input"> -->
+                </th>
+                   <th class="header-cell">Assunto
+                    <!-- <input type="text" id="assunto-filter" class="filter-input"> -->
+                   </th>
+                   <th class="header-cell">Data Entrada
+                    <!-- <input type="date" id="data-filter" class="filter-input"> -->
+                   </th>
+                   <th class="header-cell">Advogado Responsável
+                    <!-- <input type="text" id="advogado-filter" class="filter-input"> -->
+                   </th>
+                   <th class="header-cell">Nome Cliente
+                    <!-- <input type="text" id="cliente-filter" class="filter-input"> -->
+                </th>
+                   <th class="header-state-cell">Estado
+                    <!-- <select id="estado-filter" class="filter-input">
+                        <option value="">Estado</option>
+                        <option value="Em Andamento">Em Andamento</option>
+                        <option value="Concluído">Concluído</option>
+                        <option value="Suspenso">Suspenso</option>
+                    </select> -->
+                   </th>
                    <th class="header-action-cell">Ações</th>
                  </tr>
                  </thead>
-
-                 <tbody>
+                 <tbody id="processTableBody">
                  <tr class="table-row">
-                   <td class="table-cell">1321</td>
-                   <td class="table-cell">Nacionalidade Cônjuge</td>
-                   <td class="table-cell">01/09/2024</td>
-                   <td class="table-cell">Bruno Rodrigues da Silva</td>
-                   <td class="table-cell">Maria Alice dos Santos</td>
-                   <td class="status-badge status-in-progress">Em Andamento</td>
+                   <td class="table-cell.process-number"></td>
+                   <td class="table-cell"></td>
+                   <td class="table-cell"></td>
+                   <td class="table-cell"></td>
+                   <td class="table-cell"></td>
+                   <td class="status-badge ${processo.status === 'Concluído' ? 'status-finished' : 'status-in-progress'}">${processo.status}</td>
                    <td class="table-action-cell"> 
-                    <button id="view-button1" class="view-button">
-                        <i data-feather="eye" class="view-icon"></i> <!-- Ícone de leitura -->
+                    <button id="view-button1" class="view-button" title="Visualizar Processo">
+                        <i data-feather="eye" class="view-icon" ></i> <!-- Ícone de leitura -->
+                        <!-- <span class="tooltip">Visualizar Processo</span> -->
                     </button>
-                    <button id="edit-button1" class="edit-button">
+                    <button id="edit-button1" class="edit-button" title="Editar Processo">
                         <i data-feather="edit" class="edit-icon"></i> <!-- Ícone de editar -->
+                        <!-- <span class="tooltip">Editar Processo</span> -->
                     </button>
-                    <button id="file-button1" class="file-button">
+                    <button id="file-button1" class="file-button" title="Upload Ficheiro do Processo">
                         <i data-feather="file" class="file-icon"></i> <!-- Ícone de arquivo -->
+                        <!-- <span class="tooltip">Visualizar Documentos</span> -->
                     </button>
-                    <button id="trash-button1" class="trash-button">
+                    <button id="trash-button1" class="trash-button" title="Excluir Processo">
                         <i data-feather="trash" class="trash-icon"></i> <!-- Ícone de lixo -->
+                        <!-- <span class="tooltip">Excluir processo</span> -->
                     </button>
                   </td>
                 </tr>
-
-                 <tr class="table-row">
-                   <td class="table-cell">1320</td>
-                   <td class="table-cell">Nacionalidade Neto</td>
-                   <td class="table-cell">20/08/2024</td>
-                   <td class="table-cell">Bruno Rodrigues da Silva</td>
-                   <td class="table-cell">Pedro Ferreira Gomes</td>
-                   <td class="status-badge status-suspended">Suspenso</td>
-                   <td class="table-action-cell"> 
-                    <button id="view-button2" class="view-button">
-                        <i data-feather="eye" class="view-icon"></i> <!-- Ícone de leitura -->
-                    </button>
-                    <button id="edit-button2" class="edit-button">
-                        <i data-feather="edit" class="edit-icon"></i> <!-- Ícone de editar -->
-                    </button>
-                    <button id="file-button2" class="file-button">
-                        <i data-feather="file" class="file-icon"></i> <!-- Ícone de arquivo -->
-                    </button>
-                    <button id="trash-button2" class="trash-button">
-                        <i data-feather="trash" class="trash-icon"></i> <!-- Ícone de lixo -->
-                    </button>
-                  </td>
-                </tr>
-
-                 <tr class="table-row">
-                  <td class="table-cell">1319</td>
-                  <td class="table-cell">Nacionalidade Tempo Permanência </td>
-                  <td class="table-cell">15/08/2024</td>
-                  <td class="table-cell">Bruno Rodrigues da Silva</td>
-                  <td class="table-cell">José Miguel Figueiredo</td>
-                  <td class="status-badge status-finished">Finalizado</td>
-                  <td class="table-action-cell"> 
-                    <button id="view-button3" class="view-button">
-                        <i data-feather="eye" class="view-icon"></i> <!-- Ícone de leitura -->
-                    </button>
-                    <button id="edit-button3" class="edit-button">
-                        <i data-feather="edit" class="edit-icon"></i> <!-- Ícone de editar -->
-                    </button>
-
-                    <button id="file-button3" class="file-button">
-                        <i data-feather="file" class="file-icon"></i> <!-- Ícone de arquivo -->
-                    </button>
-                    <button id="trash-button3" class="trash-button">
-                        <i data-feather="trash" class="trash-icon"></i> <!-- Ícone de lixo -->
-                    </button>
-
-                </td>
-            </tr>
         </tbody>
     </table>
   </div>
- 
-  </main>
-</section>
 
+</main>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script>
+    // Chama o método replace() para renderizar os ícones
+    feather.replace();
+</script> 
 </body>
+
   
 </html>

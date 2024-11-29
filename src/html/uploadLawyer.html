@@ -23,8 +23,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-    <!-- Script -->
-    <script src="../js/scripts.js"></script>
+    <!-- Scripts -->
+    <!-- <script src="../js/auth.js"></script> Ajuste o caminho conforme a estrutura de pastas      -->
+    <script src="../js/scriptGlobal.js"></script>
+    <script src="../js/uploadLawyer.js"></script>
 
 
 </head>
@@ -53,14 +55,13 @@
             </nav>
             </aside>
             
-
             <main class="main-content">
             <header class="header">
                 <div class="user-info">
                     <img src="../assets/topbarIcons.png"
                         alt="Icons" class="topbar-icons">
-                    <span>Bruno Silva</span>
-                    <img src="../assets/user.png" alt="User avatar" class="user-avatar">
+                    <span></span>
+                    <img src="../assets/user.jpg" alt="User avatar" class="user-avatar">
                     <button id="logout-button" class="logout-button">
                         <i data-feather="chevron-up" id= "topbar-chevron-icon" class="logout-icon"></i> <!-- Ícone de expandir para logout -->
                     </button>
@@ -68,8 +69,8 @@
                     <div id="sub-menu" class="sub-menu-wrap" >
                         <div class="sub-menu">
                           <div class="sub-menu-user-info">
-                              <img src="../assets/user.png" alt="User avatar" class="sub-menu-user-avatar">
-                              <h3>Bruno Silva</h3>   
+                              <img src="../assets/user.jpg" alt="User avatar" class="sub-menu-user-avatar">
+                              <h3></h3>   
                           </div>
                           <hr> <!-- Linha embaixo do sub-menu-user-info -->
   
@@ -112,45 +113,50 @@
                 <div class="form-row">
                     <div class="form-group">
                         <label for="processNumber" class="form-label">N° Processo</label>
-                        <input type="text" id="processNumber" class="form-input" value="1321" disabled>
+                        <input type="text" id="processNumber" class="form-input" value="" disabled>
                     </div>
                     <div class="form-group">
                         <label for="lawyer" class="form-label">Advogado Responsável</label>
-                        <input type="text" id="lawyer" class="form-input" value="Bruno Rodrigues da Silva" disabled>
+                        <input type="text" id="lawyer" class="form-input" value="" disabled>
                     </div>
                     <div class="form-group">
-                        <label for="entryDate" class="form-label">Nome Cliente</label>
-                        <input type="text" id="entryDate" class="form-input" value="Maria Alice dos Santos" disabled>
+                        <label for="clientName" class="form-label">Nome Cliente</label>
+                        <input type="text" id="clientName" class="form-input" value="" disabled>
                     </div>
                 </div>
 
                 <div class="file-upload-container">
                     <div class="form-group">
-                        <label for="documentType" class="form-label">Tipo Documento</label>
+                        <label for="documentType" class="form-label">Tipo Documento *</label>
                         <div class="documents-holder">
                             <i data-feather="file" class="icon-file"></i>  <!-- Ícone de documento -->
-                            <select name="lawyer-documents" id="lawyer-documents-select" class="option-select">
+                            <select name="lawyer-documents" id="documentType" class="option-select">
                                 <option> Contrato </option>
                                 <option> Processo </option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="documentUpload" class="form-label">Documento</label>
+                        <label for="documentUpload" class="form-label">Documento *</label>
                         <div class="file-input-wrapper">
                             <label for="file-upload" class="file-input-button">Escolher Arquivo</label>
                             <span class="file-input-text">Nenhum arquivo escolhido</span>
-                            <input type="file" id="file-upload" class="visually-hidden" />
+                            <input type="file" id="file-upload" accept="application/pdf" class="visually-hidden" />
                     </div>
                   </div>
                 </div>
 
-                <button type="submit" class="submit-button">Salvar</button>
+                <button  type="submit" id="update-submit-button-Lawyer" class="submit-button">Salvar</button>
             </form>
             
         </main>
     </section>
-
+  <!-- Script para inicializar os ícones feather -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script>
+      // Chama o método replace() para renderizar os ícones
+      feather.replace();
+  </script>  
   </body>
 
 </html>

@@ -15,7 +15,7 @@
   border: 1px solid #e2e8f0;
   border-radius: 2px;
   box-shadow: 0 8px 13px -3px rgba(0, 0, 0, 0.07);
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
   max-width: 1310px;
   width: 100%; /* Para garantir que o formulário utilize a largura disponível */
@@ -37,8 +37,8 @@
 .filter-select {
   font-size: 16px;
   font-weight: 500;
-  width: 1090px;
-  padding: 13px 15px;
+  width: 1187px;
+  padding: 13px 50px;
   border: none;
   border-radius: 4px;
   background-color: #fff;
@@ -48,25 +48,28 @@
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
   margin-left: 0px;
-  margin-right: 20px;
+  margin-right: 0px;
   outline: none; /* Retira o desenho da linha ao redor do input ao clicar nele */
 }
 
-.filter-icon {
-  color: #67696f;
-  width: 20px;
-  stroke-width: 1.8px; /* Espessura do traço*/
-  transition: box-shadow 0.3s ease; /* Adiciona uma transição suave para o efeito de sombra */
-  margin-top: 1.3px;
-  margin-left: 60px;
+.filter-select::placeholder  {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #fff;
+  color: #67696f !important;
+  opacity: 0.5 !important;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  outline: none; /* Retira o desenho da linha ao redor do input ao clicar nele */
 }
 
 .search-button {
   color: #373737;
   background: none; /* Remove qualquer cor de fundo adicional */
   border: none; /* Remove bordas extras */
-  margin-right: 30px;
-  margin-top: 11px;;
+  margin-right: 20px;
+  margin-top: 11px;
   margin-bottom: auto;
   cursor: pointer;
 }
@@ -83,6 +86,36 @@
   box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5); /* Sombra cinza clara ao passar o mouse */
 }
 
+.search-button, .view-button, .menu-icon-expand {
+  position: relative; /* Importante para posicionar o tolltip */
+}
+
+
+.search-button .tooltip, .view-icon .tooltip, .menu-icon-expand .tooltip {
+  position: absolute;
+  font-size: 12px;
+  top: -30px; /* Posiciona abaixo do botão */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza horizontalmente */
+  background-color: #373737;
+  color: #fff;
+  padding: 6px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 2px;
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
+  z-index: 20;         /* Garantir que o tooltip tenha um z-index maior para sobrepor outros elementos */
+  white-space: nowrap; /* Garante que o texto do tooltip não quebre a linha */
+}
+
+.search-button:hover .tooltip, .view-icon:hover .tooltip, .menu-icon-expand:hover .tooltip {
+  visibility: visible;   /* Torna o tooltip visível */
+  opacity: 1;   /* Torna o tooltip totalmente opaco */
+}
+
 .process-table {
   display: grid;
   background-color: #fff;
@@ -93,13 +126,14 @@
   max-width: 1209px;
   width: 100%; /* Para garantir que o formulário utilize a largura disponível */
   margin: 15px auto; /* Centraliza o formulário horizontalmente */
+  overflow: visible;
 }
 
 .table-header {
   background-color: #f6f6f6;
   display: grid;
   justify-content: space-between;
-  grid-template-columns: 0.6fr 1.0fr 0.7fr 1.0fr 1.0fr 0.9fr 0.7fr;
+  grid-template-columns: 0.6fr 1.0fr 0.8fr 1.0fr 1.0fr 0.8fr 0.7fr;
   align-items: center;
   padding: 15px 13px;
   font-weight: 300;
@@ -111,10 +145,11 @@
 .table-row {
   display: grid;
   justify-content: space-between;
-  grid-template-columns: 0.6fr 1.0fr 0.7fr 1.0fr 1.0fr 0.9fr 0.7fr;
+  grid-template-columns: 0.6fr 1.0fr 0.8fr 1.0fr 1.0fr 0.8fr 0.7fr;
   align-items: center;
   padding: 15px 13px; /* Margem que afeta a altura da linha*/
   border-bottom: 1px solid #eee; /* Linha separadora para cada linha */
+  overflow: visible;
 }
 
 .header-cell {
@@ -132,6 +167,7 @@
   font-weight: 400; /* Define o peso da fonte para negrito */
   color: #67696f;  /* Define a cor da fonte */
   font-size: 14px;  /* Garante que o tamanho da fonte seja consistente */
+  overflow: visible;
 }
 
 
@@ -156,6 +192,7 @@
   font-weight: 600; /* Define o peso da fonte para negrito */
   color: #1c2434;   /* Define a cor da fonte */
   font-size: 14px;  /* Garante que o tamanho da fonte seja consistente */
+  overflow: visible;
 }
 
 .table-action-cell {
@@ -182,7 +219,9 @@
   cursor: pointer;
   outline: none;
   transition: box-shadow 0.3s ease; /* Adiciona uma transição suave para o efeito de sombra */
+  position: relative
 }
+
 
 .edit-icon, .view-icon, .file-icon, .trash-icon {
   width: 18px;
@@ -233,18 +272,42 @@
 }
 
 .status-in-progress {
-  background-color: rgba(255, 167, 11, 0.08);
-  color: #ffa70b;
-}
-
-.status-suspended {
-  background-color: rgba(211, 64, 83, 0.08);
-  color: #d34053;
+  background-color: #f581142a;
+  color: #f58114;
 }
 
 .status-finished {
-  background-color: rgba(33, 150, 83, 0.08);
-  color: #219653;
+  background-color: #0066ff1e;
+  color: #0881f1;
+}
+
+
+
+.filter-input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.filter-input:focus {
+  border-color: #3056d3;
+  outline: none;
+}
+
+.header-cell {
+  position: relative;
+    /* padding-bottom: 10px; */
+    /* Remover margem para permitir que os inputs fiquem ao lado dos headers */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.header-cell input, .header-cell select {
+  margin-top: 5px;
+  font-size: 14px;
 }
 
 
