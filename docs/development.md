@@ -6,25 +6,28 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Responsável | Artefato Criado |
+|ID    | Descrição do Requisito | Responsável | Artefato Criado |    
 |------|------------------------|------------|-----------------|
-| RF01 | Permitir que o advogado faça login utilizando credenciais válidas | Lucas Santos | register.html |
-| RF02 | Permitir que o advogado crie um novo processo jurídico | Erick Albuquerque | create.html |
-| RF03 | Permitir que o advogado visualize a lista de todos os processos | Daniel Freitas e Carolina Araujo | list.html |
-| RF04 | Permitir que o advogado aplique free filter na lista de processos | Carolina Araujo | list.html |
-| RF05 | Permitir que o advogado visualize os detalhes de um processo específico | Gabriel Lemos | view.html |
-| RF06 | Permitir que o advogado edite informações de um processo existente | Carolina Araujo | update.html |
-| RF07 | Permitir que o advogado faça upload de documentos para um processo | Carolinha Araujo | upload.html|
-| RF08 | Permitir que o advogado faça download de documentos do cliente | Carolina Araujo | documents.html |
-| RF09 | Permitir que o advogado realize logout | Daniel Freitas | list.html |
-| RF10 | Permitir que o cliente faça login utilizando credenciais válidas | Lucas Santos | register.html |
-| RF11 | Permitir que o cliente visualize a lista dos seus processos | Daniel Freitas e Carolina Araujo| list.html |
-| RF12 | Permitir que o cliente visualize os detalhes do seu processo | Gabriel Lemos | view.html |
-| RF13 | Permitir que o cliente faça upload de documentos pessoais | Carolina Araujo | upload.html |
-| RF14 | Permitir que o cliente faça download dos documentos do processo | Carolina Araujo | documents.html |
-| RF15 | Permitir que o cliente realize logout | Daniel Freitas | list.html |
+| RF01 | Permitir a criação de cadastro da conta, incluindo a escolha do tipo de perfil de acesso (Advogado ou Cliente) | Carolina Araujo | registrationUser.html |  
+| RF02 | Permitir o login na aplicação utilizando credenciais válidas definidas no cadastro | Carolina Araujo e Daniel Freitas | login.html | 
+| RF03 | Permitir a edição do cadastro da conta pelos perfis de Advogado e Cliente | Carolina Araujo | registrationUser.html | 
+| RF04 | Permitir a visualização da lista de processos pelos perfis de Advogado e Cliente | Carolina Araujo e Daniel Freitas | listProcess.html |
+| RF05 | Permitir a pesquisa na lista de processos com a aplicação de filtros que possibilitem a busca por qualquer conteúdo presente na lista pelos perfis de Advogado e Cliente | Carolina Araujo | listProcess.html |
+| RF06 | Permitir a visualização de detalhes de um processo específico pelos perfis de Advogado e Cliente | Carolina Araujo e Daniel Freitas | viewProcess.html |
+| RF07 | Permitir a criação de um novo processo jurídico pelo perfil de Advogado | Carolina Araujo e Daniel Freitas | createProcess.html |
+| RF08 | Permitir a edição de dados de um processo existente pelo perfil de Advogado | Carolina Araujo | updateProcess.html |
+| RF09 | Permitir a conclusão de um processo pelo perfil de Advogado, alterando seu status de "Em Andamento" para "Concluído" | Carolina Araujo e Daniel Freitas | updateProcess.html |
+| RF10 | Permitir a exclusão de um processo pelo perfil de Advogado | Carolina Araujo | listProcess.html |
+| RF11 | Permitir a visualização das listas de documentos associados a um processo pelo perfil de Advogado e Cliente | Carolina Araujo e Daniel Freitas | viewDocuments.html |
+| RF12 | Permitir o upload de documentos associados a um processo na lista de "Documentos Advogado" pelo perfil de Advogado | Carolinha Araujo | uploadLawyer.html|
+| RF13 | Permitir o upload de documentos associados a um processo na lista de "Documentos Requerente" pelos perfis de Advogado e Cliente | Carolina Araujo | uploadCustomer.html |
+| RF14 | Permitir a exclusão de documentos da lista de "Documentos Advogado" pelo perfil de Advogado | Carolina Araujo | viewDocuments.html |
+| RF15 | Permitir a exclusão de documentos da lista de "Documentos Requerente" pelos perfis de Advogado e Cliente | Carolina Araujo | viewDocuments.html |
+| RF16 | Permitir o download de documentos das listas de "Documentos Advogado" e "Documentos Requerente" pelos perfis de Advogado e Cliente | Carolina Araujo e Daniel Freitas | viewDocuments.html |
+| RF17 | Permitir o logout da aplicação | Carolina Araujo e Daniel Freitas | listProcess.html |
+| RF18 | Implementar controle de perfil que restrinja a visualização de processos e o acesso às funcionalidades de acordo com o tipo de perfil cadastrado, garantindo acesso total para o perfil de Advogado e acesso limitado para o perfil de Cliente | Carolina Araujo | registrationUser.html, listProcess.html e viewDocuments.html|
 
-<br>
+<br><br>
 
 ## Descrição Estruturas de Dados
 

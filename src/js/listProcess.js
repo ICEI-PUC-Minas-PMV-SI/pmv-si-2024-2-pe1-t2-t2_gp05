@@ -230,7 +230,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const processNumber = button.id.replace('file-','')
       console.log("Número do processo:", processNumber);
       if (processNumber) {
-          window.location.href = `../html/viewdocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
+          window.location.href = `../html/viewDocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
       } else {
           console.error("Número do processo não encontrado.");
       }
