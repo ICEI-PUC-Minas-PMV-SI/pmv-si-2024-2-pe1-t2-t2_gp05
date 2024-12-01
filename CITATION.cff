@@ -1,33 +1,36 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Web Application Template
-message: >-
-  Repositório padrão para o Eixo 1 - Projeto 1: Aplicações
-  Web da PUC Minas.
+title: AdvProTech - Gestão e Acompanhamento de Processos
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
-    affiliation: PUC Minas
-  - given-names: Hugo
-    name-particle: 'B '
-    family-names: de Paula
-    name-suffix: Prof.
-    email: hugo@pucminas.br
-    affiliation: PUC Minas
-    orcid: 'https://orcid.org/0000-0002-6193-3205'
+  - given-names: 'Carolina '
+    family-names: Ferreira Araujo
+  - given-names: Daniel
+    family-names: Cardoso de Freitas
+  - family-names: Mota de Albuquerque
+    given-names: Erick
+  - given-names: Gabriel
+    family-names: Oliveira Lemos
+  - given-names: Lucas
+    family-names: Abreu Santos
+  - given-names: Lucas
+    family-names: Vinícius França Teles
 repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe1-t2-t2_gp05.git
 abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+  A aplicação destina-se a escritórios de advocacia que atuam na área de aquisição de nacionalidade, com o
+  objetivo de otimizar a gestão e a comunicação entre advogados e clientes. Com foco na eficiência e na
+  experiência do usuário, a plataforma oferece acompanhamento ágil dos processos, garantindo controle de
+  acesso e aprimorando a organização e a eficácia operacional do escritório. Além de dinalizar o trabalho do
+  advogado, a aplicação também garante que os clientes estejam sempre atualizados quanto ao status de seus
+  processos, ao mesmo tempo em que promove uma gestão otimizada dos documentos associados a cada caso.
 keywords:
-  - Desenvolvimento Web
-  - HTML
-  - CSS
-  - JavaScript
-  - Template
-date-released: '2024-06-23'
+  - Aplicação Web
+  - Advocacia
+  - Gestão 
+  - Acompanhamento
+  - Processos
+  - Documentos
+  - Clientes
+  - Nacionalidade
+date-released: '2024-12-01'
