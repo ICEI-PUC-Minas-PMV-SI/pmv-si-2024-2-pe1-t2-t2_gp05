@@ -19,7 +19,7 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 | RF09 | Permitir a conclusão de um processo pelo perfil de Advogado, alterando seu status de "Em Andamento" para "Concluído" | Carolina Araujo e Daniel Freitas | updateProcess.html |
 | RF10 | Permitir a exclusão de um processo pelo perfil de Advogado | Carolina Araujo | listProcess.html |
 | RF11 | Permitir a visualização das listas de documentos associados a um processo pelo perfil de Advogado e Cliente | Carolina Araujo e Daniel Freitas | viewDocuments.html |
-| RF12 | Permitir o upload de documentos associados a um processo na lista de "Documentos Advogado" pelo perfil de Advogado | Carolinha Araujo | uploadLawyer.html|
+| RF12 | Permitir o upload de documentos associados a um processo na lista de "Documentos Advogado" pelo perfil de Advogado | Carolina Araujo | uploadLawyer.html|
 | RF13 | Permitir o upload de documentos associados a um processo na lista de "Documentos Requerente" pelos perfis de Advogado e Cliente | Carolina Araujo | uploadCustomer.html |
 | RF14 | Permitir a exclusão de documentos da lista de "Documentos Advogado" pelo perfil de Advogado | Carolina Araujo | viewDocuments.html |
 | RF15 | Permitir a exclusão de documentos da lista de "Documentos Requerente" pelos perfis de Advogado e Cliente | Carolina Araujo | viewDocuments.html |
