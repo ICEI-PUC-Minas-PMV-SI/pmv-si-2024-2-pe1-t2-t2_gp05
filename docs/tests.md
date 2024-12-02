@@ -1,24 +1,21 @@
 # Testes
 
 Neste projeto serão realizados dois tipos de testes:
-
  - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema.
  - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. 
 
 A documentação dos testes é dividida nas seguintes seções:
-
  - [Plano de Testes de Software](#plano-de-testes-de-software)
  - [Registro dos Testes de Software](#registro-dos-testes-de-software)
  - [Avaliação dos Testes de Software](#avaliação-dos-testes-de-software)
  - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
  - [Registro dos Testes de Usabilidade](#registro-dos-testes-de-usabilidade)
  - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
-
 <br>
 
 # Teste de Software
 
-**Responsável pelo Planejamento dos Testes de Caso:** Carolina Araujo
+**Responsável pelo Planejamento dos Testes de Caso:** Carolina Araujo <br>
 **Responsável pela Execução dos Testes e Registro de Evidências:** Carolina Araujo
 
 <br>
