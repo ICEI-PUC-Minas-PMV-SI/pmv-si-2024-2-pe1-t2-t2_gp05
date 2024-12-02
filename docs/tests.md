@@ -55,9 +55,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT02 - Cadastrar Usuário com Dados Inválidos (Senhas Não Coincidem)**
  :--------------: | ------------
 **User Story Associada** | US-01
-**Descrição**     | Verificar se o sistema exibe uma mensagem de erro ao tentar cadastrar um usuário com dados inválidos, inserindo senhas que não coincidem
+**Descrição**     | Verificar se o sistema valida o cadastro ao tentar cadastrar um usuário com senhas que não coincidem
 **Pré-condições** | Usuário possuir acesso à aplicação
-**Procedimento**  |  1) Abra o arquivo registration.html  <br> 2) Preencha os campos "Nome", "Email" e "Tipo Pefil" com dados válidos <br> 3) Preencha o campos campos "Senha" e "Confirmação de Senha" com informações distintas <br> 4) Clique no botão "Criar Conta"
+**Procedimento**  |  1) Abra o arquivo registration.html  <br> 2) Preencha os campos "Nome", "Email" e "Tipo Perfil" com dados válidos <br> 3) Preencha o campos campos "Senha" e "Confirmação de Senha" com informações distintas <br> 4) Clique no botão "Criar Conta"
 **Dados de Entrada** | Inserção de dados inválidos no formulário de cadastro com senha e repetição de senha que não coincidem
 **Resultado Esperado** | O sistema não permite o cadastro e uma mensagem de erro é exibida ao utilizador, alertando que "As senhas não coincidem"
 **Resultado Obtido** | Sucesso
@@ -68,9 +68,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT03 - Cadastrar Usuário com Dados Inválidos (Email Já Cadastrado)**
  :--------------: | ------------
 **User Story Associada** | US-01
-**Descrição**     | Verificar se o sistema exibe uma mensagem de erro ao tentar cadastrar um usuário com dados inválidos, inserindo um email já cadastrado anteriormente
+**Descrição**     | Verificar se o sistema valida o cadastro ao tentar cadastrar um usuário com email já cadastrado anteriormente
 **Pré-condições** | Usuário possuir acesso à aplicação
-**Procedimento**  |  1) Abra o arquivo registration.html  <br> 2) Preencha os campos "Nome", "Senha", "Repetição Senha" e "Tipo Pefil" com dados válidos<br> 3) Preencha o campo "Email" com dado já cadastrado anteriormente <br> 4) Clique no botão "Criar Conta"
+**Procedimento**  |  1) Abra o arquivo registration.html  <br> 2) Preencha os campos "Nome", "Senha", "Repetição Senha" e "Tipo Perfil" com dados válidos<br> 3) Preencha o campo "Email" com dado já cadastrado anteriormente <br> 4) Clique no botão "Criar Conta"
 **Dados de Entrada** | Inserção de dado inválido no formulário de cadastro com informação de email previamente cadastrado
 **Resultado Esperado** | O sistema não permite o cadastro e uma mensagem de erro é exibida ao utilizador, alertando que "Email já está registrado"
 **Resultado Obtido** | Sucesso
@@ -83,7 +83,7 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **User Story Associada** | US-01
 **Pré-condições** | Usuário possuir acesso à aplicação
 **Descrição**     | Verificar se o sistema valida os campos obrigatórios vazios no processo de cadastro
-**Procedimento**  | 1) Abra o arquivo registration.html  <br> 2) Insira um arquivo jpg no campo "Foto perfil" <br> 3)  Deixe os campos "Nome", "Email", "Senha", "Confirmação de Senha" e "Tipo de Perfil" vazios, omitindo um por vez <br> 3) Clique no botão "Criar Conta" a cada tentativa <br> 
+**Procedimento**  | 1) Abra o arquivo registration.html  <br> 2) Insira um arquivo jpg no campo "Foto perfil" <br> 3)  Deixe os campos "Nome", "Email", "Senha", "Confirmação Senha" e "Tipo de Perfil" vazios, omitindo um por vez <br> 3) Clique no botão "Criar Conta" a cada tentativa <br> 
 **Dados de Entrada** | Dados incompletos, com um campo obrigatório vazio a cada tentativa ("Nome", "Email", "Senha", "Confirmação Senha" e "Tipo de Perfil")
 **Resultado Esperado** | O sistema impede o cadastro a cada tentativa com o campo obrigatório vazio e exibe uma mensagem de erro ao usuário com o texto "Preencha todos os campos obrigatórios"
 **Resultado Obtido** | Sucesso
@@ -94,10 +94,10 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT05 - Editar Informações de Cadastro com Sucesso**  
 :--------------: | ------------  
 **User Story Associada** | US-01  
-**Descrição** | Verificar se o usuário consegue editar suas informações de cadastro, como nome, email e senha, a partir do menu suspenso na topbar, e realizar login com as novas credenciais.  
+**Descrição** | Verificar se o usuário consegue editar suas informações de cadastro, como nome, email e senha, a partir do menu suspenso no topbar e, em seguida, realizar login com as novas credenciais
 **Pré-condições** | O usuário deve estar cadastrado e logado na aplicação
-**Procedimento** | 1) Clique no ícone de expandir na topbar 2) Selecione a opção de editar as informações de cadastro <br> 3) Altere os campos "Nome", "Email", "Senha" e repita a nova senha corretamente no campo "Repetição Senha" <br> 4) Clique no botão "Atualizar" para confirmar as alterações <br> 5) Realize o login na aplicação inserindo as novas credenciais 
-**Dados de Entrada** | Alteração de dados previamente cadastrados, com inserção de dados distintos nos campos "Nome", "Email", "Senha" e "Confirmação Senha" do formulário de cadastro
+**Procedimento** | 1) Clique no ícone de expandir na topbar <br> 2) Selecione a opção de editar as informações de cadastro <br> 3) Altere os campos "Nome", "Email", "Senha" e repita a nova senha corretamente no campo "Repetição Senha" <br> 4) Clique no botão "Atualizar" para confirmar as alterações <br> 5) Realize o login na aplicação inserindo as novas credenciais 
+**Dados de Entrada** | Alteração de dados previamente cadastrados, com inserção de novos dados nos campos "Nome", "Email", "Senha" e "Confirmação Senha" do formulário de cadastro
 **Resultado Esperado** | O sistema salva as alterações realizadas no cadastro, exibindo uma mensagem de sucesso, e, após salvar, o usuário consegue realizar login com as novas credenciais de forma bem sucedida. Além disso, a informação de "Nome" é refletida corretamente no topbar após o login
 **Resultado Obtido** | Sucesso  
 
@@ -108,10 +108,10 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
  :--------------: | ------------
 **User Story Associada** | US-02
 **Descrição**     | Verificar se o login é realizado com sucesso quando inserido credenciais válidas
-**Pré-condições** | Usuário deve estar cadastrado corretamente
+**Pré-condições** | Usuário deve estar cadastrado na aplicação
 **Procedimento**  | 1) Acesse a página de login <br> 2) Preencha os campos "Email" e "Senha" com dados válidos <br> 3) Clique no botão "Submeter"
 **Dados de Entrada** | Inserção de dados válidos no formulário de login
-**Resultado Esperado** | O login é realizado com sucesso, redirecionando o usuário para a página inicial. Além disso, a foto de perfil e o nome do usuário são exibidos corretamente na topbar.
+**Resultado Esperado** | O login é realizado com sucesso, redirecionando o usuário para a página inicial. Além disso, a foto de perfil e o nome do usuário são exibidos corretamente no topbar
 **Resultado Obtido** | Sucesso
 
 ---
@@ -121,7 +121,7 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
  :--------------: | ------------
 **User Story Associada** | US-02
 **Descrição**     | Verificar se o sistema bloqueia o login com credenciais inválidas
-**Pré-condições** | Usuário deve estar cadastrado corretamente
+**Pré-condições** | Usuário deve estar cadastrado na aplicação
 **Procedimento**  | 1) Acesse a página de login <br> 2) Preencha os campos "Email" e "Senha" com dados incorretos <br> 3) Clique no botão "Submeter"
 **Dados de Entrada** | Inserção de dados inválidos no formulário de login, com "Email" e "Senha" incorretos
 **Resultado Esperado** | O sistema não permite o login e uma mensagem de erro é exibida ao usuário com o texto "Email ou senha incorretos. Tente novamente"
@@ -133,11 +133,11 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT08 - Realizar Login com Campos Vazios**
  :--------------: | ------------
 **User Story Associada** | US-02
-**Descrição**     | Verificar se o sistema bloqueia o login de usuários que não preencham os campos obrigatórios corretamente, testando um campo vazio por vez
-**Pré-condições** | Usuário deve estar cadastrado corretamente
+**Descrição**     | Verificar se o sistema bloqueia o login de usuários que não preencham os campos obrigatórios, testando um campo vazio por vez
+**Pré-condições** | Usuário deve estar cadastrado na aplicação
 **Procedimento**  | 1) Abra o arquivo login.html  <br> 2) Deixe os campos "Nome" e "Email" vazios, omitindo um por vez <br> 3) Clique no botão "Submeter" a cada tentativa
 **Dados de Entrada** | Dados incompletos, com um campo obrigatório vazio a cada tentativa ("Email" e "Senha")
-**Resultado Esperado** | O sistema deve impedir o login em cada tentativa com um campo vazio e exibir a mensagem de erro "Por favor, preencha todos os campos"
+**Resultado Esperado** | O sistema deve impedir o login a cada tentativa com um campo vazio e exibir a mensagem de erro "Por favor, preencha todos os campos"
 **Resultado Obtido** | Sucesso
 
 ---
@@ -146,9 +146,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT09 - Realizar Logout com Sucesso**  
 :--------------: | ------------  
 **User Story Associada** | US-03  
-**Descrição** | Verificar se o usuário pode realizar o logout com sucesso a partir da topbar, confirmando a ação no prompt exibido  
+**Descrição** | Verificar se o usuário pode realizar o logout com sucesso a partir do topbar, confirmando a ação no prompt exibido  
 **Pré-condições** | Usuário deve estar logado na aplicação 
-**Procedimento** | 1) Acesse a aplicação com um usuário logado <br> 2) Clique no ícone de expandir na topbar <br> 3) Selecione a opção "Sair Sessão" no menu suspenso <br> 4) Confirme a ação no prompt de confirmação exibido 
+**Procedimento** | 1) Clique no ícone de expandir no topbar <br> 2) Selecione a opção "Sair Sessão" no menu suspenso <br> 3) Confirme a ação no prompt de confirmação exibido 
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface
 **Resultado Esperado** | O sistema exibe corretamente um prompt de confirmação com o texto "Tem certeza que deseja sair?" e, ao confirmar, o usuário é redirecionado para a página de login. Dessa forma, a sessão é encerrada com sucesso  
 **Resultado Obtido** | Sucesso  
@@ -161,7 +161,7 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **User Story Associada** | US-03  
 **Descrição** | Verificar se o sistema impede o logout quando o usuário cancela o processo na mensagem de confirmação
 **Pré-condições** | Usuário deve estar logado na aplicação
-**Procedimento** | 1) Clique no ícone de expandir na topbar <br> 3) Selecione a opção "Sair Sessão" no menu suspenso <br> 4) No prompt de confirmação, clique em "Cancelar"  
+**Procedimento** | 1) Clique no ícone de expandir no topbar <br> 2) Selecione a opção "Sair Sessão" no menu suspenso <br> 3) No prompt de confirmação, clique em "Cancelar"  
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface
 **Resultado Esperado** | O sistema deve cancelar o logout e manter o usuário na aplicação, sem redirecionamento para a página de login
 **Resultado Obtido** | Sucesso  
