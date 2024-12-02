@@ -1107,16 +1107,19 @@ O uso de mediador presencial permitiu uma coleta de dados mais precisa sobre o t
 
 Esses cenários cobrem funcionalidades essenciais do sistema, desde o cadastro até a gestão de documentos, garantindo uma experiência completa para o usuário. 
 
+<br>
 
 ## Registro dos Testes de Usabilidade
 
 **Contexto**
-A aplicação foi desenvolvida para atender escritórios de advocacia especializados na área de aquisição de nacionalidade, com o propósito de otimizar a gestão e a comunicação entre advogados e clientes. Focada na eficiência e na experiência do usuário, a plataforma proporciona um acompanhamento ágil dos processos, aprimorando tanto a organização quanto a eficácia operacional do escritório. Além disso, a aplicação agiliza as tarefas dos advogados, garantindo que os clientes estejam sempre atualizados quanto ao status de seus processos, ao mesmo tempo em que promove uma gestão otimizada dos documentos associados a cada caso.
 O teste de usabilidade a ser realizado visa avaliar a interação do usuário com o sistema, focando na execução de tarefas essenciais, como cadastro, login, criação e edição de processos, além do upload de documentos. O objetivo é verificar se o sistema proporciona uma experiência intuitiva e eficiente para os usuários, que neste caso serão testados com o perfil de advogado.
+
+<br>
 
 **Cenário 1 - Cadastro e Login** <br>
 Neste cenário, realize o cadastro na plataforma, selecionando o tipo de perfil de advogado. Após concluir o cadastro com sucesso, efetue o login utilizando as credenciais recém-criadas.
 
+<br>
 
 | **Usuário** | **Taxa Sucesso (SIM/NÃO)** | **Satisfação Subjetiva (1-5)** | **Tempo Conclusão (Segundos)**  |
 |-------------|------------------|--------------------------------|---------------------------------|
@@ -1128,7 +1131,7 @@ Neste cenário, realize o cadastro na plataforma, selecionando o tipo de perfil 
 
 
     Comentários dos Usuários: 
-    - A tarefa de cadastro e login foi bem fácicl de realizar, o método é padrão relativamente ao habitual ao que se espera quando se realiza o cadastro e login em outros softwares.
+    - A tarefa de cadastro e login foi bem fácicl de realizar, o método é padrão relativamente ao que se espera quando realiza o cadastro e login em outros softwares.
     - Adorei que ele não deixa passar informações incompletas, isso é essencial no nosso trabalho.
     - Achei o visual muito moderno e bonito, diferente de outras ferramentas que já usei. Dá gosto de usar!
 
@@ -1137,6 +1140,7 @@ Neste cenário, realize o cadastro na plataforma, selecionando o tipo de perfil 
 **Cenário 2 - Criação e Visualização de Processo** <br>
 Após realizar o login, crie um novo processo jurídico e verifique se o processo recém-criado está corretamente exibido na lista de processos.
 
+<br>
 
 | **Usuário** | **Taxa Sucesso (SIM/NÃO)** | **Satisfação Subjetiva (1-5)** | **Tempo Conclusão (Segundos)**  |
 |-------------|------------------|--------------------------------|---------------------------------|
@@ -1157,6 +1161,7 @@ Após realizar o login, crie um novo processo jurídico e verifique se o process
 **Cenário 3 - Edição de Processo Recém-Criado** <br>
 Edite as informações do processo recém-criado, alterando os campos "Nome Cliente" e "Assunto". Após atualizar os dados, verifique se as alterações são refletidas corretamente na lista de processos.
 
+<br>
 
 | **Usuário** | **Taxa Sucesso (SIM/NÃO)** | **Satisfação Subjetiva (1-5)** | **Tempo Conclusão (Segundos)**  |
 |-------------|------------------|--------------------------------|---------------------------------|
@@ -1168,15 +1173,16 @@ Edite as informações do processo recém-criado, alterando os campos "Nome Clie
 
 
     Comentários dos Usuários: 
-    - Mesmo sem saber usar antes, consegui encontrar tudo rápido, é bem intuitivo. Tudo funcionou de forma correta.
+    - Mesmo sem saber usar antes, consegui encontrar tudo rápido, é bem intuitivo. E tudo funcionou de forma correta.
     - Foi fácil alterar os campos e salvar. Os botões estão no lugar certo, não precisei ficar procurando onde clicar.
     - Gostei que as mensagens de alerta aparecem bem destacadas, dá confiança de que tudo foi feito certo.
-
+    
 <br>
 
 **Cenário 4 - Upload de Documento Associado ao Processo** <br>
 Acesse a lista de documentos vinculado ao processo recém-criado e editado e, em seguida, realize o upload de um documento. Após o envio, verifique se o documento é exibido na lista de documentos.
 
+<br>
 
 | **Usuário** | **Taxa Sucesso (SIM/NÃO)** | **Satisfação Subjetiva (1-5)** | **Tempo Conclusão (Segundos)**  |
 |-------------|------------------|--------------------------------|---------------------------------|
@@ -1190,19 +1196,19 @@ Acesse a lista de documentos vinculado ao processo recém-criado e editado e, em
     Comentários dos Usuários: 
     - Achei fácil de entender como funciona, não precisa de treinamento para usar.
     - O carregamento de documentos é bem prático e funcionou corretamante.
-    - É ótimo que o sistema avise quando tem algo errado nos dados, isso ajuda demais no dia a dia. A mensagem de que o documento foi baixado com sucesso e de que selecionei um documento muito grande foi muito importante.
+    - É ótimo que o sistema avise quando tem algo errado nos dados, isso ajuda demais no dia a dia. A mensagem de que selecionei um documento muito grande foi muito importante, assim como a mensagem de sucesso.
 
 <br><br>
 
 ## Avaliação dos Testes de Usabilidade
 
-om base nos resultados obtidos, foi possível constatar que a aplicação web apresentou um desempenho positivo em termos de taxa de sucesso na interação dos usuários, já que todos os cenários propostos foram concluídos com êxito.
+Com base nos resultados obtidos, foi possível constatar que a aplicação web desenvolvida apresentou um desempenho positivo em termos de taxa de sucesso em relação á interação dos usuários, já que todos os cenários propostos foram concluídos com êxito.
 
-Quanto ao tempo para a conclusão de cada tarefa/cenário, observou-se uma discrepância significativa entre a média de tempo dos usuários e o tempo registrado pelo especialista/desenvolvedor em todos os cenários. Essa diferença, em certa medida, era esperada, considerando que o especialista possui conhecimento prévio da interface da aplicação, do posicionamento dos elementos e da lógica dos fluxos.
+Quanto ao tempo para a conclusão de cada tarefa/cenário, observou-se uma discrepância entre a média de tempo dos usuários e o tempo registrado pelo especialista/desenvolvedor em todos os cenários. Essa diferença, em certa medida, era esperada, considerando que o especialista possui conhecimento prévio da interface da aplicação, do posicionamento dos elementos e da lógica dos fluxos.
 
 Em particular, destacou-se o cenário 2, onde a média de tempo dos usuários foi de 107 segundos, comparada aos 50 segundos registrados pelo especialista. Essa discrepância foi justificada pela necessidade de os usuários realizarem uma verificação detalhada dos dados salvos, ação que, embora esperada, demandou mais tempo durante os testes.
 
-Além disso, a aplicação foi avaliada como intuitiva e operacional, com fluxos de navegação claros e uma estrutura que facilita a realização das tarefas. Os participantes relataram facilidade em localizar funcionalidades e compreender a lógica da interface, mesmo sem treinamento prévio.
+Além disso, a aplicação foi avaliada como intuitiva e operacional, com fluxos de navegação claros e estrutura que auxiliam na realização das tarefas. Os participantes relataram facilidade em localizar funcionalidades e compreender a lógica da interface, mesmo sem treinamento prévio.
 
 Outro destaque foi o alto índice de satisfação subjetiva dos usuários durante a execução dos cenários propostos. Esse aspecto foi refletido nas avaliações médias, com todos os cenários recebendo a nota máxima de 5 (Ótimo).
 
@@ -1213,7 +1219,7 @@ Nos comentários gerais, os usuários destacaram como pontos fortes da aplicaç�
 - Elevado nível de validações, alinhado às exigências práticas da atividade profissional;
 - Clareza nas mensagens de sucesso, confirmação e erro, que foram fundamentais para orientar o uso e minimizar incertezas.
 
-Em síntese, os resultados indicam que a aplicação é robusta, intuitiva e bem aceita pelos usuários, evidenciando sua capacidade de atender às demandas práticas do público-alvo com eficiência e usabilidade.
+Em síntese, os resultados indicam que a aplicação é robusta, intuitiva e bem aceita pelos usuários, evidenciando sua capacidade em atender às demandas práticas do público-alvo com eficiência e usabilidade.
 
 
 
