@@ -433,9 +433,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT31- Visualizar Tooltips nos Ícones da Lista de Documentos**  
 :--------------: | ------------  
 **User Story Associada** | US-08  
-**Descrição** | Verificar se os tooltips são exibidos corretamente ao passar o mouse sobre os ícones da lista de documentos, identificando claramente cada funcionalidade 
+**Descrição** | Verificar se tooltips (dicas de ferramentas) são exibidos corretamente ao passar o mouse sobre os ícones da lista de documentos, identificando claramente cada funcionalidade 
 **Pré-condições** | Usuário deve estar logado na aplicação
-**Procedimento** | 1) Acesse a página de Lista Processos <br> 2) Clique no ícone de visualização de documentos em um processo específico <br> 3) Passe o mouse sobre os ícones da lista de documentos <br> 3) Observe se um tooltip é exibido para cada ícone, com o texto adequado à funcionalidade correspondente 
+**Procedimento** | 1) Acesse a página Lista Processos <br> 2) Clique no ícone de visualização de documentos em um processo específico <br> 3) Passe o mouse sobre os ícones da lista de documentos <br> 3) Observe se um tooltip é exibido para cada ícone, com o texto adequado à funcionalidade correspondente 
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface  
 **Resultado Esperado** | Os tooltips são exibidos corretamente ao passar o mouse sobre os ícones, com mensagens claras e precisas
 **Resultado Obtido** | Sucesso  
@@ -449,8 +449,8 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Descrição** | Verificar se o sistema realiza o upload de um documento com sucesso, tanto na lista de "Documentos Advogado" quanto na lista de "Documentos Requerente", e se os dados são salvos corretamente
 **Pré-condições** | Usuário deve estar logado na aplicação com o perfil de advogado e deve existir pelo menos um processo cadastrado previamente. <br> Além de pelo menos um arquivo no formato PDF menor que 2MB estar disponível para upload  
 **Procedimento** | 1) Acesse a página Lista Documentos <br> 2) Clique no ícone (+) para adicionar um novo documento na lista de "Documentos Requerente" <br> 3) Preencha o campo obrigatório de "Tipo Documento" e selecione um arquivo PDF válido, menor que 2MB, no campo de "Documento" <br> 4) Clique no botão “Salvar" <br> 5) Repita o processo, adicionando um novo documento à lista de "Documentos Requerente"
-**Dados de Entrada** | Seleção de Arquivo PDF menor que 2MB no campo "Documento" e inserção de dado válido na opção de "Tipo Documento" 
-**Resultado Esperado** | O sistema exibe uma mensagem de sucesso com o texto "O documento foi adicionado ao processo com sucesso." O usuário é redirecionado para a lista de documentos, onde os dados referentes ao documento recém-adicionado, como a data de upload, tipo de documento e nome do arquivo, são exibidos de forma consistente e correta tanto na lista de "Documentos Advogado" quanto na lista de "Documentos Requerente"
+**Dados de Entrada** | Seleção de arquivo PDF menor que 2MB no campo "Documento" e inserção de dado válido na opção de "Tipo Documento" 
+**Resultado Esperado** | O sistema exibe uma mensagem de sucesso com o texto "O documento foi adicionado ao processo com sucesso.". O usuário é redirecionado para a lista de documentos, onde os dados referentes ao documento recém-adicionado, como a data de upload, tipo de documento e nome do arquivo, são exibidos de forma consistente e correta tanto na lista de "Documentos Advogado" quanto na lista de "Documentos Requerente"
 **Resultado Obtido** | Sucesso
 
 ---
@@ -461,8 +461,8 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **User Story Associada** | US-12 
 **Descrição** | Verificar se o sistema exibe corretamente o nome do usuário da conta como criador do documento após o seu upload bem-sucedido  
 **Pré-condições** | Usuário deve estar logado na aplicação com o perfil de advogado e deve existir pelo menos um processo cadastrado previamente   
-**Procedimento** | 1) Acesse a página Lista Documentos <br> 2) Clique no ícone (+) para adicionar um novo documento <br> 3) Preencha o campo obrigatório de "Tipo Documento" e selecione um arquivo PDF válido, menor que 2MB, no campo de "Documento" <br> 4) Clique no botão “Salvar" <br> 4) Verifique se o campo “Criado Por” referente a este documento inserido na lista de documentos corresponde ao nome do usuário descrito no topbar da página
-**Dados de Entrada** | Seleção de Arquivo PDF menor que 2MB no campo "Documento" e inserção de dado válido na opção de "Tipo Documento" 
+**Procedimento** | 1) Acesse a página Lista Documentos <br> 2) Clique no ícone (+) para adicionar um novo documento <br> 3) Preencha o campo obrigatório de "Tipo Documento" e selecione um arquivo PDF válido, menor que 2MB, no campo de "Documento" <br> 4) Clique no botão “Salvar" <br> 5) Verifique se o campo “Criado Por” referente a este documento inserido na lista corresponde ao nome do usuário descrito no topbar da página
+**Dados de Entrada** | Seleção de arquivo PDF menor que 2MB no campo "Documento" e inserção de dado válido na opção de "Tipo Documento" 
 **Resultado Esperado** | O campo “Criado Por” referente ao documento recém-adicionado exibe o nome do utilizador corretamente conforme o username exibido no topbar  
 **Resultado Obtido** | Sucesso
 
@@ -472,11 +472,11 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT34 - Validar Restrição de Upload de Aquivo Somente para Formato PDF**  
 :--------------: | ------------  
 **User Story Associada** | US-12
-**Descrição** | Verificar se o sistema permite o upload apenas de arquivos no formato PDF, restringindo a seleção de outros formatos pelo utilizador
+**Descrição** | Verificar se o sistema permite o upload apenas de arquivos no formato PDF, restringindo a seleção de outros formatos pelo usuário
 **Pré-condições** | Usuário deve estar logado na aplicação e deve existir pelo menos um processo cadastrado previamente. <br> Além de arquivos no formato PDF e outros formatos distintos estarem disponíveis para upload
 **Procedimento** | 1) Acesse a página Lista Documentos <br> 2) Clique no ícone (+) para adicionar um novo documento <br> 3) Preencha o campo obrigatório de "Tipo Documento" <br> 4) Ao tentar selecionar um arquivo no campo de "Documento", verifique se o sistema exibe apenas arquivos no formato PDF para seleção (arquivos DOCX, JPG ou outros formatos não são exibidos)
 **Dados de Entrada** | Arquivos nos formatos PDF e formatos não permitidos
-**Resultado Esperado** | O sistema restringe a seleção de arquivos a somente aqueles no formato PDF. Arquivos em formatos não permitidos (como DOCX, JPG, etc.) não são exibidos na janela de seleção de arquivos, impossibilitando que o usuário selecione outro formato. Não há exibição de mensagem de erro, pois a restrição ocorre na interface de seleção de arquivos
+**Resultado Esperado** | O sistema restringe a seleção de arquivos à somente aqueles no formato PDF. Arquivos em formatos não permitidos (como DOCX, JPG, etc.) não são exibidos na janela de seleção de arquivos, impossibilitando que o usuário selecione outro formato. Não há exibição de mensagem de erro, pois a restrição ocorre na interface de seleção de arquivos
 **Resultado Obtido** | Sucesso
 
 ---
@@ -487,9 +487,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **User Story Associada** | US-12 
 **Descrição** | Verificar se o sistema aceita o upload apenas de arquivos com tamanho máximo de 2MB e exibe mensagem de erro orientando o utilizador  
 **Pré-condições** | Usuário deve estar logado na aplicação e deve existir pelo menos um processo cadastrado previamente. <br> Além de um arquivo PDF com tamanho superior a 2MB estar disponível para upload
-**Procedimento** | 1) Acesse a página Lista Documentos <br> 2) Clique no ícone (+) para adicionar um novo documento <br> 3) Preencha o campo obrigatório de "Tipo Documento" <br> 4) Selecione um arquivo em formato PDF com tamanho superior a 2MB no campo de "Documento" <br> 4) Clique no botão "Salvar"
-**Dados de Entrada** | Arquivo PDF com tamanho superior a 2MB 
-**Resultado Esperado** |  sistema não permite o upload do arquivo e uma mensagem de erro é exibida informando que "O arquivo excede o limite de 2 MB. Por favor, selecione um arquivo menor.", sendo que o arquivo não é salvo. O usuário permanece na página de upload sem redirecionamento, aguardando uma nova tentativa de envio de arquivo dentro do limite permitido.  
+**Procedimento** | 1) Acesse a página Lista Documentos <br> 2) Clique no ícone (+) para adicionar um novo documento <br> 3) Preencha o campo obrigatório de "Tipo Documento" <br> 4) Selecione um arquivo em formato PDF com tamanho superior a 2MB no campo de "Documento" <br> 5) Clique no botão "Salvar"
+**Dados de Entrada** | Seleção de rquivo PDF com tamanho superior a 2MB 
+**Resultado Esperado** | O sistema não permite o upload do arquivo superior a 2MB e uma mensagem de erro é exibida informando que "O arquivo excede o limite de 2 MB. Por favor, selecione um arquivo menor.". O usuário permanece na página de upload sem redirecionamento, aguardando uma nova tentativa de envio de arquivo dentro do limite permitido
 **Resultado Obtido** | Sucesso
 
 ---
@@ -511,7 +511,7 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT37 - Tentar Inserir Informação em Campos Bloqueados no Upload**  
 :--------------: | ------------  
 **User Story Associada** | US-12
-**Descrição** | Verificar se o sistema impede a inserção de informação pelo utilizador em campos bloqueados durante o processo de upload
+**Descrição** | Verificar se o sistema impede a inserção de informação pelo usuário em campos bloqueados durante o processo de upload
 **Pré-condições** | Usuário deve estar logado na aplicação com o perfil de advogado e deve existir pelo menos um processo cadastrado previamente
 **Procedimento** | 1) Acesse a página Lista de Documentos <br> 2) Clique no ícone (+) para adicionar um novo documento <br> 3) Tente editar campos os campos "Nº Processo", "Advogado Responsável" e "Nome Cliente" 
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface
@@ -525,8 +525,8 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 :--------------: | ------------  
 **User Story Associada** | US-13
 **Descrição** | Verificar se o usuário consegue excluir um documento com sucesso após confirmar a exclusão, removendo-o da lista de documentos
-**Pré-condições** | Usuário deve estar logado na aplicação com o perfil de advogado, deve existir pelo menos um processo cadastrado previamente e documentos adicionados nas listas de "Documentos Advogado" e "Documentos Requerente"
-**Procedimento** | 1) Acesse a página Lista de Documentos <br> 2) Clique no ícone de exclusão associado ao documento na lista de "Documento Advogado" <br> 3) Confirme a exclusão na mensagem de confirmação exibida <br> 4) Repita o processo para excluir um documento da lista de "Documentos Requerente"
+**Pré-condições** | Usuário deve estar logado na aplicação com o perfil de advogado e deve existir pelo menos um processo cadastrado previamente, além de documentos adicionados nas listas de "Documentos Advogado" e "Documentos Requerente"
+**Procedimento** | 1) Acesse a página Lista de Documentos <br> 2) Clique no ícone de exclusão associado ao documento na lista de "Documentos Advogado" <br> 3) Confirme a exclusão na mensagem de confirmação exibida <br> 4) Repita o processo para excluir um documento da lista de "Documentos Requerente"
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface  
 **Resultado Esperado** | O sistema exibe uma mensagem de sucesso informando que o documento foi excluído com sucesso. O documento é removido imediatamente da lista de documentos e não é mais visível tanto na lista de "Documentos Advogado" como na lista de "Requerente"
 **Resultado Obtido** | Sucesso   
@@ -537,7 +537,7 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT39 - Cancelar Exclusão de Documento**  
 :--------------: | ------------  
 **User Story Associada** | US-13 
-**Descrição** | Verificar se o documento permanece na lista de documentos quando o advogado cancela o processo de exclusão na mensagem de confirmação
+**Descrição** | Verificar se o documento permanece na lista de documentos quando o usuário cancela o processo de exclusão na mensagem de confirmação
 **Pré-condições** | Usuário deve estar logado na aplicação com o perfil de advogado, deve existir pelo menos um processo cadastrado previamente e um documento adicionado na lista
 **Procedimento** | 1) Acesse a página Lista de Documentos <br> 2) Clique no ícone de exclusão associado a um documento na lista <br> 3) Clique em "Cancelar" na mensagem de confirmação 
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface   
@@ -551,7 +551,7 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 :--------------: | ------------  
 **User Story Associada** | US-14 
 **Descrição** | Verificar se o sistema realiza download de um documento da lista de forma bem-sucedida e se o arquivo baixado está íntegro, sendo aberto sem erros após o download
-**Pré-condições** | Usuário deve estar logado na aplicação com o perfil de advogado, deve existir pelo menos um processo cadastrado previamente e um documento adicionado na lista
+**Pré-condições** | Usuário deve estar logado na aplicação, deve existir pelo menos um processo cadastrado previamente e um documento adicionado na lista
 **Procedimento** | 1) Acesse a página Lista de Documentos <br> 2) Clique no ícone de download associado a um documento na lista <br> 3) Clique em "Ok" na mensagem de sucesso <br> 4) Abra o arquivo no seu dispositivo
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface 
 **Resultado Esperado** | Após o download, o sistema exibe uma mensagem com o texto "Download do documento {Tipo Documento} realizado com sucesso." e o arquivo baixado é aberto corretamente, sem corrompimento  
@@ -563,10 +563,10 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT41 - Distinguir Visualização de Processos em Relação ao Tipo de Perfil do Usuário**  
 :--------------: | ------------  
 **User Story Associada** | US-15 
-**Descrição** | Verificar se a aplicação permite a entrada alternada nas contas com os cadastros de advogado e cliente, utilizando os dados armazenados no local storage, e se o sistema exibe a visualização correta dos processos conforme o tipo de perfil de usuário logado, garantindo que não haja conflitos de visualização entre os perfis
+**Descrição** | Verificar se a aplicação permite a entrada alternada de contas com os cadastros de advogado e cliente, utilizando os dados armazenados no local storage, e se o sistema exibe a visualização correta dos processos conforme o tipo de perfil de usuário logado, garantindo que não haja conflitos de visualização entre os perfis
 **Pré-condições** | Deve haver cadastro de pelo menos um usuário com o perfil de advogado e outro com o perfil de cliente, além de múltiplos processos cadastrados previamente, incluindo ao menos um processo com o nome do cliente que será utilizado no teste  
-**Procedimento** | 1) Faça login na aplicação com o cadastro de um advogado <br> 2) Navegue até a lista de processos, verificando se todos os processos do escritório são exibidos, incluindo aqueles criados por outros advogados <br> 3) Efetue logout da conta de advogado <br> 4) Faça, em seguida, login na aplicação com a conta de um cliente <br> 5) Navegue até a lista de processos, verificando se apenas os processos cujo "Nome Cliente" corresponde ao nome registrado no cadastro estão visíveis, , e que processos de outros clientes ou advogados não estão acessíveis
-**Dados de Entrada** | Inserção de dados válidos nas credenciais do login com o tipo de perfil advogado e cliente, diante dos cadastros realizados anteriormente 
+**Procedimento** | 1) Faça login na aplicação com o cadastro de um advogado <br> 2) Navegue até a lista de processos, verificando se todos os processos do escritório são exibidos, incluindo aqueles criados por outros advogados <br> 3) Efetue logout da conta de advogado <br> 4) Faça, em seguida, login na aplicação com a conta de um cliente <br> 5) Navegue até a lista de processos, verificando se apenas os processos cujo "Nome Cliente" corresponde ao nome registrado no cadastro estão visíveis, e que processos de outros clientes ou advogados não estão acessíveis
+**Dados de Entrada** | Inserção de dados válidos nas credenciais do login com o tipo de perfil advogado e cliente 
 **Resultado Esperado** | O sistema armazena corretamente os dados no local storage, permitindo alternar entre o cadastro de advogado e cliente, sem conflitos de visualização entre os perfis, de forma que a visualização de dados de processos permitida para cada tipo de perfil é realizada com sucesso 
 **Resultado Obtido** | Sucesso  
 
@@ -576,8 +576,8 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT42 - Testar Restrição de Funcionalidades para Perfil Cliente**  
 :--------------: | ------------  
 **User Story Associada** | US-15
-**Descrição** | Verificar se botões e ícones não autorizados para clientes são ocultados quando logado com o perfil de cliente  
-**Pré-condições** | Usuário deve estar cadastrado na aplicação com o perfil de advogado, deve existir pelo menos um processo cadastrado previamente e documentos adicionados nas listas de "Documentos Advogado" e "Documentos Requerente"
+**Descrição** | Verificar se botões e ícones não autorizados são ocultados quando logado com o perfil de cliente  
+**Pré-condições** | Usuário deve estar cadastrado na aplicação com o perfil de cliente, deve existir pelo menos um processo cadastrado previamente e documentos adicionados nas listas de "Documentos Advogado" e "Documentos Requerente"
 **Procedimento** | 1) Faça login na aplicação com o perfil de cliente <br> 2) Navegue pelas páginas da aplicação, verificando a exibição dos ícones e botões
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface   
 **Resultado Esperado** | O cliente não consegue visualizar os seguintes elementos: <br> • Botão de criação de processos <br> • Ícones de edição e exclusão de processos <br> • Ícones de adição e exclusão de documentos da lista "Documentos Advogado"
@@ -601,8 +601,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
+Esta seção deve apresenta o relatório com as evidências dos testes de software realizados na aplicação, baseado no plano de testes pré-definido, comprovando o funcionamento adequado do sistema:
 
+<br>
 
 - US-01
 
@@ -852,7 +853,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |-------------------------------|------------------------------------------------------------|
 |**User Story Associada**       | US-09. Visualização de Detalhes do Processo                |
 |**Link Vídeo Teste Realizado** | [Evidência Teste CT-25](videos/ScreenRecording.CT-25.mp4)  |
-|                                                                                             | 
+|                                                                                            | 
+
 <br><br>
 
 
@@ -1054,15 +1056,15 @@ Com uma taxa de sucesso de 100% nos testes realizados e uma cobertura abrangente
 
 # Testes de Usabilidade
 
-**Responsável pelo Planejamento dos Testes de Usabilidade:** Carolina Araujo
-**Responsável pela Execução dos Testes de Usabilidade e Registro de Comentários:** Daniel Freitas
+**Responsável pelo Planejamento dos Testes de Usabilidade:** <br> Carolina Araujo <br>
+**Responsável pela Execução dos Testes de Usabilidade e Registro de Comentários:** <br> Daniel Freitas
 
 <br>
 
 ## Plano de Testes de Usabilidade
 O Plano de Testes de Usabilidade teve como objetivo principal coletar informações sobre as expectativas dos usuários em relação à funcionalidade geral da aplicação, a fim de garantir que o sistema atenda às necessidades e preferências dos usuários finais.
 
-Para a execução deste plano, foram elaborados quatro cenários de teste, cada um baseado nas definições estabelecidas nas User Stories, conforme especificado na fase de requisitos do projeto. Esses cenários foram cuidadosamente formulados para cobrir os principais fluxos de uso da aplicação e avaliar a interação do usuário com as funcionalidades mais críticas.
+Para a execução deste plano, foram elaborados quatro cenários de teste, cada um baseado nas definições estabelecidas nas User Stories do projeto. Esses cenários foram cuidadosamente formulados para cobrir os principais fluxos de uso da aplicação e avaliar a interação do usuário com as funcionalidades mais críticas.
 
 Para execução dos testes de usabilidade foram selecionados três participantes que são advogados com experiência no uso de aplicações similares às que estão sendo desenvolvidas. Esses participantes são usuários que, em sua prática profissional, utilizam sistemas de gestão e acompanhamento de processos jurídicos. A escolha desses profissionais se baseou na necessidade de avaliar a aplicabilidade da solução em um ambiente de trabalho real, verificando se a ferramenta atende às demandas específicas de um escritório de advocacia.
 
@@ -1078,7 +1080,7 @@ O registro dos testes avaliou os seguintes indicadores de usabilidade:
 4. Bom
 5. Ótimo
 
-- Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (Software QA Tester) realiza a mesma tarefa.
+- Tempo para conclusão da tarefa: Mede em segundos, e em comparação com o tempo utilizado quando um especialista (Software QA Tester) realiza a mesma tarefa.
 
 Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
 
@@ -1086,20 +1088,21 @@ Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as info
 
 **Tipo de Teste de Usabilidade**
 
-Os testes de usabilidade realizados foram do tipo moderado presencial, com a presença de um mediador responsável por guiar os participantes durante a execução das tarefas. O mediador forneceu instruções claras e foi responsável por manter o fluxo de interação com os usuários, sem intervir diretamente nas ações dos participantes, a não ser quando solicitado ou em casos de dúvidas.
+Os testes de usabilidade realizados foram do tipo moderado presencial, com a presença de um mediador responsável por guiar os participantes durante a execução das tarefas. O mediador forneceu instruções claras e foi responsável por manter o fluxo de interação com os usuários, sem intervir diretamente nas ações dos participantes.
 
 Além disso, foi utilizado um cronômetro para registrar o tempo que cada usuário levou para concluir as tarefas propostas. Esse dado é importante para avaliar a eficiência da aplicação e comparar os resultados com o desempenho esperado, utilizando como referência o tempo que um especialista, como um Software QA Tester, leva para realizar as mesmas tarefas. O mediador também registrou os comentários dos usuários, com o objetivo de identificar dificuldades e oportunidades de melhoria na interface da aplicação.
 
 O uso de mediador presencial permitiu uma coleta de dados mais precisa sobre o tempo de execução das tarefas e proporcionou uma observação direta das interações dos usuários com a aplicação.
+
 <br>
 
-**Resumo Cenários**
+**Resumo dos Cenários**
 
 | **Nº Cenário** | **Descrição Cenário** |
 |---------------|----------------------|
 | 1             | **Cadastro e Login:** O usuário realiza o cadastro escolhendo o perfil de advogado e, em seguida, faz login com as credenciais criadas |
 | 2             | **Criação e Visualização de Processo:** O usuário cria um novo processo jurídico e verifica se o processo está visível na lista de processos |
-| 3             | **Edição de Processo:** O usuário edita um processo, alterando campos como "Nome Cliente", "Data de Entrada" e "Assunto", e visualiza as alterações realizadas na lista de processos |
+| 3             | **Edição de Processo:** O usuário edita um processo, alterando campos como "Nome Cliente" e "Assunto", e visualiza as alterações realizadas na lista de processos |
 | 4             | **Upload de Documento:** O usuário faz upload de um documento relacionado a um processo e verifica se o arquivo é exibido na lista de documentos |
 
 Esses cenários cobrem funcionalidades essenciais do sistema, desde o cadastro até a gestão de documentos, garantindo uma experiência completa para o usuário. 
@@ -1152,7 +1155,7 @@ Após realizar o login, crie um novo processo jurídico e verifique se o process
 <br>
 
 **Cenário 3 - Edição de Processo Recém-Criado** <br>
-Edite as informações do processo recém-criado, alterando os campos "Nome Cliente", "Data de Entrada" e "Assunto". Após atualizar os dados, verifique se as alterações são refletidas corretamente na lista de processos.
+Edite as informações do processo recém-criado, alterando os campos "Nome Cliente" e "Assunto". Após atualizar os dados, verifique se as alterações são refletidas corretamente na lista de processos.
 
 
 | **Usuário** | **Taxa Sucesso (SIM/NÃO)** | **Satisfação Subjetiva (1-5)** | **Tempo Conclusão (Segundos)**  |
