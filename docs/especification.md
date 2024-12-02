@@ -364,7 +364,7 @@ ________________________________________
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais, além das restrições do projeto.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais da aplicação:
 
 <br>
 
