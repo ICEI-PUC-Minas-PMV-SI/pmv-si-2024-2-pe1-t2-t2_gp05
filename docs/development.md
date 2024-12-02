@@ -1,4 +1,4 @@
-# Programação Funcionalidades
+# Programação das Funcionalidades
 
 ## Requisitos Atendidos
 
