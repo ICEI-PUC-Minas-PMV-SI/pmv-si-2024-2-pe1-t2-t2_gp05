@@ -8,34 +8,36 @@ A documentação dos testes é dividida nas seguintes seções:
  - [Plano de Testes de Software](#plano-de-testes-de-software)
  - [Registro dos Testes de Software](#registro-dos-testes-de-software)
  - [Avaliação dos Testes de Software](#avaliação-dos-testes-de-software)
- - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
+ - [Plano de Testes de Usabilidade](#plano-de-testes-de-usabilidade)
  - [Registro dos Testes de Usabilidade](#registro-dos-testes-de-usabilidade)
  - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
 <br>
 
 # Teste de Software
 
-**Responsável pelo Planejamento dos Testes de Caso:** Carolina Araujo <br>
-**Responsável pela Execução dos Testes e Registro de Evidências:** Carolina Araujo
+**Responsável pelo Planejamento dos Testes de Caso:** <br> Carolina Araujo <br>
+
+**Responsável pela Execução dos Testes e Registro de Evidências:** <br> Carolina Araujo
 
 <br>
 
 ## Plano de Testes de Software
 
-Este documento apresenta os casos de teste desenvolvidos para o projeto de aplicação web, baseado na framework ATDD (Acceptance Test-Driven Development). Essa abordagem garante que os testes atendam aos critérios de aceitação definidos em cada User Story sejam rigorosamente atendidos, promovendo alinhamento entre as expectativas dos stakeholders e o comportamento do sistema.
+Este documento apresenta os casos de teste desenvolvidos para o projeto de aplicação web, baseado na framework ATDD (Acceptance Test-Driven Development). Essa abordagem garante que os testes atendam rigorosamente aos critérios de aceitação definidos em cada User Story, promovendo alinhamento entre as expectativas dos stakeholders e o comportamento do sistema.
 
-Os casos de teste estão documentados de forma detalhada, com foco na rastreabilidade e validação dos requisitos. Cada caso de teste é composto pelas seguintes informações:
+Os casos de teste estão documentados de forma detalhada, com foco na rastreabilidade e na validação dos requisitos. Cada caso de teste é composto pelas seguintes informações:
 
-**ID:** Identificador único para rastreamento do caso de teste
-**Título:** Nome descritivo para o caso de teste
-**User Story Associada:** A User Story que originou o caso de teste, estabelecendo vínculo para rastreabilidade
-**Descrição:** Objetivo do caso de teste em relação à funcionalidade avaliada
-**Pré-condições:** Condições que devem ser atendidas antes da execução do teste
-**Procedimento:** Passos necessários para a execução do teste
-**Dados de Entrada:** Informações ou dados requeridos para a realização do teste
-**Resultado Esperado:** Comportamento esperado do sistema após a execução do teste
-**Resultado Obtido:** Resultado observado durante a execução do teste
-
+- **ID:**  Identificador único para rastreamento do caso de teste <br>
+- **Título:**  Nome descritivo para o caso de teste <br>
+- **User Story Associada:**  A User Story que originou o caso de teste, estabelecendo vínculo para rastreabilidade <br>
+- **Descrição:**  Objetivo do caso de teste em relação à funcionalidade avaliada <br>
+- **Pré-condições:**  Condições que devem ser atendidas antes da execução do teste <br>
+- **Procedimento:**  Passos necessários para a execução do teste <br>
+- **Dados de Entrada:**  Dados requeridos para a realização do teste <br>
+- **Resultado Esperado:**  Comportamento esperado do sistema após a execução do teste <br>
+- **Resultado Obtido:**  Resultado observado após a execução do teste <br>
+  
+<br>
 
 **Caso de Teste** | **CT01 - Cadastrar Usuário com Dados Válidos**
  :--------------: | ------------
@@ -1057,7 +1059,7 @@ Com uma taxa de sucesso de 100% nos testes realizados e uma cobertura abrangente
 
 <br>
 
-## Cenários e Plano de Testes de Usabilidade
+## Plano de Testes de Usabilidade
 O Plano de Testes de Usabilidade teve como objetivo principal coletar informações sobre as expectativas dos usuários em relação à funcionalidade geral da aplicação, a fim de garantir que o sistema atenda às necessidades e preferências dos usuários finais.
 
 Para a execução deste plano, foram elaborados quatro cenários de teste, cada um baseado nas definições estabelecidas nas User Stories, conforme especificado na fase de requisitos do projeto. Esses cenários foram cuidadosamente formulados para cobrir os principais fluxos de uso da aplicação e avaliar a interação do usuário com as funcionalidades mais críticas.
@@ -1103,7 +1105,7 @@ O uso de mediador presencial permitiu uma coleta de dados mais precisa sobre o t
 Esses cenários cobrem funcionalidades essenciais do sistema, desde o cadastro até a gestão de documentos, garantindo uma experiência completa para o usuário. 
 
 
-## Registro de Testes de Usabilidade
+## Registro dos Testes de Usabilidade
 
 **Contexto**
 A aplicação foi desenvolvida para atender escritórios de advocacia especializados na área de aquisição de nacionalidade, com o propósito de otimizar a gestão e a comunicação entre advogados e clientes. Focada na eficiência e na experiência do usuário, a plataforma proporciona um acompanhamento ágil dos processos, aprimorando tanto a organização quanto a eficácia operacional do escritório. Além disso, a aplicação agiliza as tarefas dos advogados, garantindo que os clientes estejam sempre atualizados quanto ao status de seus processos, ao mesmo tempo em que promove uma gestão otimizada dos documentos associados a cada caso.
