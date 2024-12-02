@@ -1056,7 +1056,9 @@ Com uma taxa de sucesso de 100% nos testes realizados e uma cobertura abrangente
 
 # Testes de Usabilidade
 
-**Responsável pelo Planejamento dos Testes de Usabilidade:** <br> Carolina Araujo <br>
+**Responsável pelo Planejamento dos Testes de Usabilidade:** <br> Carolina Araujo 
+<br>
+
 **Responsável pela Execução dos Testes de Usabilidade e Registro de Comentários:** <br> Daniel Freitas
 
 <br>
