@@ -8,14 +8,14 @@ As tabelas que se seguem apresentam os requisitos que relacionam o escopo do pro
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |    
 |------|------------------------|------------|-----------------|
-| RF01 | Permitir a criação de cadastro da conta, incluindo a escolha do tipo de perfil de acesso (Advogado ou Cliente) | Carolina Araujo | registrationUser.html |  
+| RF01 | Permitiro cadastro da conta, incluindo a escolha do tipo de perfil de acesso (Advogado ou Cliente) | Carolina Araujo | registrationUser.html |  
 | RF02 | Permitir o login na aplicação utilizando credenciais válidas definidas no cadastro | Carolina Araujo e Daniel Freitas | login.html | 
-| RF03 | Permitir a edição do cadastro da conta pelos perfis de Advogado e Cliente | Carolina Araujo | registrationUser.html | 
+| RF03 | Permitir a edição do cadastro pelos perfis de Advogado e Cliente | Carolina Araujo | registrationUser.html | 
 | RF04 | Permitir a visualização da lista de processos pelos perfis de Advogado e Cliente | Carolina Araujo e Daniel Freitas | listProcess.html |
-| RF05 | Permitir a pesquisa na lista de processos com a aplicação de filtros que possibilitem a busca por qualquer conteúdo presente na lista pelos perfis de Advogado e Cliente | Carolina Araujo | listProcess.html |
+| RF05 | Permitir a pesquisa geral na lista de processos com a aplicação de filtros que possibilitem a busca por qualquer conteúdo presente na lista, para os perfis de Advogado e Cliente | Carolina Araujo | listProcess.html |
 | RF06 | Permitir a visualização de detalhes de um processo específico pelos perfis de Advogado e Cliente | Carolina Araujo e Daniel Freitas | viewProcess.html |
 | RF07 | Permitir a criação de um novo processo jurídico pelo perfil de Advogado | Carolina Araujo e Daniel Freitas | createProcess.html |
-| RF08 | Permitir a edição de dados de um processo existente pelo perfil de Advogado | Carolina Araujo | updateProcess.html |
+| RF08 | Permitir a edição dos dados de um processo existente pelo perfil de Advogado | Carolina Araujo | updateProcess.html |
 | RF09 | Permitir a conclusão de um processo pelo perfil de Advogado, alterando seu status de "Em Andamento" para "Concluído" | Carolina Araujo e Daniel Freitas | updateProcess.html |
 | RF10 | Permitir a exclusão de um processo pelo perfil de Advogado | Carolina Araujo | listProcess.html |
 | RF11 | Permitir a visualização das listas de documentos associados a um processo pelo perfil de Advogado e Cliente | Carolina Araujo e Daniel Freitas | viewDocuments.html |
