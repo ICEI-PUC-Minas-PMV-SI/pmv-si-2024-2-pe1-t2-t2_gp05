@@ -174,7 +174,7 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **User Story Associada** | US-04  
 **Descrição** | Verificar se o advogado pode criar um processo com dados válidos de forma bem sucedida e se o novo processo é exibido na lista corretamente 
 **Pré-condições** | Usuário deve estar logado com o perfil de advogado 
-**Procedimento** | 1) Acesse a página de Lista Processos <br> 2) Clique no botão "Novo Processo" <br> 3) Preencha todos os campos do formulário com dados válidos, com exceção do campo "Número Processo" que é bloqueado <br> 4) Clique no botão "Salvar"  
+**Procedimento** | 1) Acesse a página Lista Processos <br> 2) Clique no botão "Novo Processo" <br> 3) Preencha todos os campos do formulário com dados válidos, com exceção do campo "Número Processo" que é bloqueado <br> 4) Clique no botão "Salvar"  
 **Dados de Entrada** | Inserção de dados válidos no formulário de criação 
 **Resultado Esperado** | O sistema exibe uma mensagem de sucesso "Processo criado com sucesso!", o usuário é redirecionado para a página de lista de processos e o novo processo é exibido de forma correta no final da lista com o número gerado automaticamente  
 **Resultado Obtido** | Sucesso  
@@ -187,9 +187,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **User Story Associada** | US-04  
 **Descrição** | Verificar se o sistema valida os campos obrigatórios durante o processo de criação e exibe mensagens de erro que orientem o utilizador
 **Pré-condições** | Usuário deve estar logado com o perfil de advogado
-**Procedimento** | 1) Acesse a página de Lista Processos <br> 2) Clique no botão "Novo Processo" <br> 3) Deixe os campos obrigatórios (marcados com asterisco) vazios, omitindo um por vez <br> 4) Clique no botão "Salvar" a cada tentativa  
+**Procedimento** | 1) Acesse a página Lista Processos <br> 2) Clique no botão "Novo Processo" <br> 3) Deixe os campos obrigatórios (marcados com asterisco) vazios, omitindo um por vez <br> 4) Clique no botão "Salvar" a cada tentativa  
 **Dados de Entrada** | Dados incompletos, com um campo obrigatório vazio a cada tentativa ("Advogado Responsável", "Data Entrada", "Nome Cliente" e "Assunto") 
-**Resultado Esperado** | O sistema exibe mensagens de erro para os campos obrigatórios não preenchidos, impedindo a criação do processo até que todos os campos sejam corretamente preenchidos  
+**Resultado Esperado** | O sistema exibe mensagens de erro para os campos obrigatórios vazios, impedindo a criação do processo até que todos os campos sejam corretamente preenchidos  
 **Resultado Obtido** | Sucesso  
 
 ---
@@ -200,9 +200,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **User Story Associada** | US-04  
 **Descrição** | Verificar se o número do processo é gerado automaticamente de forma auto-incremental, sendo único e sem possibilidade de alteração após a criação
 **Pré-condições** | Usuário deve estar logado na aplicação com o perfil de advogado e deve existir processos previamente criados na lista
-**Procedimento** | 1) Acesse a página de Lista Processos <br> 2) Clique no botão "Novo Processo" <br> 3) Preencha todos os campos obrigatórios do formulário com dados válidos <br> 4) Clique no botão "Salvar" 
-**Dados de Entrada** | Dados válidos nos campos obrigatórios  
-**Resultado Esperado** | O número do processo é gerado automaticamente, aumentando de forma incremental com cada novo processo
+**Procedimento** | 1) Acesse a página Lista Processos <br> 2) Clique no botão "Novo Processo" <br> 3) Preencha todos os campos obrigatórios do formulário com dados válidos <br> 4) Clique no botão "Salvar" 
+**Dados de Entrada** | Inserção de dados válidos nos campos obrigatórios  
+**Resultado Esperado** | O número do processo é gerado automaticamente, aumentando de forma incremental com a criação de cada novo processo
 **Resultado Obtido** | Sucesso  
 
 ---
@@ -211,7 +211,7 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT14 - Tentar Inserir Informação em Campo Bloqueado**  
 :--------------: | ------------  
 **User Story Associada** | US-04  
-**Descrição** | Verificar se o sistema impede a inserção de informação pelo utilizador em campo bloqueado durante o processo de criação
+**Descrição** | Verificar se o sistema impede a inserção de informação pelo usuário em campo bloqueado durante o processo de criação
 **Pré-condições** | Usuário deve estar logado na aplicação com o perfil de advogado 
 **Procedimento** | 1) Clique no botão "Novo Processo" <br> 2) Tente editar o campo "Número Processo" do formulário de criação
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface
@@ -226,8 +226,8 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **User Story Associada** | US-05  
 **Descrição** | Verificar se o advogado pode editar com dados válidos as informações de um processo nos campos permitidos, e se as alterações são refletidas corretamente  
 **Pré-condições** | Usuário deve estar logado com o perfil de advogado e pelo menos um processo já deve existir na lista  
-**Procedimento** | 1) Acesse a página de Lista Processos <br> 2) Clique no ícone de edição ao lado de um processo existente <br> 3) Verifique se os dados atuais do processo são exibidos corretamente no formulário de edição <br> 4) Modifique os campos editáveis com novos dados válidos <br> 5) Clique no botão "Salvar" para aplicar as alterações  
-**Dados de Entrada** | Alteração com dados válidas nos campos editáveis do formulário de edição
+**Procedimento** | 1) Acesse a página Lista Processos <br> 2) Clique no ícone de edição ao lado de um processo existente <br> 3) Verifique se os dados atuais do processo são exibidos corretamente no formulário de edição <br> 4) Modifique os campos editáveis com novos dados válidos <br> 5) Clique no botão "Salvar" para aplicar as alterações  
+**Dados de Entrada** | Alteração com a inserção de dados válidos nos campos editáveis do formulário de edição
 **Resultado Esperado** | O sistema exibe uma mensagem de confirmação "Processo atualizado com sucesso!", o usuário é redirecionado para a lista de processos e as alterações realizadas são refletidas corretamente 
 **Resultado Obtido** | Sucesso  
 
@@ -252,9 +252,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **User Story Associada** | US-05  
 **Descrição** | Verificar se os campos "Número de Processo", "Advogado Responsável" e "Data Entrada" estão bloqueados para edição e não podem ser alterados 
 **Pré-condições** | Usuário deve estar logado com o perfil de advogado e pelo menos um processo já deve existir na lista
-**Procedimento** | 1) Acesse a página de lista de processos <br> 2) Clique no ícone de edição ao lado de um processo existente <br> 3) Tente editar os campos "Número de Processo", "Advogado Responsável" e "Data Entrada"  
+**Procedimento** | 1) Acesse a página Lista Processos <br> 2) Clique no ícone de edição ao lado de um processo existente <br> 3) Tente editar os campos "Número de Processo", "Advogado Responsável" e "Data Entrada"  
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface
-**Resultado Esperado** | Os campos "Número Processo", "Advogado Responsável" e "Data Entrada" estão bloqueados para edição e não são alterados com a interação do utilizador  
+**Resultado Esperado** | Os campos "Número Processo", "Advogado Responsável" e "Data Entrada" estão bloqueados para edição e não são alterados com a interação do usuário
 **Resultado Obtido** | Sucesso  
 
 ---
@@ -263,9 +263,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT18 - Concluir Processo com Sucesso**  
 :--------------: | ------------  
 **User Story Associada** | US-06  
-**Descrição** | Verificar se o advogado consegue concluir um processo com sucesso ao clicar no botão "Concluir", alterando o status do processo para "Concluído" e sendo redirecionado para a lista de processos  
-**Pré-condições** | O usuário deve estar logado como advogado e deve existir pelo menos um processo cadastrado com o status em andamento.  
-**Procedimento** | 1) Acesse a página de Lista Processos <br> 2) Clique no ícone de edição ao lado de um processo existente que possua status "Em Andamento" <br> 3) Clique no botão "Concluir" no formulário de edição
+**Descrição** | Verificar se o advogado consegue concluir um processo com sucesso ao clicar no botão "Concluir", alterando o status do mesmo para "Concluído"
+**Pré-condições** | O usuário deve estar logado como advogado e deve existir pelo menos um processo cadastrado com o status em andamento
+**Procedimento** | 1) Acesse a página Lista Processos <br> 2) Clique no ícone de edição ao lado de um processo existente que possua status "Em Andamento" <br> 3) Clique no botão "Concluir" do formulário de edição
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface
 **Resultado Esperado** | O sistema exibe uma mensagem de sucesso e redireciona o advogado para a lista de processos. Além disso, na lista o status do processo em questão é atualizado de "Em Andamento" para "Concluído" e é exibido com uma cor distinta
 **Resultado Obtido** | Sucesso  
@@ -303,10 +303,10 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 :--------------: | ------------  
 **User Story Associada** | US-08  
 **Descrição** | Verificar se o advogado consegue visualizar a lista completa de processos, incluindo os processos criados por ele e por outros advogados do escritório, sem restrições  
-**Pré-condições** | Usuário deve estar cadastrado na aplicação com o perfil de advogado e deve existir de múltiplos processos cadastrados previamente
-**Procedimento** | 1) Faça login no sistema com um perfil de advogado <br> 2) Acesse a página de Lista Processos <br> 3) Visualize os processos, verificando se todos os processos do escritório estão visíveis  
+**Pré-condições** | Usuário deve estar cadastrado na aplicação com o perfil de advogado e deve existir múltiplos processos cadastrados previamente
+**Procedimento** | 1) Faça login no sistema com um perfil de advogado <br> 2) Acesse a página Lista Processos <br> 3) Visualize a lista, verificando se todos os processos do escritório de advocacia estão visíveis  
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface
-**Resultado Esperado** | O advogado visualiza corretamente todos os processos do escritório de advocacia na lista  
+**Resultado Esperado** | O advogado visualiza corretamente na lista todos os processos do escritório de advocacia, sem qualquer restrição
 **Resultado Obtido** | Sucesso  
 
 ---
@@ -317,9 +317,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **User Story Associada** | US-08  
 **Descrição** | Verificar se o cliente consegue visualizar de forma restrita apenas os processos associados ao seu nome na lista de processos
 **Pré-condições** | Usuário deve estar cadastrado na aplicação com o perfil de cliente e possuir processos registrados associados ao seu nome  
-**Procedimento** | 1) Faça login no sistema com um perfil de cliente <br> 2) Acesse a página de Lista Processos <br> 3) Visualize os processos, verificando se apenas os processos associados ao cliente estão visíveis  
+**Procedimento** | 1) Faça login no sistema com um perfil de cliente <br> 2) Acesse a página Lista Processos <br> 3) Visualize a lista, verificando se apenas os processos associados ao cliente estão visíveis  
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface  
-**Resultado Esperado** | O cliente visualiza de forma correta na lista somente os processos associados ao seu nome, pela correspondência do campo “Nome” inserido no cadastro realizado pelo cliente com o campo "Nome Cliente" do processo adicionado pelo advogado
+**Resultado Esperado** | O cliente visualiza de forma correta na lista somente os processos associados ao seu nome, pela correspondência do campo “Nome” inserido no cadastro realizado pelo mesmo com o campo "Nome Cliente" do processo adicionado pelo advogado
 **Resultado Obtido** | Sucesso  
 
 ---
@@ -328,9 +328,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT23 - Visualizar Tooltips nos Ícones da Lista de Processos**  
 :--------------: | ------------  
 **User Story Associada** | US-08  
-**Descrição** | Verificar se os tooltips são exibidos corretamente ao passar o mouse sobre os ícones da lista de processos, identificando claramente cada funcionalidade 
+**Descrição** | Verificar se tooltips (dicas de ferramentas) são exibidos corretamente ao passar o mouse sobre os ícones da lista de processos, identificando claramente cada funcionalidade 
 **Pré-condições** | Usuário deve estar logado na aplicação
-**Procedimento** | 1) Acesse a página de Lista Processos <br> 2) Passe o mouse sobre os ícones da lista <br> 3) Observe se um tooltip é exibido para cada ícone, com o texto adequado à funcionalidade correspondente 
+**Procedimento** | 1) Acesse a página Lista Processos <br> 2) Passe o mouse sobre os ícones da lista <br> 3) Observe se um tooltip é exibido para cada ícone, com o texto adequado à funcionalidade correspondente 
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface  
 **Resultado Esperado** | Os tooltips são exibidos corretamente ao passar o mouse sobre os ícones, com mensagens claras e precisas
 **Resultado Obtido** | Sucesso  
@@ -342,11 +342,11 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT24 - Visualizar Detalhes do Processo**  
 :--------------: | ------------  
 **User Story Associada** | US-09
-**Descrição** | Verificar se todos os campos do processo e dados do processo são exibidos corretamente na página de detalhes  
+**Descrição** | Verificar se todos os campos do processo e seus dados correspondentes são exibidos corretamente na página de visualização de detalhes do mesmo  
 **Pré-condições** | Existência de pelo menos um processo cadastrado previamente
 **Procedimento** | 1) Acesse a página Lista Processos <br> 2) Clique no ícone de visualização de um processo na lista <br> 3) Visualize os detalhes do processo, verificando se todos os dados estão visíveis e coerentes com o que foi registrado 
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface  
-**Resultado Esperado** | Todos os campos do processo são exibidos corretamente na página de detalhes  
+**Resultado Esperado** | Todos os campos do processo e seus dados correspondentes são exibidos corretamente na página de visualização de detalhes do mesmo
 **Resultado Obtido** | Sucesso  
 
 ---
@@ -359,7 +359,7 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Pré-condições** | Existência de pelo menos um processo cadastrado previamente
 **Procedimento** | 1) Acesse a página Lista Processos <br> 2) Clique no ícone de visualização de um processo na lista <br> 3) Tente interagir com os campos exibidos para verificar se estão bloqueados para edição  
 **Dados de Entrada** | Nenhum dado de entrada é necessário além da navegação pela interface
-**Resultado Esperado** | Todos os campos na página de detalhes estão bloqueados para edição e interação com o utilizador  
+**Resultado Esperado** | Todos os campos na página de visualização de detalhes do processo estão devidamente bloqueados para edição e interação com o usuário
 **Resultado Obtido** | Sucesso  
 
 ---
@@ -372,7 +372,7 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Pré-condições** | Usuário deve estar logado na aplicação com perfil de advogado e deve existir múltiplos processos cadastrados no sistema com dados variados
 **Procedimento** | 1) Acesse a página Lista Processos <br> 2) Insira um dado existente nas informações do processo no campo de pesquisa <br> 4) Clique no ícone de pesquisa ou tecle Enter, observando os resultados exibidos  
 **Dados de Entrada** | Inserção de dado existente nas informações dos processos previamente cadastrados, como critério de filtro na pesquisa  
-**Resultado Esperado** | A lista refina os resultados, exibindo somente os processos que possuem o dado inserido em qualquer coluna  
+**Resultado Esperado** | A lista refina corretamente os resultados, exibindo somente os processos que possuem o dado inserido na pesquisa em qualquer das colunas 
 **Resultado Obtido** | Sucesso  
 
 ---
@@ -381,10 +381,10 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT27 - Aplicar Filtro à Lista de Processos (que não traz resultados)**  
 :--------------: | ------------  
 **User Story Associada** | US-10
-**Descrição** | Verificar o comportamento do sistema ao realizar uma pesquisa geral na lista de processos inserindo um dado que não corresponde a nenhum outro dado cadastrado 
+**Descrição** | Verificar o comportamento do sistema ao realizar uma pesquisa geral na lista de processos inserindo um dado que não corresponde a nenhum outro dado registrado
 **Pré-condições** | Usuário deve estar logado na aplicação com perfil de advogado e deve existir múltiplos processos cadastrados no sistema com dados variados
 **Procedimento** | 1) Acesse a página Lista Processos <br> 2) Insira um dado de pesquisa inexistente no campo de texto <br> 3) Clique no ícone de pesquisa ou tecle Enter, observando os resultados exibidos  
-**Dados de Entrada** | Inserção de dado inexistente nas informações dos processos previamente cadastrados, como um número de processo inválido ou nome aleatório  
+**Dados de Entrada** | Inserção de dado inexistente nas informações dos processos previamente cadastrados, como um número de processo inválido ou nome aleatório 
 **Resultado Esperado** | A lista é exibida com o conteúdo vazio, sem trazer nenhum processo como resultado 
 **Resultado Obtido** | Sucesso  
 
@@ -394,11 +394,11 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 **Caso de Teste** | **CT28 - Desfazer Filtro Aplicado na Pesquisa**  
 :--------------: | ------------  
 **User Story Associada** | US-10 
-**Descrição** | Verificar se o sistema retorna à exibição completa de todos os processos cadastrados, no estado original, após a remoção do filtro de pesquisa
+**Descrição** | Verificar se o sistema retorna à exibição completa de todos os processos cadastrados, no estado original da lista, após a remoção do filtro de pesquisa
 **Pré-condições** | Usuário deve estar logado na aplicação com perfil de advogado e deve existir múltiplos processos cadastrados no sistema com dados variados
 **Procedimento** | 1) Acesse a página Lista Processos <br> 2) Insira um dado existente nas informações do processo no campo de pesquisa <br> 3) Clique no ícone de pesquisa ou tecle Enter <br> 4) Limpe o filtro aplicado e observe os resultados exibidos  
 **Dados de Entrada** | Inserção de dado existente nas informações dos processos previamente cadastrados, como critério de filtro na pesquisa  
-**Resultado Esperado** | Após limpar o filtro aplicado no campo de pesquisa, a lista de processos retorna ao estado original, exibindo todos os processos cadastrados no sistema
+**Resultado Esperado** | Após limpar o filtro aplicado no campo de pesquisa, a lista de processos retorna ao seu estado original, exibindo todos os processos cadastrados no sistema
 **Resultado Obtido** | Sucesso  
 
 ---
@@ -408,9 +408,9 @@ Os casos de teste estão documentados de forma detalhada, com foco na rastreabil
 :--------------: | ------------  
 **User Story Associada** | US-10
 **Descrição** | Verificar se a pesquisa geral é insensível a letras maiúsculas e minúsculas, retornando os mesmos resultados independentemente do formato do texto inserido  
-**Pré-condições** | Usuário deve estar logado na aplicação com perfil de advogado deve existir múltiplos processos cadastrados no sistema com dados variados, contendo tando letras maíusculas como minúsculas
+**Pré-condições** | Usuário deve estar logado na aplicação com perfil de advogado e deve existir múltiplos processos cadastrados no sistema com dados variados, contendo tando letras maíusculas como minúsculas
 **Procedimento** | 1) Acesse a página Lista Processos <br> 2) Insira o mesmo termo de pesquisa em formatos diferentes (ex.: "Maria", "maria", "MARIA") <br> 3) Clique no ícone de pesquisa ou tecle Enter, observando os resultados exibidos  
-**Dados de Entrada** | Um termo de pesquisa em diferentes formatos (maiúsculas e minúsculas)  
+**Dados de Entrada** | Inserção de dado válido na pesquisa em diferentes formatos (maiúsculas e minúsculas)  
 **Resultado Esperado** | A pesquisa retorna os mesmos resultados, independentemente do formato do texto inserido  
 **Resultado Obtido** | Sucesso  
 
