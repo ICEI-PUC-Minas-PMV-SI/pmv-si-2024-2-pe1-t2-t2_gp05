@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     backbuttonCreate.addEventListener("click", function(event) {
       event.preventDefault();  // Impede o comportamento padrão de envio do formulário
     //   const targetPage = '../html/viewdocuments.html';
-      window.location.href = `../html/viewdocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
+      window.location.href = `/html/viewDocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
     });
   });
 
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!processoAtual) {
         showDialog(`Processo não encontrado.`,`error`, function () {
             // Redireciona para a página de login
-            window.location.href = "../html/listProcess.html";
+            window.location.href = "/html/listProcess.html";
         return;        
           });
 
@@ -109,18 +109,11 @@ document.addEventListener("DOMContentLoaded", function () {
             processos[index] = processoAtual;
             localStorage.setItem("processos", JSON.stringify(processos));
             showDialog(`Documento foi adicionado ao processo com sucesso!`,`info`, function () {
-                window.location.href = `../html/viewdocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
+                window.location.href = `/html/viewDocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
             });
-            // alert(`Processo ${processoAtual.processNumber} atualizado com sucesso!`);
-            // const targetPage = '../html/viewdocuments.html';
-            // window.location.href = `../html/viewdocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
         } else {
             showDialog(`Processo não encontrado.`,`error`, function () {
-                // Redireciona para a página de login
-                // window.location.href = "../html/listProcess.html";
-            // return;        
               });
-            // alert("Erro ao atualizar o processo.");
         }
     });
 

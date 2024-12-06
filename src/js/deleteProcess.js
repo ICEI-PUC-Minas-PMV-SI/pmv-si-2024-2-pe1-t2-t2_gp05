@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!processoAtual) {
         console.error("Processo não encontrado:", processNumber);
         alert("Processo não encontrado.");
-        window.location.href = "../html/listProcess.html"; // Redireciona se não encontrar o processo
+        window.location.href = "/html/listProcess.html"; // Redireciona se não encontrar o processo
         return; // Para evitar continuar se o processo não foi encontrado
     }
   
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
             processos.splice(index, 1);
             localStorage.setItem("processos", JSON.stringify(processos));
             alert(`Processo ${updatedProcesso.processNumber} atualizado com sucesso!`);
-            window.location.href = '../html/listProcess.html'; // Redireciona para a lista
+            window.location.href ='/html/listProcess.html'; // Redireciona para a lista
         } else {
             alert("Erro ao atualizar o processo."); // Notificação de erro caso não encontre
         }

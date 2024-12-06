@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('loggedInUser', JSON.stringify(loggedInUser));
   
         // Redireciona para a página principal ou inicial
-        window.location.href = "../html/listProcess.html";
+        window.location.href = "/html/listProcess.html";
       } else {
         showDialog(`Email ou senha incorretos. Tente novamente.`,`error`, function () {
         });
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     registrationLink.addEventListener('click', function (event) {
       event.preventDefault(); // Impede o comportamento padrão do link
-      window.location.href = "../html/registrationUser.html"; // Redireciona para a página de cadastro
+      window.location.href = "/html/registrationUser.html"; // Redireciona para a página de cadastro
     });
 
 

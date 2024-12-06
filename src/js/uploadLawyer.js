@@ -13,8 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     backbuttonCreate.addEventListener("click", function(event) {
       event.preventDefault();  // Impede o comportamento padrão de envio do formulário
-    //   const targetPage = 'viewdocuments.html';
-      window.location.href = `../html/viewdocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
+      window.location.href = `/html/viewDocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
     });
   });
   
@@ -31,13 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!processoAtual) {
         showDialog(`Processo não encontrado.`,`error`, function () {
-            // Redireciona para a página de login
-            // window.location.href = "../html/listProcess.html";
         return;        
           });
-        // alert("Processo não encontrado.");
-        // window.location.href = "listProcess.html"; 
-        // return;
+
     }
 
     document.getElementById("processNumber").value = processoAtual.processNumber;
@@ -101,16 +96,12 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.setItem("processos", JSON.stringify(processos));
 
             showDialog(`Documento foi adicionado ao processo com sucesso!`,`info`, function () {
-                window.location.href = `../html/viewdocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
+                window.location.href = `/html/viewDocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
             });
 
-            // alert(`Processo ${processoAtual.processNumber} atualizado com sucesso!`);
-            // // const targetPage = 'viewdocuments.html';
-            // window.location.href = `../html/viewdocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
         } else {
             showDialog(`Erro ao atualizar o processo.`,`error`, function () {
             });
-            // alert("Erro ao atualizar o processo.");
         }
     });
 

@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       backbuttonCreate.addEventListener("click", function(event) {
         event.preventDefault();  // Impede o comportamento padrão de envio do formulário
-        window.location.href = "../html/listProcess.html";
+        window.location.href = "/html/listProcess.html";
       });
   });
 
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
           // Opcional: Exibir uma mensagem de sucesso ou redirecionar o usuário
           showDialog(`Processo criado com sucesso!`,`info`, function () {
-            window.location.href = "../html/listProcess.html";
+            window.location.href = "/html/listProcess.html";
               });
       });
   }

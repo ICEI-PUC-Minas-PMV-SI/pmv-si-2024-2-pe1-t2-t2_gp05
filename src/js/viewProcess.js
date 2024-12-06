@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       backbuttonCreate.addEventListener("click", function(event) {
         event.preventDefault();  // Impede o comportamento padrão de envio do formulário
-        window.location.href = "../html/listProcess.html";
+        window.location.href = "/html/listProcess.html";
       });
   });
 
@@ -36,10 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
         description.value = contextProcess.description
     } else {
       showDialog(`Processo não encontrado.`,`error`, function () {
-        // Redireciona para a página de login
-        // window.location.href = "../html/listProcess.html";
-    // return;        
       });
-        // alert('Processo não encontrado')
     }
 });

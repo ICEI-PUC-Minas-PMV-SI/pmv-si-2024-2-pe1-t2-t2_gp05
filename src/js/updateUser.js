@@ -44,6 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Informações atualizadas com sucesso!");
 
         // Opcional: Redirecionar ou limpar o formulário após a atualização
-        window.location.href = "../html/profile.html"; // Exemplo de redirecionamento
+        window.location.href = "/html/profile.html"; // Exemplo de redirecionamento
     });
 });

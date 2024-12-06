@@ -4,34 +4,25 @@ document.addEventListener("DOMContentLoaded", function () {
   const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
 
   // Verifica se o usuário não está logado e se não está na página de login
-  if (!loggedInUser && !window.location.pathname.includes("login.html")) {
+  if (!loggedInUser && !window.location.pathname.includes("index.html")) {
       
     showDialog(`Você precisa estar logado para acessar esta página.`,`info`, function () {
         // Redireciona para a página de login
-       window.location.href = "../html/login.html"; // Ajuste o caminho conforme necessário
+       window.location.href = "/index.html"; // Ajuste o caminho conforme necessário
        return;
       });
-    
-    // alert("Você precisa estar logado para acessar esta página.");
 
-      // Redireciona para a página de login
-      // window.location.href = "../html/login.html"; // Ajuste o caminho conforme necessário
-   
-      // Aborta a execução do restante do script
       
   }
 
   // Caso o usuário esteja na página de login, e já esteja logado, redirecione para o painel ou outra página
-  if (loggedInUser && window.location.pathname.includes("login.html")) {
+  if (loggedInUser && window.location.pathname.includes("index.html")) {
     showDialog(`Você precisa estar logado para acessar esta página.`,`info`, function () {
       // Redireciona para a página de login
-      window.location.href = "../html/login.html";
+      window.location.href = "/index.html";
       return;
     });
 
-    // alert("Você já está logado. Redirecionando para o painel.");
-      // window.location.href = "../html/dashboard.html"; // Substitua pelo caminho da página inicial após login
-      // Aborta a execução do restante do script
   
   }
 
@@ -101,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   menuProcess.addEventListener('click', function() {
-    window.location.href = "../html/listProcess.html"; // Redireciona para a nova página definida na variável
+    window.location.href = "/html/listProcess.html"; // Redireciona para a nova página definida na variável
   });
 });
 
@@ -110,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const processButton = document.getElementById("new-process");
     processButton.addEventListener("click", function(event) {
       event.preventDefault();  // Impede o comportamento padrão de envio do formulário
-      window.location.href = "../html/createProcess.html";
+      window.location.href = "/html/createProcess.html";
     });
 });
 
@@ -121,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
   iconEdit.forEach(function(button) {
     button.addEventListener("click", function(event) {
       event.preventDefault();  // Impede o comportamento padrão de envio do formulário
-      window.location.href = "../html/updateProcess.html";
+      window.location.href = "/html/updateProcess.html";
     });
   });
 });
@@ -143,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
 
-      window.location.href = "../html/registrationUser.html";
+      window.location.href = "/html/registrationUser.html";
   });
 });
 
@@ -163,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
          localStorage.removeItem("userToEdit"); // Remove o usuário a ser editado se necessário
         
         // Se o usuário confirmar, redireciona para a página de login
-        window.location.href = "../html/login.html"; // Altere para o caminho correto do seu arquivo de login
+        window.location.href = "/index.html"; // Altere para o caminho correto do seu arquivo de login
 
         },
         function() { // Ação para o botão Cancelar (não excluir)
@@ -171,18 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       );
 
-      // // Pergunta ao usuário se ele realmente deseja sair
-      // const confirmLogout = confirm("Você realmente deseja sair?");
-      // if (confirmLogout) {
-          
-      //    // Se o usuário confirmar, remove os dados do usuário do Local Storage
-      //    localStorage.removeItem("loggedInUser"); // Remove o usuário logado
-      //    localStorage.removeItem("userToEdit"); // Remove o usuário a ser editado se necessário
-        
-      //   // Se o usuário confirmar, redireciona para a página de login
-      //   window.location.href = "../html/login.html"; // Altere para o caminho correto do seu arquivo de login
 
-      // }
   });
 });
 

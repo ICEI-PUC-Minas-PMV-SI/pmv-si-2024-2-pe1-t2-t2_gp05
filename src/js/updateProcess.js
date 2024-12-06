@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
   
     // Verifica se o usuário não está logado e se não está na página de login
-    if (!loggedInUser && !window.location.pathname.includes("login.html")) {
+    if (!loggedInUser && !window.location.pathname.includes("index.html")) {
         showDialog(`Você precisa estar logado para acessar esta página.`,`error`, function () {
             // Redireciona para a página de login
-            window.location.href = "../html/login.html";
+            window.location.href = "/index.html";
         return;        
           });
         // return;
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const backbuttonCreate = document.getElementById("back-button-update");
       backbuttonCreate.addEventListener("click", function(event) {
         event.preventDefault();  // Impede o comportamento padrão de envio do formulário
-        window.location.href = "../html/listProcess.html";
+        window.location.href = "/html/listProcess.html";
       });
   });
 
@@ -42,13 +42,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!processoAtual) {
         showDialog(`Processo não encontrado.`,`error`, function () {
             // Redireciona para a página de login
-            window.location.href = "../html/listProcess.html";
+            window.location.href = "/html/listProcess.html";
         return;        
           });
-        // console.error("Processo não encontrado:", processNumber);
-        // alert("Processo não encontrado.");
-        // window.location.href = "listProcess.html"; // Redireciona se não encontrar o processo
-        // return; // Para evitar continuar se o processo não foi encontrado
+
     }
 
     // Preenche os campos do formulário com os dados do processo
@@ -108,10 +105,9 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.setItem("processos", JSON.stringify(processos));
             // alert(`Processo ${updatedProcesso.processNumber} atualizado com sucesso!`);
             showDialog(`Processo ${updatedProcesso.processNumber} atualizado com sucesso!`,`info`, function () {
-                window.location.href = '../html/listProcess.html'; // Redireciona para a lista
+                window.location.href = '/html/listProcess.html'; // Redireciona para a lista
             });
-            // alert(`Processo ${updatedProcesso.processNumber} atualizado com sucesso!`);
-            // window.location.href = '../html/listProcess.html'; // Redireciona para a lista
+
         } else {
             alert("Erro ao atualizar o processo."); // Notificação de erro caso não encontre
         }
@@ -137,13 +133,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!processoAtual) {
         showDialog(`Processo não encontrado.`,`error`, function () {
             // Redireciona para a página de login
-            window.location.href = "../html/listProcess.html";
+            window.location.href = "/html/listProcess.html";
         return;        
           });
-        // console.error("Processo não encontrado:", processNumber);
-        // alert("Processo não encontrado.");
-        // window.location.href = "listProcess.html"; // Redireciona se não encontrar o processo
-        // return; // Para evitar continuar se o processo não foi encontrado
+
     }
 
     document.getElementById("complete-button").addEventListener("click", function(event) {
@@ -174,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // alert(`Processo ${updatedProcesso.processNumber} atualizado com sucesso!`);
             showDialog(`Processo ${updatedProcesso.processNumber} atualizado com sucesso!`,`info`, function () {
-                window.location.href = '../html/listProcess.html'; // Redireciona para a lista
+                window.location.href = '/html/listProcess.html'; // Redireciona para a lista
             });
 
         } else {

@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("list.js carregado");
+  // console.log("list.js carregado");
 
   const searchInput = document.getElementById("filter-select");
   const searchButton = document.getElementById("search-button");
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (!loggedInUser) {
         showDialog(`Você precisa estar logado para acessar esta página.`,`info`, function () {
           // Redireciona para a página de login
-          window.location.href = "../html/login.html";
+          window.location.href = "/index.html";
           return;
         });
       }
@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       }
 
-      // console.log("Processos no Local Storage:", processos);
       let listaProcessos;
       
       // Verifica o tipo de usuário
@@ -40,11 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
         listaProcessos = processos;
       } else {
         showDialog(`Tipo de usuário inválido.`, function () {
-          // Redireciona para a página de login
           return;
         });
-        // alert("Tipo de usuário inválido.");
-        // return;
       }
 
       // Se houver processos filtrados, usá-los; caso contrário, usar todos os processos
@@ -107,6 +103,14 @@ document.addEventListener("DOMContentLoaded", function () {
           
       });
 
+      // Inicializar ícones
+      if (typeof feather !== "undefined") {
+        feather.replace();
+      }
+
+      // Reatribuir eventos após o carregamento
+      atribuirEventosAosBotoes();
+
       // Inicializar os ícones após a adição das linhas
       if (typeof feather !== "undefined") {
           feather.replace();
@@ -140,12 +144,6 @@ document.addEventListener("DOMContentLoaded", function () {
               (processo.lawyer || "").toLowerCase().includes(lowerCaseQuery) ||
               (processo.clientName || "").toLowerCase().includes(lowerCaseQuery) ||
               (processo.status || "").toLowerCase().includes(lowerCaseQuery)
-              // processo.processNumber.toLowerCase().includes(lowerCaseQuery) ||
-              // processo.subject.toLowerCase().includes(lowerCaseQuery) ||
-              // new Date(processo.entryDate).toLocaleDateString().includes(lowerCaseQuery) ||
-              // processo.lawyer.toLowerCase().includes(lowerCaseQuery) ||
-              // processo.clientName.toLowerCase().includes(lowerCaseQuery) ||
-              // processo.status.toLowerCase().includes(lowerCaseQuery)
           );
       });
 
@@ -164,17 +162,6 @@ document.addEventListener("DOMContentLoaded", function () {
           // Se o campo de busca estiver vazio, recarregar todos os processos
           carregarProcessos();
       }
-
-
-    //   function normalizeString(str) {
-    //     return str
-    //         .trim() // Remove espaços em branco do início e do fim
-    //         .replace(/\s+/g, '') // Remove todos os espaços em branco
-    //         .toLowerCase() // Converte para minúsculas
-    //         .normalize("NFD") // Normaliza os caracteres
-    //         .replace(/[\u0300-\u036f]/g, ""); // Remove acentuação
-    // }
-
   });
 
   // Evento de entrada no campo de busca
@@ -199,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const processNumber = button.id.replace('view-','')
       console.log("Número do processo:", processNumber);
       if (processNumber) {
-          window.location.href = `../html/viewProcess.html?processNumber=${encodeURIComponent(processNumber)}`;
+          window.location.href = `/html/viewProcess.html?processNumber=${encodeURIComponent(processNumber)}`;
       } else {
           console.error("Número do processo não encontrado.");
       }
@@ -215,7 +202,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const processNumber = button.id.replace('edit-','')
       console.log("Número do processo:", processNumber);
       if (processNumber) {
-          window.location.href = `../html/updateProcess.html?processNumber=${encodeURIComponent(processNumber)}`;
+          window.location.href = `/html/updateProcess.html?processNumber=${encodeURIComponent(processNumber)}`;
       } else {
           console.error("Número do processo não encontrado.");
       }
@@ -230,7 +217,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const processNumber = button.id.replace('file-','')
       console.log("Número do processo:", processNumber);
       if (processNumber) {
-          window.location.href = `../html/viewDocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
+          window.location.href = `/html/viewDocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
       } else {
           console.error("Número do processo não encontrado.");
       }
@@ -238,7 +225,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-// Local Storage (DELETE) - Excluir Processo
+
 document.addEventListener("DOMContentLoaded", function () {
   // Carregar processos do Local Storage
   const processos = JSON.parse(localStorage.getItem("processos")) || [];
@@ -254,13 +241,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const index = processos.findIndex(proc => proc.processNumber === processNumber);
       if (index !== -1) {
           
-        // // Remove o processo do array
-        //   processos.splice(index, 1);
-        //   // processos.splice(processNumber, 1);
-        //   localStorage.setItem("processos", JSON.stringify(processos));
-        //   alert(`Processo ${processNumber} excluído com sucesso!`);
-        //   window.location.href = 'listProcess.html'; // Redireciona para a lista
-        
+       
           // Exibe um diálogo de confirmação para excluir o processo
           showDialog(
             `Tem certeza que deseja excluir o processo ${processNumber}?`,`warning`, // Mensagem ajustada
@@ -272,32 +253,72 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Atualiza o Local Storage
                 localStorage.setItem("processos", JSON.stringify(processos));
                 window.location.reload()
-
-                // Exibe o diálogo de sucesso após excluir
-                // showDialog(`Processo ${processNumber} excluído com sucesso!`, function () {
-                  // window.location.href = 'listProcess.html'; // Redireciona para a lista após o OK
-                // });
               } else {
                 // Exibe o diálogo de erro
                 showDialog("Erro: Processo não encontrado.", function () {
-                  // Redireciona para a página de login
                 });
               }
             },
-            function() { // Ação para o botão Cancelar (não excluir)
+            function() { 
               console.log("Cancelado: O processo não foi excluído.");
             }
           );
         
         } else {
-          // alert("Erro: Processo não encontrado.");
           showDialog(`Erro: Processo não encontrado.`, function () {
-            // Redireciona para a página de login
           });
         }
     });
   });
 });
+
+function atribuirEventosAosBotoes() {
+  document.querySelectorAll(".view-button").forEach((button) => {
+      button.addEventListener("click", (event) => {
+          const processNumber = button.dataset.processNumber;
+          window.location.href = `/html/viewProcess.html?processNumber=${encodeURIComponent(processNumber)}`;
+      });
+  });
+
+  document.querySelectorAll(".edit-button").forEach((button) => {
+      button.addEventListener("click", (event) => {
+          const processNumber = button.dataset.processNumber;
+          window.location.href = `/html/updateProcess.html?processNumber=${encodeURIComponent(processNumber)}`;
+      });
+  });
+
+  document.querySelectorAll(".file-button").forEach((button) => {
+      button.addEventListener("click", (event) => {
+          const processNumber = button.dataset.processNumber;
+          window.location.href = `/html/viewDocuments.html?processNumber=${encodeURIComponent(processNumber)}`;
+      });
+  });
+
+  document.querySelectorAll(".trash-button").forEach((button) => {
+      button.addEventListener("click", (event) => {
+          const processNumber = button.dataset.processNumber;
+          const processos = JSON.parse(localStorage.getItem("processos")) || [];
+          const index = processos.findIndex((p) => p.processNumber === processNumber);
+          
+          if (index !== -1) {
+              showDialog(
+                  `Tem certeza que deseja excluir o processo ${processNumber}?`,
+                  "warning",
+                  function () {
+                      processos.splice(index, 1);
+                      localStorage.setItem("processos", JSON.stringify(processos));
+                      carregarProcessos();
+                  },
+                  function () {
+                      console.log("Exclusão cancelada.");
+                  }
+              );
+          } else {
+              showDialog("Erro: Processo não encontrado.");
+          }
+      });
+  });
+}
 
 
 

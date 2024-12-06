@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       backbuttonCreate.addEventListener("click", function(event) {
         event.preventDefault();  // Impede o comportamento padrão de envio do formulário
-        window.location.href = "../html/listProcess.html";
+        window.location.href = "/html/listProcess.html";
       });
   });
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (!loggedInUser) {
         showDialog(`Você precisa estar logado para acessar esta página.`,`info`, function () {
             // Redireciona para a página de login
-            window.location.href = "../html/login.html";
+            window.location.href = "/index.html";
             return;
           });
     }
@@ -59,12 +59,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Verifica se o processo foi encontrado
     if (!processoAtual) {
         showDialog(`Tipo de usuário inválido.`,`error`, function () {
-            window.location.href = "../html/listProcess.html"; // Redireciona se não encontrar o processo
+            window.location.href = "/html/listProcess.html"; // Redireciona se não encontrar o processo
         });
         
-        // console.error("Processo não encontrado:", processNumber);
-        // alert("Processo não encontrado.");
-        // window.location.href = "listProcess.html"; // Redireciona se não encontrar o processo
         return; // Para evitar continuar se o processo não foi encontrado
     }
 
@@ -342,7 +339,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("Número do processo:", processNumber);
         if (processNumber) {
             // Modifica a URL de acordo com o botão clicado
-            const targetPage = buttonType === 'lawyer' ? '../html/uploadLawyer.html' : '../html/uploadCustomer.html';
+            const targetPage = buttonType === 'lawyer' ? '/html/uploadLawyer.html' : '/html/uploadCustomer.html';
             window.location.href = `${targetPage}?processNumber=${encodeURIComponent(processNumber)}`;
         } else {
             console.error("Número do processo não encontrado.");

@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
              // Salva o array de usuários atualizado no localStorage
             localStorage.setItem("users", JSON.stringify(users));
             // Redireciona para a página de login
-            window.location.href = "../html/login.html";
+            window.location.href = "/index.html";
         });
 
     });
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     loginLink.addEventListener("click", function(event) {
       event.preventDefault();  // Impede o comportamento padrão de envio do formulário
-      window.location.href = "../html/login.html";
+      window.location.href = "/index.html";
     });
     
 });
