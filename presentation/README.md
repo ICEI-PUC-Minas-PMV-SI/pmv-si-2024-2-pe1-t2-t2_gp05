@@ -6,7 +6,7 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 
 
 * [Apresentação final](./presentation.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
+* [Vídeo de demonstração](./advprotech_video.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
 
 
