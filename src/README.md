@@ -3,7 +3,7 @@
 ## 🔗 Site
 
 A aplicação, desenvolvida em HTML/CSS/JS, está hospedada em um servidor web e pode ser acessada através do link: <br>
-👉 https://advprotech-00.web.app
+👉 https://advprotech-00.netlify.app
 
 Caso deseje executar localmente, basta abrir o arquivo index.html, localizado na pasta /html, dentro do diretório src do projeto, no seu navegador preferido.
 
