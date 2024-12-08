@@ -19,8 +19,9 @@ AdvProTech - Gestão e Acompanhamento de Processos
 
 ## Conjunto de Slides (Estrutura)
 
+[Apresentação final](./presentation.pdf)
 
 ## Vídeo de demonstração
 
-
+[Vídeo de demonstração](./advprotech_video.mp4)
 
