@@ -2,19 +2,21 @@
 
 ## 🔗 Site
 
-A aplicação, desenvolvida em HTML/CSS/JS, está hospedada em um servidor web e pode ser acessada através do link: <br>
+A aplicação, desenvolvida em HTML/CSS/JS, está hospedada em um servidor web e pode ser acessada através do link: 
+<br>
+
 👉 https://advprotech-00.netlify.app
 
-Caso deseje executar localmente, basta abrir o arquivo index.html, localizado na pasta /html, dentro do diretório src do projeto, no seu navegador preferido.
-
+<br>
 
 **Armazenamento de Dados** 
-<br><br>
+<br>
+
 Os dados são armazenados localmente no navegador utilizando o Local Storage.
 
-O uso do Local Storage é adequado para esta versão estática, mas no futuro, há planos de migrar para uma arquitetura robusta com arquitetura de APIs e banco de dados.
+No futuro, há planos de migração para uma arquitetura robusta com arquitetura de APIs e banco de dados.
 
-
+<br>
 
 ## 📜 Histórico de versões
 
