@@ -15,7 +15,7 @@ A AdvProTech destina-se a escritórios de advocacia que atuam na área de aquisi
 A aplicação, desenvolvida utilizando HTML, CSS e JavaScript com armazenamento de dados em Local Storage, encontra-se hospedada em um servidor web e está disponível para acesso por meio do seguinte link: 
 <br>
 
-👉 https://advprotech-00.web.app     
+👉 https://advprotech-00.netlify.app
 <br>
 
 
