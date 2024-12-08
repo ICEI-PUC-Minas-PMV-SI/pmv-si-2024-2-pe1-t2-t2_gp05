@@ -18,7 +18,7 @@ No futuro, há planos de migração para uma arquitetura baseada em Rest APIs co
 
 <br>
 
-## 📜 Histórico de versões
+## 📜 Histórico de Versões
 
 ### [0.1.0] - 01/12/2024
 #### Adicionado
