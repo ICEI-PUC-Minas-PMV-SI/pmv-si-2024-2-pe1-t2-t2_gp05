@@ -14,7 +14,7 @@ A aplicação, desenvolvida em HTML/CSS/JS, está hospedada em um servidor web e
 
 Os dados são armazenados localmente no navegador utilizando o Local Storage.
 
-No futuro, há planos de migração para uma arquitetura robusta com arquitetura de APIs e banco de dados.
+No futuro, há planos de migração para uma arquitetura baseada em Rest APIs com persistência em base de dados, visando maior flexibilidade e adequação a cenários.
 
 <br>
 
