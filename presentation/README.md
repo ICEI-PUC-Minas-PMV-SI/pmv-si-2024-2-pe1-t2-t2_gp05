@@ -1,27 +1,29 @@
 # Apresentação
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+Segue o vídeo de demonstração e a apresentação em slides destacando as principais funcionalidades e benefícios da solução AdvProtech, desenvolvida para a gestão e acompanhamento de processos no setor jurídico, com foco específico na aquisição de nacionalidade.
+<br>
 
-Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
-
-
-* [Apresentação final](./presentation.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](./advprotech_video.mp4) -- arquivo com a demonstração do funcionamento do sistema
-
-
+* [Apresentação Slides](./presentation.pdf) - Slides da apresentação final
+* [Vídeo Demonstração](./advprotech_video.mp4) - Demonstração do funcionamento do sistema
+<br>
 
 ## Título do Projeto
 
 AdvProTech - Gestão e Acompanhamento de Processos
 
-## Identidade Visual (Marca, Design)
+<br>
+
+## Identidade Visual
 ![Logo](../docs/img/logo_advprotech.png)
+<br>
 
-## Conjunto de Slides (Estrutura)
+## Apresentação em Slides
 
-[Apresentação final](./presentation.pdf)
+[Apresentação Slides](./presentation.pdf)
+<br>
 
-## Vídeo de demonstração
+## Vídeo de Demonstração
 
-[Vídeo de demonstração](./advprotech_video.mp4)
+[Vídeo Demonstração](./advprotech_video.mp4)
 
+<br>
