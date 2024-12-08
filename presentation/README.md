@@ -15,7 +15,7 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 AdvProTech - Gestão e Acompanhamento de Processos
 
 ## Identidade Visual (Marca, Design)
-![Logo](logo_advprotech.png)
+![Logo](../docs/img/logo_advprotech.png)
 
 ## Conjunto de Slides (Estrutura)
 
