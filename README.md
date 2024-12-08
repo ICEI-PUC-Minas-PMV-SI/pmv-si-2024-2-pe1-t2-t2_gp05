@@ -9,8 +9,15 @@
 
 <br>
 
-A aplicação destina-se a escritórios de advocacia que atuam na área de aquisição de nacionalidade, com o objetivo de otimizar a gestão e a comunicação entre advogados e clientes. Com foco na eficiência e na experiência do usuário, a plataforma oferece acompanhamento ágil dos processos, garantindo controle de acesso e aprimorando a organização e a eficácia operacional do escritório. Além de dinalizar o trabalho do advogado, a aplicação também garante que os clientes estejam sempre atualizados quanto ao status de seus processos, ao mesmo tempo em que promove uma gestão otimizada dos documentos associados a cada caso.
+A AdvProTech destina-se a escritórios de advocacia que atuam na área de aquisição de nacionalidade, com o objetivo de otimizar a gestão e a comunicação entre advogados e clientes. Com foco na eficiência e na experiência do usuário, a plataforma oferece acompanhamento ágil dos processos, garantindo controle de acesso e aprimorando a organização e a eficácia operacional do escritório. Além de dinamizar o trabalho do advogado, a aplicação também garante que os clientes estejam sempre atualizados quanto ao status de seus processos, ao mesmo tempo em que promove uma gestão otimizada dos documentos associados a cada caso.
 <br>
+
+A aplicação, desenvolvida utilizando HTML, CSS e JavaScript com armazenamento de dados em local storage, encontra-se hospedada em um servidor web e está disponível para acesso por meio do seguinte link: 
+<br>
+
+👉 https://advprotech-00.web.app     
+<br>
+
 
 ## Integrantes
 
@@ -43,6 +50,9 @@ A aplicação destina-se a escritórios de advocacia que atuam na área de aquis
 ## Código
 
 <li><a href="src/README.md"> Código Fonte</a></li>
+
+<br>
+
 
 <br>
 
