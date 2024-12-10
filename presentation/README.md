@@ -19,7 +19,7 @@ AdvProTech - Gestão e Acompanhamento de Processos
 
 ## Apresentação em Slides
 
-[Apresentação Slides](./presentation.pdf)
+[Apresentação Slides](./advprotech_presentation.pdf)
 <br>
 
 ## Vídeo de Demonstração
